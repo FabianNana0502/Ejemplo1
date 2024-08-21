@@ -12,10 +12,10 @@ PROYECTO: ...
 
 # Tabla de Contenidos
 
-* Introducción
-* Materiales 
-* Metodología
-* Resultados
-* Discusión 
-* Bibliografía 
-* Docentes 
+- Introducción
+- Materiales 
+- Metodología
+- Resultados
+- Discusión 
+- Bibliografía 
+- Docentes 
