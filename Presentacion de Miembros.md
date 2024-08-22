@@ -23,7 +23,7 @@ Miembro (responsabilidad: por asignar): Ryoshin Cavero Mosquera
 
 Miembro (responsabilidad: por asignar): Flavio Andreas Avendanho Çaceres
 
-![4ta foto](4_Flavs.jpeg)
+![4ta foto](4_flavs.jpeg)
 
 ***
 
