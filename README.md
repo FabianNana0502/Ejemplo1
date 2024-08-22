@@ -11,7 +11,7 @@ Integrantes:
  
 ***
 
-PROYECTO: ...
+PROYECTO: EKG Suitable for high altitude areas (example)
 
 ![Introducción a Señales Biomédicas](image.png)
 
@@ -34,3 +34,8 @@ PROYECTO: ...
 ## Discusión 
 ## Bibliografía 
 ## Docentes 
+
+1.Lewis De La Cruz
+2.Alonso Caceres
+3.Moises Meza
+4.Jefatura de practica: Sergio Herrera
