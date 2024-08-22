@@ -2,7 +2,7 @@ Nosotros somos ingenieros biomédicos con el sueño de mejroar la salud pública
 
 ***
 
-![Lider del equipo: Fabian Alcides Ñaña Alfaro](1_alfaro.png)
+![Lider del equipo: Fabian Alcides Ñaña Alfaro](1_alfaro.jpeg)
 
 ***
 
