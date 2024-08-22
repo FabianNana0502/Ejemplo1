@@ -1,1 +1,8 @@
 Nosotros somos ingenieros biomédicos con el sueño de mejroar la salud pública en el país. Es por eso que mediante este curso aprenderemos las pautas para identificar las señales en el cuerpo y traducirlas a un lenguaje entendible para el resto. Todo esto será con la finalidad de solucionar un problema biomédico como por ejemplo, las detección de arritmias cardiacas.
+
+***
+
+![Lider del equipo: Fabian Alcides Ñaña Alfaro](1_alfaro.png)
+
+***
+
