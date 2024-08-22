@@ -35,7 +35,7 @@ PROYECTO: EKG Suitable for high altitude areas (example)
 ## Bibliografía 
 ## Docentes 
 
-1.Lewis De La Cruz
-2.Alonso Caceres
-3.Moises Meza
-4.Jefatura de practica: Sergio Herrera
+1. Lewis De La Cruz
+2. Alonso Caceres
+3. Moises Meza
+4. Jefatura de practica: Sergio Herrera
