@@ -5,31 +5,31 @@
 
 Lider del equipo: Fabian Alcides Ñaña Alfaro
 
-![1ra foto](1_alfaro.jpeg)
+![1ra foto](./Imagenes/1_alfaro.jpeg)
 
 ***
 
 Miembro (responsabilidad: por asignar): Christian Huarancca Quispe
 
-![2da foto](2_HQ.jpeg)
+![2da foto](./Imagenes/2_HQ.jpeg)
 
 ***
 
 Miembro (responsabilidad: por asignar): Ryoshin Cavero Mosquera
 
-![3ra foto](3_Myoshin.jpeg)
+![3ra foto](./Imagenes/Ryoshin.jpeg)
 
 ***
 
 Miembro (responsabilidad: por asignar): Flavio Andreas Avendanho Çaceres
 
-![4ta foto](4_flavs.jpeg)
+![4ta foto](./Imagenes/4_flavs.jpeg)
 
 ***
 
 Miembro (responsabilidad: por asignar): Joao Marco Torres Rivera
 
-![5ta foto](5_Joaus.jpeg)
+![5ta foto](./Imagenes/5_Joaus.jpeg)
 
 ***
 
