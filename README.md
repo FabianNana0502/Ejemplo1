@@ -13,7 +13,7 @@ Integrantes:
 
 PROYECTO: Introducción a señales biomedicas
 
-![Introducción a Señales Biomédicas](image.png)
+![Introducción a Señales Biomédicas](./Imagenes/image.png)
 
 ***
 
