@@ -4,14 +4,14 @@ Este es el repositorio del proyecto  Grupo 1.
 
 Integrantes: 
 * Fabián Alcides Ñaña Alfaro - [fabian.nana@upch.pe](fabian.nana@upch.pe)
-* Flavio Andrés Avendaño Cáceres - [flavio.avendano@upch.pe](flavio.avendano@upch.pe)
+* Flavio Andres Avendaño Cáceres - [flavio.avendano@upch.pe](flavio.avendano@upch.pe)
 * Joao Marco Torres Rivera - [joao.torres@upch.pe](joao.torres@upch.pe)
 * Favio Alessandro Ryoshin Cavero Mosquera - [favio.cavero@upch.pe](favio.cavero@upch.pe)
 * Christian Edú Huarancca Quispe - [christian.huarancca@upch.pe](christian.huarancca@upch.pe)
  
 ***
 
-PROYECTO: EKG Suitable for high altitude areas (example)
+PROYECTO: Introduccion a señales biomedicas
 
 ![Introducción a Señales Biomédicas](image.png)
 
