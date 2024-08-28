@@ -11,7 +11,7 @@ Integrantes:
  
 ***
 
-PROYECTO: Introduccion a señales biomedicas
+PROYECTO: Introducción a señales biomedicas
 
 ![Introducción a Señales Biomédicas](image.png)
 
