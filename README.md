@@ -13,7 +13,7 @@ Este es el repositorio del proyecto del Grupo 1.
   [fabian.nana@upch.pe](mailto:fabian.nana@upch.pe)
 
 - **Flavio Andres Avendaño Cáceres**  
-  ![2da foto](./Laboratorios/Laboratorio%201/Imagenes/2_HQ.jpeg)  
+  ![2da foto](./Laboratorios/Laboratorio%201/Imagenes/4_flavs.jpeg)  
   [flavio.avendano@upch.pe](mailto:flavio.avendano@upch.pe)
 
 - **Joao Marco Torres Rivera**  
@@ -25,7 +25,7 @@ Este es el repositorio del proyecto del Grupo 1.
   [favio.cavero@upch.pe](mailto:favio.cavero@upch.pe)
 
 - **Christian Edú Huarancca Quispe**  
-  ![4ta foto](./Laboratorios/Laboratorio%201/Imagenes/4_flavs.jpeg)  
+  ![4ta foto](./Laboratorios/Laboratorio%201/Imagenes/2_HQ.jpeg)  
   [christian.huarancca@upch.pe](mailto:christian.huarancca@upch.pe)
 
 ---
