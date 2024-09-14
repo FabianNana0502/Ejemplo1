@@ -1,6 +1,6 @@
-# LABORATORIO 3: – Deteccion de EMG mediante BITalino:
+# LABORATORIO 3-4: – Deteccion de EMG mediante BITalino:
 ***
-Este es el desarrollo de la actividad de Laboratorio -Sesion 3
+Este es el desarrollo de la actividad de Laboratorio -Sesion 3-4 realizada en el laboratorio de prototipado
 
 ## Contenido de la sesion
 ***
@@ -29,15 +29,22 @@ Este es el desarrollo de la actividad de Laboratorio -Sesion 3
 ***
 * Biceps 
 * Triceps 
-* Deltoides 
+* Deltoides (no fue posible debido a la cercania a otros musculos)
 * Gastrocnemios 
-* Vasto medial (no fue posible debido a la cercania de otros musculos)
+* Vasto medial (no fue posible debido a la cercania a otros musculos)
+
+Los músculos van a ser analizados en 3 situaciones:
+* Reposo
+* Movimiento simple
+* Movimiento con contrafuerza
 
 ## Resultados <a name="id4"></a>
 ***
+### EMG Biceps
 
-
-![Introducción a Señales Biomédicas](image.png)
+|  **Biceps en reposo**  | **Biceps en movimiento** | **Biceps con contrafuerza** |
+|:------------:|:---------------:|:------------:|
+|<img src="./Laboratorios/Laboratorio%204/Imagenes/biceps_reposo.jpeg"> | | |
 
 ***
 
