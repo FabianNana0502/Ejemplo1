@@ -47,14 +47,3 @@ Los músculos van a ser analizados en 3 situaciones:
 |<img src="./Laboratorios/Laboratorio%204/Imagenes/biceps_reposo.jpeg"> | | |
 
 ***
-
-# Tabla de Contenidos
-1. [Intro](#introduccion)
-2. [Materiales](#materiales)
-3. [Metodlogía](#metodología)
-4. [Resultados](#resultados)
-5. [Discusión](#discusión)
-6. [Bibliografía](#bibliografía)
-7. [Docentes](#docentes)
-
-
