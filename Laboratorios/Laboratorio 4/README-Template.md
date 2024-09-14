@@ -1,4 +1,4 @@
-# **LABORATORIO 3: USO DE BITalino PARA EMG**
+# **LABORATORIO 4: USO DE BITalino PARA EMG**
 
 ## **Tabla de Contenidos**
 1. [Objetivos](#objetivos)
