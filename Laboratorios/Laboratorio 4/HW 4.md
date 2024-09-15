@@ -12,7 +12,8 @@ Este es el desarrollo de la actividad de Laboratorio -Sesion 3-4 realizada en el
      4.2 [EMG Biceps](#id6)\
      4.3 [EMG Triceps](#id7)\
      4.4 [EMG Gastrocnemios](#id8)\
-     4.5 [Discucion y Conclusion](#id9)
+     4.5 [Discucion ](#id9)
+     4.6 [Conclusion](#id10)
 
 ## Objetivos <a name="id1"></a>
 ***
@@ -73,5 +74,12 @@ Los músculos van a ser analizados en 3 situaciones:
 |![Gastrocnemios en reposo](./Imagenes/gastrocnemio_movimiento.jpeg)| 
 | **Gastrocnemios con contrafuerza** |
 |![Gastrocnemios en reposo](./Imagenes/gastrocnemio_movimiento_fuerza.jpeg)| 
+***
+
+## Discucion <a name="id9"></a>
+***
+dale fabian
+***
+## Conclusion <a name="id10"></a>
 ***
 
