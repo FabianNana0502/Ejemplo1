@@ -223,7 +223,7 @@ La toma de señales comenzó con la captura de señales de cada miembro del equi
 ***
 |  **Biceps en reposo**  | **Biceps en movimiento** | **Biceps con contrafuerza** |
 |:------------:|:---------------:|:------------:|
-|[![Watch the video](http://img.youtube.com/vi/BjMBCKBP3xE/0.jpg)](https://youtu.be/BjMBCKBP3xE)|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)](https://youtu.be/Mb9VrSXVKTM) |
+|[![Watch the video](http://img.youtube.com/vi/BjMBCKBP3xE/0.jpg)](https://youtu.be/BjMBCKBP3xE)|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)] |
 
 ***
 | **BITalino con electrodos** |  
