@@ -40,10 +40,11 @@ Los músculos van a ser analizados en 3 situaciones:
 
 ## Resultados <a name="id4"></a>
 ***
+Laboratorios/Laboratorio 4/Imagenes/biceps_reposo.jpeg
 ### EMG Biceps
 
 |  **Biceps en reposo**  | **Biceps en movimiento** | **Biceps con contrafuerza** |
 |:------------:|:---------------:|:------------:|
-|![Biceps en reposo](ISB-Grupo-1/Laboratorios/Laboratorio%204/Imagenes/biceps_reposo.jpeg)] | | |
+|![Biceps en reposo](Laboratorios/Laboratorio 4/Imagenes/biceps_reposo.jpeg)] | | |
 
 ***
