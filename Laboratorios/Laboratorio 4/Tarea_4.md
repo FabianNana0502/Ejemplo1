@@ -219,11 +219,21 @@ while(1):
 
 La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [2].  
 
-### Implementación <a name="id5"></a>
+## Implementación <a name="id5"></a>
+***
+### Click on images to visualize the videos
 ***
 |  **Biceps en reposo**  | **Biceps en movimiento** | **Biceps con contrafuerza** |
 |:------------:|:---------------:|:------------:|
 |[![Watch the video](http://img.youtube.com/vi/BjMBCKBP3xE/0.jpg)](https://youtu.be/BjMBCKBP3xE)|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)(https://youtu.be/Mb9VrSXVKTM) |
+***
+|  **Triceps en reposo**  | **Triceps en movimiento** | **Triceps con contrafuerza** |
+|:------------:|:---------------:|:------------:|
+|[![Watch the video](http://img.youtube.com/vi/fyPeHq-zefs/0.jpg)](https://youtu.be/fyPeHq-zefs)|[![Watch the video](http://img.youtube.com/vi/374YDF8yrnQ/0.jpg)](https://youtu.be/374YDF8yrnQ)|![Watch the video](http://img.youtube.com/vi/mZ9duE8vDmA/0.jpg)(https://youtu.be/mZ9duE8vDmA) |
+***
+|  **Gastrocnemio en reposo**  | **Gastrocnemio en movimiento** | **Gastrocnemio con contrafuerza** |
+|:------------:|:---------------:|:------------:|
+|[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM) |
 
 ***
 | **BITalino con electrodos** |  
