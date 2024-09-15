@@ -21,7 +21,7 @@
 ## Contenido de la sesión
 1. [Objetivos](#id1)
 2. [Materiales y equipos](#id2)
-3. [Músculos a Evaluar](#id3)
+3. [Metodologia](#id3)
 4. [Resultados](#id4)  
    4.1 [Implementación](#id5)  
    4.2 [EMG Bíceps](#id6)  
@@ -235,38 +235,29 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 ## EMG Bíceps <a name="id6"></a>
 
 | **Bíceps en reposo** | 
-|![Bíceps en reposo](./Imagenes/biceps_reposo.jpeg)| 
-| [Ver Video](./Videos/biceps_reposo.mp4) |
+|![Bíceps en reposo](./Ploteos/RBICEPS.png)| 
 | **Bíceps en movimiento** |
-|![Bíceps en movimiento](./Imagenes/biceps_movimiento.jpeg)| 
-| [Ver Video](./Videos/biceps_movimiento.mp4) |
+|![Bíceps en movimiento](./Ploteos/MBICEPS.png)| 
 | **Bíceps con contrafuerza** |
-|![Bíceps con contrafuerza](./Imagenes/biceps_movimiento_fuerza.jpeg)| 
-| [Ver Video](./Videos/biceps_mov_fuerza.mp4) |
+|![Bíceps con contrafuerza](./Ploteos/CFBICEPS.png)| 
 
 ## EMG Tríceps <a name="id7"></a>
 
 | **Tríceps en reposo** | 
-|![Tríceps en reposo](./Imagenes/triceps_reposo.jpeg)| 
-| [Ver Video](./Videos/triceps_reposo.mp4) |
+|![Tríceps en reposo](./Ploteos/RTRICEPS.png)| 
 | **Tríceps en movimiento** |
-|![Tríceps en movimiento](./Imagenes/triceps_movimiento.jpeg)| 
-| [Ver Video](./Videos/triceps_movimiento.mp4) |
+|![Tríceps en movimiento](./Ploteos/MTRICEPS.png)| 
 | **Tríceps con contrafuerza** |
-|![Tríceps con contrafuerza](./Imagenes/triceps_movimiento_fuerza.jpeg)| 
-| [Ver Video](./Videos/triceps_mov_fuerza.mp4) |
+|![Tríceps con contrafuerza](./Ploteos/CFTRICEPS.png)| 
 
 ## EMG Gastrocnemios <a name="id8"></a>
 
 | **Gastrocnemios en reposo** | 
-|![Gastrocnemios en reposo](./Imagenes/gastrocnemio_reposo.jpeg)| 
-| [Ver Video](./Videos/gastrocnemio_reposo.mp4) |
+|![Gastrocnemios en reposo](./Ploteos/RGASTROCNEMIO.png)| 
 | **Gastrocnemios en movimiento** |
-|![Gastrocnemios en movimiento](./Imagenes/gastrocnemio_movimiento.jpeg)| 
-| [Ver Video](./Videos/gastrocnemio_movimiento.mp4) |
+|![Gastrocnemios en movimiento](./Ploteos/MGASTROCNEMIO.png)| 
 | **Gastrocnemios con contrafuerza** |
-|![Gastrocnemios con contrafuerza](./Imagenes/gastrocnemio_mov_fuerza.jpeg)| 
-| [Ver Video](./Videos/gastrocnemio_mov_fuerza.mp4) |
+|![Gastrocnemios con contrafuerza](./Ploteos/CFGASTROCNEMIO.png)| 
 
 
 
