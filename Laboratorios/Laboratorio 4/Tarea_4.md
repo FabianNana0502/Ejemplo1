@@ -220,7 +220,11 @@ while(1):
 La toma de señales comenzó con la captura de señales de cada miembro del equipo, siguiendo el protocolo BITalino (r)evolution Lab-Home Guide [2].  
 
 ### Implementación <a name="id5"></a>
-|![video biceps R](./Videos/biceps_reposo.mp4)| 
+***
+| **Biceps en reposo**|
+|[![Watch the video](http://img.youtube.com/vi/BjMBCKBP3xE/0.jpg)](https://youtu.be/BjMBCKBP3xE)|
+
+***
 | **BITalino con electrodos** |  
 |![BITalino con electrodos](https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg)|  
 **Figura 2. BITalino con electrodos.**
