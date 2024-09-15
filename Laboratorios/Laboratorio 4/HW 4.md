@@ -11,8 +11,8 @@ Este es el desarrollo de la actividad de Laboratorio -Sesion 3-4 realizada en el
      4.1 [Implementacion](#id5)\
      4.2 [EMG Biceps](#id6)\
      4.3 [EMG Triceps](#id7)\
-     4.4 [EMG Biceps](#id8)\
-     4.5 [Ploteo de la señal en Python](#id9)
+     4.4 [EMG Gastrocnemios](#id8)\
+     4.5 [Discucion y Conclusion](#id9)
 
 ## Objetivos <a name="id1"></a>
 ***
@@ -38,11 +38,14 @@ Los músculos van a ser analizados en 3 situaciones:
 * Movimiento simple
 * Movimiento con contrafuerza
 
-## Resultados <a name="id4"></a>
+# Resultados <a name="id4"></a>
 ***
+## Implementacion <a name="id5"></a>
+| **Biceps en reposo** | 
+|![video biceps R](./Videos/biceps_reposo.mp4)|
 
 ***
-## EMG Biceps
+## EMG Biceps <a name="id6"></a>
 
 | **Biceps en reposo** | 
 |![Biceps en reposo](./Imagenes/biceps_reposo.jpeg)| 
@@ -52,7 +55,7 @@ Los músculos van a ser analizados en 3 situaciones:
 |![Biceps en reposo](./Imagenes/biceps_movimiento_fuerza.jpeg)| 
 
 ***
-## EMG Triceps
+## EMG Triceps <a name="id7"></a>
 
 | **Triceps en reposo** | 
 |![Tríceps en reposo](./Imagenes/triceps_reposo.jpeg)| 
@@ -62,13 +65,13 @@ Los músculos van a ser analizados en 3 situaciones:
 |![Tríceps en reposo](./Imagenes/triceps_movimiento_fuerza.jpeg)| 
 
 ***
-## EMG Gastrocnemios
+## EMG Gastrocnemios <a name="id8"></a>
 
 | **Gastrocnemios en reposo** | 
 |![Gastrocnemios en reposo](./Imagenes/gastrocnemio_reposo.jpeg)| 
 | **Gastrocnemios en movimiento** |
 |![Gastrocnemios en reposo](./Imagenes/gastrocnemio_movimiento.jpeg)| 
 | **Gastrocnemios con contrafuerza** |
-|![Gastrocnemios en reposo](./Imagenes/grastocnemio_movimiento_fuerza.jpeg)| 
+|![Gastrocnemios en reposo](./Imagenes/gastrocnemio_movimiento_fuerza.jpeg)| 
 ***
 
