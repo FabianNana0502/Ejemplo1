@@ -44,6 +44,6 @@ Los músculos van a ser analizados en 3 situaciones:
 
 |  **Biceps en reposo**  | **Biceps en movimiento** | **Biceps con contrafuerza** |
 |:------------:|:---------------:|:------------:|
-|<img src="./Laboratorios/Laboratorio 4/Imagenes/biceps_reposo.jpeg"> | | |
+|<img src="/Laboratorios/Laboratorio_4/Imagenes/biceps_reposo.jpeg"> | | |
 
 ***
