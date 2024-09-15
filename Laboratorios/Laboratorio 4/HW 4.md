@@ -42,7 +42,7 @@ Los músculos van a ser analizados en 3 situaciones:
 ***
 ## Implementacion <a name="id5"></a>
 | **Biceps en reposo** | 
-|![video biceps R](./Videos/biceps_reposo.mp4)|
+|![video biceps R](./Videos/biceps_reposo.mp4)| 
 
 ***
 ## EMG Biceps <a name="id6"></a>
