@@ -43,7 +43,7 @@ Los músculos van a ser analizados en 3 situaciones:
 
 ### EMG Biceps
 
-|  **Biceps en reposo**  | 
+| **Biceps en reposo** | 
 |:------------:|
 |![Biceps en reposo](./Imagenes/biceps_reposo.jpeg)| 
 |:------------:|
@@ -52,7 +52,23 @@ Los músculos van a ser analizados en 3 situaciones:
 |:------------:|
 | **Biceps con contrafuerza** |
 |:------------:|
-|![Biceps en reposo](./Imagenes/biceps_movimiento-fuerza.jpeg)| 
+|![Biceps en reposo](./Imagenes/biceps_movimiento_fuerza.jpeg)| 
 |:------------:|
+
+### EMG Triceps
+
+| **Biceps en reposo** | 
+|:------------:|
+|![Tríceps en reposo](./Imagenes/triceps_reposo.jpeg)| 
+|:------------:|
+| **Biceps en movimiento** |
+|![Tríceps en reposo](./Imagenes/triceps_movimiento.jpeg)| 
+|:------------:|
+| **Biceps con contrafuerza** |
+|:------------:|
+|![Tríceps en reposo](./Imagenes/triceps_movimiento_fuerza.jpeg)| 
+|:------------:|
+
+### EMG Gastrocnemios
 
 ***
