@@ -8,10 +8,10 @@ Este es el desarrollo de la actividad de Laboratorio -Sesion 3-4 realizada en el
 2. [Materiales y equipos](#id2)
 3. [Musculos a Evaluar](#id3)
 4. [Resultados](#id4)\
-     4.1 [Conexión usada](#id5)\
-     4.2 [Video de la señal](#id6)\
-     4.3 [Ploteo de la señal en OpenSignal](#id7)\
-     4.4 [Archivos](#id8)\
+     4.1 [Implementacion](#id5)\
+     4.2 [EMG Biceps](#id6)\
+     4.3 [EMG Triceps](#id7)\
+     4.4 [EMG Biceps](#id8)\
      4.5 [Ploteo de la señal en Python](#id9)
 
 ## Objetivos <a name="id1"></a>
@@ -41,7 +41,8 @@ Los músculos van a ser analizados en 3 situaciones:
 ## Resultados <a name="id4"></a>
 ***
 
-### EMG Biceps
+***
+## EMG Biceps
 
 | **Biceps en reposo** | 
 |![Biceps en reposo](./Imagenes/biceps_reposo.jpeg)| 
@@ -50,7 +51,8 @@ Los músculos van a ser analizados en 3 situaciones:
 | **Biceps con contrafuerza** |
 |![Biceps en reposo](./Imagenes/biceps_movimiento_fuerza.jpeg)| 
 
-### EMG Triceps
+***
+## EMG Triceps
 
 | **Biceps en reposo** | 
 |![Tríceps en reposo](./Imagenes/triceps_reposo.jpeg)| 
@@ -59,7 +61,8 @@ Los músculos van a ser analizados en 3 situaciones:
 | **Biceps con contrafuerza** |
 |![Tríceps en reposo](./Imagenes/triceps_movimiento_fuerza.jpeg)| 
 
-### EMG Gastrocnemios
+***
+## EMG Gastrocnemios
 
 | **Biceps en reposo** | 
 |![Tríceps en reposo](./Imagenes/gastrocnemio_reposo.jpeg)| 
@@ -67,5 +70,5 @@ Los músculos van a ser analizados en 3 situaciones:
 |![Tríceps en reposo](./Imagenes/gastrocnemio_movimiento.jpeg)| 
 | **Biceps con contrafuerza** |
 |![Tríceps en reposo](./Imagenes/grastocnemio_movimiento_fuerza.jpeg)| 
-
 ***
+
