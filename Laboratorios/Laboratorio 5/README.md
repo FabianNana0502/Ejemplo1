@@ -227,7 +227,7 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7 y 8) 
 
 <div align="center">
 
-<div style="display: flex; justify-content: space-around;">
+div style="display: flex; justify-content: space-around;">
   <figure>
     <img src="./Data_bibliografica/reglaECG.png" alt="reglaECG" width="400" height="300">
     <figcaption>Fig 7. "Regla de ECG"</figcaption>
@@ -280,6 +280,14 @@ Fig 10. ECG 1ra Derivada en ejercicio
 ## Conclusión <a name="id12"></a>
 <div align="justify">
 
+En esta sesión de laboratorio , se exploró acerca de la actividad eléctrica del corazón mediante la mediciones del ECG en diferentes condiciones, utilizando un BITalino para registrar los datos y el ProSim 4 , el cual es un simulador de paciente. 
+El BITalino es un dispositivo que permite obtener mediciones del ECG mediante su software OpenSignals. Mediante el software, se observaron gráficas del ECG en diferentes situaciones. 
+Durante el reposo, se observaron patrones cardiacos normales, es decir, ritmos regulares y consistentes. La frecuencia cardiaca se encuentra dentro del rango normal entre 60 y 100 lpm  . 
+Al realizar el ejercicio de respiración, se observó cambios en las señales del ECG, como la variabilidad del segmento R-R y un leve aumento de la frecuencia cardiaca relacionado a la acumulación de CO2 luego de la exhalación .
+La señal obtenida en el periodo de posterior a la respiración , la frecuencia cardiaca se restablece a un valor de 90 lpm , es decir un valor cercano al de reposo.
+En la señal obtenida luego de realizar actividad física podemos observar mayor cantidad de complejos QRS , es decir , hay aumento de la frecuencia cardiaca . Este aumento se atribuye a que los músculos necesitan oxígeno adicional y para proporcionar este oxígeno extra, el corazón bombea más rápido para aumentar el flujo sanguíneo hacia los músculos. 
+
+Al simular un infarto en el ProSim 4 de fluke, se pudo observar alteraciones en el ECG que indican daño cardiaco, como la elevación del segmento ST. Se resalta que el ECG puede ser utilizado para la detección de sutiles alteraciones de la actividad cardiaca y la importancia de la simulación para mejorar la comprensión de las patologías relacionadas 
 
 
 </div>
@@ -294,6 +302,6 @@ Fig 10. ECG 1ra Derivada en ejercicio
 
 [4]BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: [link](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf)
 
-[5]
+[5]J. C. Bouzas Marins, N. M. Ottoline Marins, y M. Delgado Fernández, “Aplicaciones de la frecuencia cardiaca máxima en la evaluación y prescripción de ejercicio”, Apunts Med. L Esport, vol. 45, núm. 168, pp. 251–258, 2010.
 
 
