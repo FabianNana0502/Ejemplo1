@@ -122,7 +122,7 @@ La toma de señales comenzó con la captura de señales de cada miembro del equi
 ***
 |  **ECG ESTADO BASAL DERIVADA I**  | **AGUANTANDO RESPIRACION I DERIVADA** | **POST AGUANTANDO RESPIRACION I DERIVADA** |
 |:------------:|:---------------:|:------------:|
-|[![Watch the video](http://img.youtube.com/vi/BjMBCKBP3xE/0.jpg)](https://youtu.be/BjMBCKBP3xE)|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)(https://youtu.be/Mb9VrSXVKTM)||
+|https://drive.google.com/file/d/1p2DJ1yurO03lyf1WLENLBMfI_1ryaaga/view?usp=sharing|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)(https://youtu.be/Mb9VrSXVKTM)||
 ***
 |  **ECG ESATDO BASAL DERIVADA II**  | **AGUANTANDO RESPIRACION II DERIVADA** | **POST AGUANTANDO RESPIRACION II DERIVADA** |
 |:------------:|:---------------:|:------------:|
