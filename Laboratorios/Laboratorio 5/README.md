@@ -122,19 +122,19 @@ La toma de señales comenzó con la captura de señales de cada miembro del equi
 ***
 |  **ECG ESTADO BASAL DERIVADA I**  | **AGUANTANDO RESPIRACION I DERIVADA** | **POST AGUANTANDO RESPIRACION I DERIVADA** |
 |:------------:|:---------------:|:------------:|
-|https://drive.google.com/file/d/1p2DJ1yurO03lyf1WLENLBMfI_1ryaaga/view?usp=sharing|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)(https://youtu.be/Mb9VrSXVKTM)||
+|https://drive.google.com/file/d/1p2DJ1yurO03lyf1WLENLBMfI_1ryaaga/view?usp=sharing|https://drive.google.com/file/d/1XMZoKpcnTuxhg_tEjeOoiogzPngMHLph/view?usp=sharing|https://drive.google.com/file/d/1b1P5wtIn3Z_EkZo2kRRaPBTHnOEAG4kf/view?usp=sharing|
 ***
 |  **ECG ESATDO BASAL DERIVADA II**  | **AGUANTANDO RESPIRACION II DERIVADA** | **POST AGUANTANDO RESPIRACION II DERIVADA** |
 |:------------:|:---------------:|:------------:|
-|[![Watch the video](http://img.youtube.com/vi/fyPeHq-zefs/0.jpg)](https://youtu.be/fyPeHq-zefs)|[![Watch the video](http://img.youtube.com/vi/374YDF8yrnQ/0.jpg)](https://youtu.be/374YDF8yrnQ)|![Watch the video](http://img.youtube.com/vi/mZ9duE8vDmA/0.jpg)(https://youtu.be/mZ9duE8vDmA)||
+|https://drive.google.com/file/d/1jaC2D8yFGBopVKKNw3IYkY0D37EabJwE/view?usp=sharing|https://drive.google.com/file/d/1mqaD4aCkCTAIjIJ9RPzYXFef1Ft-FPMm/view?usp=sharing|https://drive.google.com/file/d/1r-0VkqwXQIehlsraf-jBD4w9jbQ8fBJv/view?usp=sharing|
 ***
 |  **ECG ESTADO BASAL DERIVADA III**  | **AGUANTANDO RESPIRACION III DERIVADA** | **POTS AGUANTANDO RESPIRACION III DERIVADA** |
 |:------------:|:---------------:|:------------:|
-|[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM)||
+|https://drive.google.com/file/d/1yk-53DK0n22BtcBRoVvy0dsy8XzD0VUf/view?usp=sharing|https://drive.google.com/file/d/1wC7PeMzJzvqW8g1-2qVQ0sneYnBQAkmb/view?usp=sharing|https://drive.google.com/file/d/1RbyMZvDXfzYS9dE3VyYx9i_ixWKZgRk9/view?usp=sharing|
 
 |  **POST ACTIVIDAD FISICA DERIVADA I**  | **POST ACTIVIDAD FISICA DERIVADA II** | **POST ACTIVIDAD FISICA DERIVADA III** |
 |:------------:|:---------------:|:------------:|
-|[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM)||
+|https://drive.google.com/file/d/1b1P5wtIn3Z_EkZo2kRRaPBTHnOEAG4kf/view?usp=sharing|https://drive.google.com/file/d/1HbuAkgelLQ-kvIb1587E0uSX8-gCoEuw/view?usp=sharing|https://drive.google.com/file/d/1jbfdfQTVNpSUcHV2uwGyTq0MDReXjOck/view?usp=sharing|
 
 *** 
 |![BITalino con electrodos](https://github.com/angiet04/Intro_se-ales06/blob/648e8eb0ea78ae11fa8690847565b76faea9742d/Im%C3%A1genes/Laboratorio_3/BITalino.jpeg)|  
