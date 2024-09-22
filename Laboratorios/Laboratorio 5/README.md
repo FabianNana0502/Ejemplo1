@@ -229,7 +229,7 @@ Fig 7. "Regla de ECG"
 
 <div align="justify">
 
-Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm. Con lo cual se puede diagnosticar el corazon de nuestro compañero como "sano" o "sin anomalias" para un estado basal o de reposo.
+Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm (dentro del rango aceptable). Con lo cual se puede diagnosticar el corazon de nuestro compañero como "sano" o "sin anomalias" para un estado basal o de reposo.
 
 ### Discusión de aguantar respiración
 
