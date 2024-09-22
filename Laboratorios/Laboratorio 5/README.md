@@ -181,11 +181,35 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 
 
 ## Discusión <a name="id11"></a>
+***
+<div align="justify">
+La obtencion de una derivada consiste en la medicion de la actividad electrica (comunmente
+en la escala de mV) del corazon, empleando puntos de referencia (+,- y tierra) con variadas
+distribuciones de electrodos, tales como el triangulo de Einthoven (ver fig.5), pero para 
+este laboratorio se empleara la distribucion recomendada por el BITalino (r)evolution (ver
+fig.2 en metodologia).
 
+[!eintoven](./Data_bibliografica/Einthoven.png)
+
+Segun la poscicion de los electrodos, se espera que en el derivada 1, se presenten picos 
+positivos debido al cambio de fase descendete a fase ascendente (ondas Q-R), mientras que 
+para la derivada 2 y 3, picos negativos debido al descenso de fase. (ver fig. 6)
+
+[!spikes](./Data_bibliografica/spikes.png)
+
+***
 ### Discusión de Estado Basal 
 <div align="justify">
 
-ESCRIBA SU DISCUSION
+Las mediciones del ECG para cada derivación, al realizarse en estado basal, analizan el estado de la persona en una situación de reposo o sin esfuerzo físico, debido a que la principal información a obtener es la FC (frecuencia cardiaca) en latidos por minuto (lpm) para poder evaluar el nivel de salud del corazon del sujeto en cuestion y poder detectar 
+algun signo de arritmias o sobreexigencia del corazón.
+
+Para realizar el calculo del FC se empleará la "regla del ECG" (ver imagen) y considerar
+60-100 lpm el rango normal.
+
+[!reglaECG](./Data_bibliografica/reglaECG.png)
+
+Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm.
 
 ### Discusión de aguantar respiración
 
@@ -205,8 +229,6 @@ ESCRIBA SU DISCUSION
 ...
 
 </div>
-
-
 
 ## Bibliografía
 
