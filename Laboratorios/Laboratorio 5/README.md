@@ -132,7 +132,7 @@ La toma de señales comenzó con la captura de señales de cada miembro del equi
 |:------------:|:---------------:|:------------:|
 |[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM)||
 
-|  **ECG ESTADO BASAL DERIVADA III**  | **AGUANTANDO RESPIRACION III DERIVADA** | **POTS AGUANTANDO RESPIRACION III DERIVADA** |
+|  **POST ACTIVIDAD FISICA DERIVADA I**  | **POST ACTIVIDAD FISICA DERIVADA II** | **POST ACTIVIDAD FISICA DERIVADA III** |
 |:------------:|:---------------:|:------------:|
 |[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM)||
 
