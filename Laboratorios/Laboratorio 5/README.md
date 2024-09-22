@@ -146,7 +146,7 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 ## ECG Estado Basal <a name="id7"></a>
 
 | **Derivada 1 Estado Basal** | 
-|![D1reposo] (./Ploteos/1D_basal.png)|
+|![D1reposo](./Ploteos/1D_basal.png)|
 | **ECG Estado Basal 2** |
 |![Bíceps en movimiento](./Ploteos/MBICEPS.png)| 
 | **ECG Estado Basal 3** |
