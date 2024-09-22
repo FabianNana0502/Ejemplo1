@@ -183,6 +183,7 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 ## Discusión <a name="id11"></a>
 ***
 <div align="justify">
+
 La obtencion de una derivada consiste en la medicion de la actividad electrica (comunmente
 en la escala de mV) del corazon, empleando puntos de referencia (+,- y tierra) con variadas
 distribuciones de electrodos, tales como el triangulo de Einthoven (ver fig.5), pero para 
@@ -190,20 +191,28 @@ este laboratorio se empleara la distribucion recomendada por el BITalino (r)evol
 fig.2 en metodologia).
 
 <div align="center">
-!![eintoven](./Data_bibliografica/Einthoven.png)
+
+![eintoven](./Data_bibliografica/Einthoven.png)
+
 Fig 5. Triangulo de Einthoven
 
 <div align="justify">
+
 Segun la poscicion de los electrodos, se espera que en el derivada 1, se presenten picos 
 positivos debido al cambio de fase descendete a fase ascendente (ondas Q-R), mientras que 
 para la derivada 2 y 3, picos negativos debido al descenso de fase. (ver fig. 6)
 
 <div align="center">
+
 ![!spikes](./Data_bibliografica/spikes.png)
+
 Fig 6. Picos de ECG
 
 ***
+<div align="justify">
+
 ### Discusión de Estado Basal 
+
 <div align="justify">
 
 Las mediciones del ECG para cada derivación, al realizarse en estado basal, analizan el estado de la persona en una situación de reposo o sin esfuerzo físico, debido a que la principal información a obtener es la FC (frecuencia cardiaca) en latidos por minuto (lpm) para poder evaluar el nivel de salud del corazon del sujeto en cuestion y poder detectar 
@@ -213,8 +222,12 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7) y co
 60-100 lpm el rango normal.
 
 <div align="center">
+
 ![reglaECG](./Data_bibliografica/reglaECG.png)
+
 Fig 7. "Regla de ECG"
+
+<div align="justify">
 
 Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm.
 
