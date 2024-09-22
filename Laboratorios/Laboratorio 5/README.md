@@ -227,7 +227,7 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7 y 8) 
 
 <div align="center">
 
-div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: space-around;">
   <figure>
     <img src="./Data_bibliografica/reglaECG.png" alt="reglaECG" width="400" height="300">
     <figcaption>Fig 7. "Regla de ECG"</figcaption>
@@ -247,7 +247,7 @@ Por lo que se espera que el corazón lata por un breve periodo un poco más ráp
 
 <div align="center">
 
-![reglaECG](./Data_bibliografica/reglaECG.png) <img src="./Ploteos/1D_respiracion.png" alt="1D Basal" width="500" height="300">
+<img src="./Ploteos/1D_respiracion.png" alt="1D Basal" width="500" height="300">
 
 Fig 9. ECG 1ra Derivada, respiracion
 
@@ -261,7 +261,7 @@ Tras recuperar el aliento perdido en la prueba previa, se volvió a realizar la 
 
 <div align="center">
 
-![reglaECG](./Ploteos/1D_post_respiracion.png)
+<img src="./Ploteos/1D_post_respiracion.png" alt="1D Basal" width="500" height="300">
 Fig 10. ECG 1ra Derivada, post respiracion
 
 <div align="justify">
@@ -274,21 +274,48 @@ La cantidad de oxígeno necesaria y la cantidad suministrada están estrechament
 
 <div align="center">
 
-![reglaECG](./Ploteos/1D_ejercicio.png) 
-Fig 10. ECG 1ra Derivada en ejercicio
+<img src="./Ploteos/1D_ejercicio.png" alt="1D Basal" width="500" height="300">
+Fig 11. ECG 1ra Derivada en ejercicio
+
+<div align="justify">
+
+### ProSim4
+
+El ProSim4 al ser un dispositivo empleado para simular frecuencias cardiacas a distintos lpm  configurables y generar patrones de patologías cardiacas, nos permite corroborar los resultados obtenidos al compararlos con los patrones predeterminados del ProSim4, asu vez este es útil para verificar el funcionamiento del BITalino u otros dispositivos  de monitoreo cardiacos.
+
+Simulaciones realizadas:
+
+<div align="center">
+
+<img src="./Ploteos/ProSim/60_bpm.png" alt="1D Basal" width="500" height="300">
+Fig 12. ECG ProSim a 60bpm
+
+<img src="./Ploteos/ProSim/90_bpm.png" alt="1D Basal" width="500" height="300">
+Fig 13. ECG ProSim a 90bpm
+
+<img src="./Ploteos/ProSim/120_bpm.png" alt="1D Basal" width="500" height="300">
+Fig 14. ECG ProSim a 120bpm
+
+<img src="./Ploteos/ProSim/150_bpm.png" alt="1D Basal" width="500" height="300">
+Fig 15. ECG ProSim a 150bpm
+
+<div align="justify">
 
 ## Conclusión <a name="id12"></a>
-<div align="justify">
 
 En esta sesión de laboratorio , se exploró acerca de la actividad eléctrica del corazón mediante la mediciones del ECG en diferentes condiciones, utilizando un BITalino para registrar los datos y el ProSim 4 , el cual es un simulador de paciente. 
 El BITalino es un dispositivo que permite obtener mediciones del ECG mediante su software OpenSignals. Mediante el software, se observaron gráficas del ECG en diferentes situaciones. 
-Durante el reposo, se observaron patrones cardiacos normales, es decir, ritmos regulares y consistentes. La frecuencia cardiaca se encuentra dentro del rango normal entre 60 y 100 lpm  . 
-Al realizar el ejercicio de respiración, se observó cambios en las señales del ECG, como la variabilidad del segmento R-R y un leve aumento de la frecuencia cardiaca relacionado a la acumulación de CO2 luego de la exhalación .
-La señal obtenida en el periodo de posterior a la respiración , la frecuencia cardiaca se restablece a un valor de 90 lpm , es decir un valor cercano al de reposo.
-En la señal obtenida luego de realizar actividad física podemos observar mayor cantidad de complejos QRS , es decir , hay aumento de la frecuencia cardiaca . Este aumento se atribuye a que los músculos necesitan oxígeno adicional y para proporcionar este oxígeno extra, el corazón bombea más rápido para aumentar el flujo sanguíneo hacia los músculos. 
 
-Al simular un infarto en el ProSim 4 de fluke, se pudo observar alteraciones en el ECG que indican daño cardiaco, como la elevación del segmento ST. Se resalta que el ECG puede ser utilizado para la detección de sutiles alteraciones de la actividad cardiaca y la importancia de la simulación para mejorar la comprensión de las patologías relacionadas 
 
+*  Durante el reposo, se observaron patrones cardiacos normales, es decir, ritmos regulares y consistentes. La    frecuencia cardiaca se encuentra dentro del rango normal entre 60 y 100 lpm.
+
+* Al realizar el ejercicio de respiración, se observó cambios en las señales del ECG, como la variabilidad del segmento R-R y un leve aumento de la frecuencia cardiaca relacionado a la acumulación de CO2 luego de la exhalación .
+
+* La señal obtenida en el periodo de posterior a la respiración , la frecuencia cardiaca se restablece a un valor de 90 lpm , es decir un valor cercano al de reposo.
+
+* En la señal obtenida luego de realizar actividad física podemos observar mayor cantidad de complejos QRS , es decir , hay aumento de la frecuencia cardiaca . Este aumento se atribuye a que los músculos necesitan oxígeno adicional y para proporcionar este oxígeno extra, el corazón bombea más rápido para aumentar el flujo sanguíneo hacia los músculos. 
+
+Al realizar distintas simulaciones con el ProSim 4 de fluke, se pudo observar anomalías como taquicardias y bradicardias,que son frecuencias cardíacas muy  altas y muy bajas , respectivamente  . Se realizaron simulaciones a 60,90,120 y 150 lpm. Se concluye que la señal ECG puede ser utilizada para la detección de sutiles alteraciones de la actividad cardiaca como las mencionadas y la importancia de la simulación para mejorar la comprensión de las patologías relacionadas
 
 </div>
 
@@ -302,6 +329,8 @@ Al simular un infarto en el ProSim 4 de fluke, se pudo observar alteraciones en 
 
 [4]BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: [link](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf)
 
-[5]J. C. Bouzas Marins, N. M. Ottoline Marins, y M. Delgado Fernández, “Aplicaciones de la frecuencia cardiaca máxima en la evaluación y prescripción de ejercicio”, Apunts Med. L Esport, vol. 45, núm. 168, pp. 251–258, 2010.
+[5]J. C. Bouzas Marins, N. M. Ottoline Marins, y M. Delgado Fernández, “Aplicaciones de la frecuencia cardiaca máxima en la evaluación y prescripción de ejercicio”, Apunts Med. L Esport, vol. 45, núm. 168, pp. 251–258, 2010. [link] (https://www.sciencedirect.com/science/article/abs/pii/S1886658110000459)
+
+[6] Universidad Complutense de Madrid, "Electrocardiografía Básica," Medicina, 2021. [Enlace: https://medicina.ucm.es/data/cont/media/www/pag-17227/Electrocardiografía%20Básica.pdf
 
 
