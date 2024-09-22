@@ -189,13 +189,13 @@ distribuciones de electrodos, tales como el triangulo de Einthoven (ver fig.5), 
 este laboratorio se empleara la distribucion recomendada por el BITalino (r)evolution (ver
 fig.2 en metodologia).
 
-[!eintoven](./Data_bibliografica/Einthoven.png)
+!![eintoven](./Data_bibliografica/Einthoven.png)
 
 Segun la poscicion de los electrodos, se espera que en el derivada 1, se presenten picos 
 positivos debido al cambio de fase descendete a fase ascendente (ondas Q-R), mientras que 
 para la derivada 2 y 3, picos negativos debido al descenso de fase. (ver fig. 6)
 
-[!spikes](./Data_bibliografica/spikes.png)
+![!spikes](./Data_bibliografica/spikes.png)
 
 ***
 ### Discusión de Estado Basal 
@@ -207,7 +207,7 @@ algun signo de arritmias o sobreexigencia del corazón.
 Para realizar el calculo del FC se empleará la "regla del ECG" (ver imagen) y considerar
 60-100 lpm el rango normal.
 
-[!reglaECG](./Data_bibliografica/reglaECG.png)
+![reglaECG](./Data_bibliografica/reglaECG.png)
 
 Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm.
 
