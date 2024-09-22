@@ -218,7 +218,7 @@ Fig 6. Picos de ECG
 Las mediciones del ECG para cada derivación, al realizarse en estado basal, analizan el estado de la persona en una situación de reposo o sin esfuerzo físico, debido a que la principal información a obtener es la FC (frecuencia cardiaca) en latidos por minuto (lpm) para poder evaluar el nivel de salud del corazon del sujeto en cuestion y poder detectar 
 algun signo de arritmias o sobreexigencia del corazón.
 
-Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7) y considerar
+Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7 y 8) y considerar
 60-100 lpm el rango normal.
 
 <div align="center">
@@ -233,21 +233,37 @@ Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en
 
 ### Discusión de aguantar respiración
 
-Al inalar aire dentro de los pulmones, previo a la exhalacion, se acumula CO2 dentro de estos durante los primeros segundos (por propositos del laboratorio se le indico al compañero que aguantase la respitracion 20 segundos para recine empezar a medir su ECG), lo cual provoca la estimulaciond e quimireceptores en el cerebro que concecuentemente envia señales al sistema nervioso para poder aumentar la FC y eliminar el exceso de CO2 a modo de reflejo por lo que se espera que el corazon lata por un breve perido un poco mas rapido debido a que no es posible liberar el CO2 contenido en los pulmones.
+Al inhalar aire dentro de los pulmones, previo a la exhalación, se acumula CO2 dentro de estos durante los primeros segundos (por propósitos del laboratorio se le indico al compañero que aguantarse la respiración 20 segundos para recién empezar a medir su ECG), lo cual provoca la estimulación de quimiorreceptores en el cerebro que consecuentemente envía señales al sistema nervioso para poder aumentar la FC y eliminar el exceso de CO2 a modo de reflejo.
 
-Esta aceleracion del FC se reconocerá usando, una vez más, "la regla de ECG"
+Por lo que se espera que el corazón lata por un breve periodo un poco más rápido debido a que no es posible liberar el CO2 contenido en los pulmones para luego adaptarse a una FC menor (en este momento se realizará la medición, ver fig 9), esta variación del FC se reconocerá usando, una vez más, "la regla de de ECG”
 
 <div align="center">
 
-![reglaECG](./Data_bibliografica/reglaECG.png) ![d1basal](./Ploteos/1D_respiracion.png)
+![reglaECG](./Data_bibliografica/reglaECG.png) <img src="./Ploteos/1D_respiracion.png" alt="1D Basal" width="500" height="300">
+
+Fig 9. ECG 1ra Derivada, respiracion
+
+<div align="justify">
+
+Tras emplear la regla, se obtuvo una distancia R-R de 0.74 cm, equivalente a 81 lpm, corroborando la adaptación fisiológica de la FC por la reducción de oxígeno.
 
 ### Discusión post-respiración
 
-ESCRIBA SU DISCUSION
+Tras recuperar el aliento perdido en la prueba previa, se volvió a realizar la medida del ECG, del cual se obtuvo una distancia R-R de 0.66 cm, indicando un valor de 90 lpm, coherente debido a que al tener de nuevo acceso a una mayor cantidad de oxígeno, el corazón puede retomar de nuevo su FC normal (basal) tras un tiempo mayor a 2 min. de reposo, debido a que está en 90 lpm, indicando una recuperación casi total pero aun un poco distante de su FC normal que era 88 lpm.(ver fig 10)
+
+<div align="center">
+
+![reglaECG](./Ploteos/1D_post_respiracion.png)
+Fig 9. ECG 1ra Derivada, post respiracion
+
+<div align="justify">
 
 ### Discusión post-ejercicio
 
-ESCRIBA SU DISCUSION
+Se observa un aumento de la frecuencia cardiaca luego de  realizar  una actividad física, esto se debe a que los músculos consumen más energía y producen más productos de desecho. Para seguir produciendo más energía, los músculos necesitan oxígeno adicional bombeando desde el corazón. Para proporcionar este oxígeno extra, el corazón bombea más rápido para aumentar el flujo sanguíneo hacia los músculos.
+
+La cantidad de oxígeno necesaria y la cantidad suministrada están estrechamente controladas por el cerebro, que detecta la concentración de productos de desecho en la sangre. Cuanto más trabajan los músculos, más productos de desecho se producen y más aumenta la frecuencia cardiaca.
+
 
 ## Conclusión <a name="id12"></a>
 <div align="justify">
