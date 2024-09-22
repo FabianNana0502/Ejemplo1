@@ -338,8 +338,8 @@ Al realizar distintas simulaciones con el ProSim 4 de fluke, se pudo observar an
 
 [4]BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: [link](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf)
 
-[5]J. C. Bouzas Marins, N. M. Ottoline Marins, y M. Delgado Fernández, “Aplicaciones de la frecuencia cardiaca máxima en la evaluación y prescripción de ejercicio”, Apunts Med. L Esport, vol. 45, núm. 168, pp. 251–258, 2010. [link] (https://www.sciencedirect.com/science/article/abs/pii/S1886658110000459)
+[5]J. C. Bouzas Marins, N. M. Ottoline Marins, y M. Delgado Fernández, “Aplicaciones de la frecuencia cardiaca máxima en la evaluación y prescripción de ejercicio”, Apunts Med. L Esport, vol. 45, núm. 168, pp. 251–258, 2010. [Link](https://www.sciencedirect.com/science/article/abs/pii/S1886658110000459)
 
-[6] Universidad Complutense de Madrid, "Electrocardiografía Básica," Medicina, 2021. [Enlace: https://medicina.ucm.es/data/cont/media/www/pag-17227/Electrocardiografía%20Básica.pdf
+[6] Universidad Complutense de Madrid, "Electrocardiografía Básica," Medicina, 2021. [Link](https://medicina.ucm.es/data/cont/media/www/pag-17227/Electrocardiografía%20Básica.pdf)
 
 
