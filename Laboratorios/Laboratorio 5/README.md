@@ -145,39 +145,39 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 
 ## ECG Estado Basal <a name="id7"></a>
 
-|**Derivada 1 Estado Basal**| 
-|![D1reposo](./Ploteos/1D_basal.png)|
-|**ECG Estado Basal 2**|
-![D2reposo](./Ploteos/2D_basal.png)| 
-|**ECG Estado Basal 3**|
+| **Derivada 1 Estado Basal** | 
+![D1reposo](./Ploteos/1D_basal.png)
+| **Derivada 2 Estado Basal** |
+![D2reposo](./Ploteos/2D_basal.png) 
+| **Derivada 3 Estado Basal** |
 ![D3reposo](./Ploteos/3D_basal.png)
 
 ## ECG Respiración <a name="id8"></a>
 
-| **ECG Respiración 1** | 
-|![Tríceps en reposo](./Ploteos/RTRICEPS.png)| 
-| **ECG Respiración 2** |
-|![Tríceps en movimiento](./Ploteos/MTRICEPS.png)| 
-| **ECG Respiración 3** |
-|![Tríceps con contrafuerza](./Ploteos/CFTRICEPS.png)| 
+| **Derivada 1 Respiración** | 
+|![D1respiracion](./Ploteos/1D_respiracion.png)|  
+| **Derivada 2 Respiración** |
+|![D2respiracion](./Ploteos/2D_respiracion.png)| 
+| **Derivada 3 Respiración** |
+|![D3respiracion](./Ploteos/3D_respiracion.png)| 
 
 ## ECG Post-respiración <a name="id9"></a>
 
-| **ECG Post-respiración 1** | 
-|![Gastrocnemios en reposo](./Ploteos/RGASTROCNEMIO.png)| 
-| **ECG Post-respiración 2** |
-|![Gastrocnemios en movimiento](./Ploteos/MGASTROCNEMIO.png)| 
-| **ECG Post-respiración 3** |
-|![Gastrocnemios con contrafuerza](./Ploteos/CFGASTROCNEMIO.png)| 
+| **Derivada 1 Post-respiración** | 
+|![D1post](./Ploteos/1D_post_respiracion.png)| 
+| **Derivada 2 Post-respiración** |
+|![D2post](./Ploteos/2D_post_respiracion.png)| 
+| **Derivada 3 Post-respiración** |
+|![D3post](./Ploteos/3D_post_respiracion.png)| 
 
 ## ECG Post-ejercicio <a name="id10"></a>
 
-| **ECG Post-ejercicio 1** | 
-
-| **ECG Post-ejercicio 2** | 
-
-| **ECG Post-ejercicio 3** | 
-
+| **Derivada 1 Post-respiración** | 
+|![D1ejercicio](./Ploteos/1D_ejercicio.png)| 
+| **Derivada 2 Post-respiración** |
+|![D2ejercicio](./Ploteos/2D_ejercicio.png)| 
+| **Derivada 3 Post-respiración** |
+|![D3ejercicio](./Ploteos/3D_ejercicio.png)| 
 
 
 ## Discusión <a name="id11"></a>
