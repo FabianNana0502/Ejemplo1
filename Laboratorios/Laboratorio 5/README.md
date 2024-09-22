@@ -120,15 +120,19 @@ La toma de señales comenzó con la captura de señales de cada miembro del equi
 ***
 ### Click on images to visualize the videos
 ***
-|  **Biceps en reposo**  | **Biceps en movimiento** | **Biceps con contrafuerza** |
+|  **ECG ESTADO BASAL DERIVADA I**  | **AGUANTANDO RESPIRACION I DERIVADA** | **POST AGUANTANDO RESPIRACION I DERIVADA** |
 |:------------:|:---------------:|:------------:|
 |[![Watch the video](http://img.youtube.com/vi/BjMBCKBP3xE/0.jpg)](https://youtu.be/BjMBCKBP3xE)|[![Watch the video](http://img.youtube.com/vi/j_i9HvOEN8w/0.jpg)](https://youtu.be/j_i9HvOEN8w)|![Watch the video](http://img.youtube.com/vi/Mb9VrSXVKTM/0.jpg)(https://youtu.be/Mb9VrSXVKTM)||
 ***
-|  **Triceps en reposo**  | **Triceps en movimiento** | **Triceps con contrafuerza** |
+|  **ECG ESATDO BASAL DERIVADA II**  | **AGUANTANDO RESPIRACION II DERIVADA** | **POST AGUANTANDO RESPIRACION II DERIVADA** |
 |:------------:|:---------------:|:------------:|
 |[![Watch the video](http://img.youtube.com/vi/fyPeHq-zefs/0.jpg)](https://youtu.be/fyPeHq-zefs)|[![Watch the video](http://img.youtube.com/vi/374YDF8yrnQ/0.jpg)](https://youtu.be/374YDF8yrnQ)|![Watch the video](http://img.youtube.com/vi/mZ9duE8vDmA/0.jpg)(https://youtu.be/mZ9duE8vDmA)||
 ***
-|  **Gastrocnemio en reposo**  | **Gastrocnemio en movimiento** | **Gastrocnemio con contrafuerza** |
+|  **ECG ESTADO BASAL DERIVADA III**  | **AGUANTANDO RESPIRACION III DERIVADA** | **POTS AGUANTANDO RESPIRACION III DERIVADA** |
+|:------------:|:---------------:|:------------:|
+|[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM)||
+
+|  **ECG ESTADO BASAL DERIVADA III**  | **AGUANTANDO RESPIRACION III DERIVADA** | **POTS AGUANTANDO RESPIRACION III DERIVADA** |
 |:------------:|:---------------:|:------------:|
 |[![Watch the video](http://img.youtube.com/vi/_bWFJmUXq3E/0.jpg)](https://youtu.be/_bWFJmUXq3E)|[![Watch the video](http://img.youtube.com/vi/d3edzegH4jY/0.jpg)](https://youtu.be/d3edzegH4jY)|![Watch the video](http://img.youtube.com/vi/E-TUcp1oyTM/0.jpg)(https://youtu.be/E-TUcp1oyTM)||
 
