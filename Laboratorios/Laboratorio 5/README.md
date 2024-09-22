@@ -204,7 +204,7 @@ para la derivada 2 y 3, picos negativos debido al descenso de fase. (ver fig. 6)
 
 <div align="center">
 
-![!spikes](./Data_bibliografica/spikes.png)
+![!spikes](./Data_bibliografica/spikes.png) 
 
 Fig 6. Picos de ECG
 
@@ -223,17 +223,23 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7) y co
 
 <div align="center">
 
-![reglaECG](./Data_bibliografica/reglaECG.png)
+![reglaECG](./Data_bibliografica/reglaECG.png) ![d1basal](./Ploteos/1D_basal.png)
 
 Fig 7. "Regla de ECG"
 
 <div align="justify">
 
-Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm.
+Empleando la Derivada 1, y midiendo la distancia entre sus picos R-R (tomando en cuenta que la escala del ploteo obtenida en la seccion de resultados esta en "cm") se obtiene una distancia de 0.65 cm , el cual es equivalente aprox a 88 lpm. Con lo cual se puede diagnosticar el corazon de nuestro compañero como "sano" o "sin anomalias" para un estado basal o de reposo.
 
 ### Discusión de aguantar respiración
 
-ESCRIBA SU DISCUSION
+Al inalar aire dentro de los pulmones, previo a la exhalacion, se acumula CO2 dentro de estos durante los primeros segundos (por propositos del laboratorio se le indico al compañero que aguantase la respitracion 20 segundos para recine empezar a medir su ECG), lo cual provoca la estimulaciond e quimireceptores en el cerebro que concecuentemente envia señales al sistema nervioso para poder aumentar la FC y eliminar el exceso de CO2 a modo de reflejo por lo que se espera que el corazon lata por un breve perido un poco mas rapido debido a que no es posible liberar el CO2 contenido en los pulmones.
+
+Esta aceleracion del FC se reconocerá usando, una vez más, "la regla de ECG"
+
+<div align="center">
+
+![reglaECG](./Data_bibliografica/reglaECG.png) ![d1basal](./Ploteos/1D_respiracion.png)
 
 ### Discusión post-respiración
 
@@ -260,6 +266,6 @@ ESCRIBA SU DISCUSION
 
 [4]BITalino (r)evolution Home Guide: EXPERIMENTAL GUIDES TO MEET & LEARN YOUR BIOSIGNALS. Disponible en: [link](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide0_GettingStarted.pdf)
 
-[5] https://openaccess.uoc.edu/bitstream/10609/40186/6/jlorenzoroTFC0115memoria.pdf
+[5]
 
 
