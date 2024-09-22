@@ -230,7 +230,8 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7 y 8) 
 <div style="display: flex; justify-content: space-around;">
   <figure>
     <img src="./Data_bibliografica/reglaECG.png" alt="reglaECG" width="400" height="300">
-    <figcaption>Fig 7. "Regla de ECG"</figcaption>
+    <figcaption> Fig 7. "Regla de ECG"</figcaption>
+
   </figure>
   <img src="./Ploteos/1D_basal.png" alt="1dbasal" width="400" height="300">
 </div>
@@ -262,6 +263,7 @@ Tras recuperar el aliento perdido en la prueba previa, se volvió a realizar la 
 <div align="center">
 
 <img src="./Ploteos/1D_post_respiracion.png" alt="1D Basal" width="500" height="300">
+
 Fig 10. ECG 1ra Derivada, post respiracion
 
 <div align="justify">
@@ -275,6 +277,7 @@ La cantidad de oxígeno necesaria y la cantidad suministrada están estrechament
 <div align="center">
 
 <img src="./Ploteos/1D_ejercicio.png" alt="1D Basal" width="500" height="300">
+
 Fig 11. ECG 1ra Derivada en ejercicio
 
 <div align="justify">
@@ -288,15 +291,19 @@ Simulaciones realizadas:
 <div align="center">
 
 <img src="./Ploteos/ProSim/60_bpm.png" alt="1D Basal" width="500" height="300">
+
 Fig 12. ECG ProSim a 60bpm
 
 <img src="./Ploteos/ProSim/90_bpm.png" alt="1D Basal" width="500" height="300">
+
 Fig 13. ECG ProSim a 90bpm
 
 <img src="./Ploteos/ProSim/120_bpm.png" alt="1D Basal" width="500" height="300">
+
 Fig 14. ECG ProSim a 120bpm
 
 <img src="./Ploteos/ProSim/150_bpm.png" alt="1D Basal" width="500" height="300">
+
 Fig 15. ECG ProSim a 150bpm
 
 <div align="justify">
@@ -318,6 +325,8 @@ El BITalino es un dispositivo que permite obtener mediciones del ECG mediante su
 Al realizar distintas simulaciones con el ProSim 4 de fluke, se pudo observar anomalías como taquicardias y bradicardias,que son frecuencias cardíacas muy  altas y muy bajas , respectivamente  . Se realizaron simulaciones a 60,90,120 y 150 lpm. Se concluye que la señal ECG puede ser utilizada para la detección de sutiles alteraciones de la actividad cardiaca como las mencionadas y la importancia de la simulación para mejorar la comprensión de las patologías relacionadas
 
 </div>
+
+<div align="justify">
 
 ## Bibliografía
 
