@@ -223,7 +223,10 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7 y 8) 
 
 <div align="center">
 
-![reglaECG](./Data_bibliografica/reglaECG.png) ![d1basal](./Ploteos/1D_basal.png)
+<div style="display: flex; justify-content: space-around;">
+  <img src="./Data_bibliografica/reglaECG.png" alt="reglaECG" width="400" height="300">
+  <img src="./Ploteos/1D_basal.png" alt="1dbasal" width="400" height="300">
+</div>
 
 Fig 7. "Regla de ECG"
 
