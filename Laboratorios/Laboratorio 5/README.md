@@ -145,12 +145,12 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 
 ## ECG Estado Basal <a name="id7"></a>
 
-| **Derivada 1 Estado Basal** | 
+|**Derivada 1 Estado Basal**| 
 |![D1reposo](./Ploteos/1D_basal.png)|
-| **ECG Estado Basal 2** |
-|![Bíceps en movimiento](./Ploteos/MBICEPS.png)| 
-| **ECG Estado Basal 3** |
-|![Bíceps con contrafuerza](./Ploteos/CFBICEPS.png)| 
+|**ECG Estado Basal 2**|
+![D2reposo](./Ploteos/2D_basal.png)| 
+|**ECG Estado Basal 3**|
+![D3reposo](./Ploteos/3D_basal.png)
 
 ## ECG Respiración <a name="id8"></a>
 
