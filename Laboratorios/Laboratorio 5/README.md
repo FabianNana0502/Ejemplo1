@@ -228,11 +228,12 @@ Para realizar el calculo del FC se empleará la "regla del ECG" (ver fig 7 y 8) 
 <div align="center">
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="./Data_bibliografica/reglaECG.png" alt="reglaECG" width="400" height="300">
+  <figure>
+    <img src="./Data_bibliografica/reglaECG.png" alt="reglaECG" width="400" height="300">
+    <figcaption>Fig 7. "Regla de ECG"</figcaption>
+  </figure>
   <img src="./Ploteos/1D_basal.png" alt="1dbasal" width="400" height="300">
 </div>
-
-Fig 7. "Regla de ECG"
 
 <div align="justify">
 
@@ -261,21 +262,25 @@ Tras recuperar el aliento perdido en la prueba previa, se volvió a realizar la 
 <div align="center">
 
 ![reglaECG](./Ploteos/1D_post_respiracion.png)
-Fig 9. ECG 1ra Derivada, post respiracion
+Fig 10. ECG 1ra Derivada, post respiracion
 
 <div align="justify">
 
 ### Discusión post-ejercicio
 
-Se observa un aumento de la frecuencia cardiaca luego de  realizar  una actividad física, esto se debe a que los músculos consumen más energía y producen más productos de desecho. Para seguir produciendo más energía, los músculos necesitan oxígeno adicional bombeando desde el corazón. Para proporcionar este oxígeno extra, el corazón bombea más rápido para aumentar el flujo sanguíneo hacia los músculos.
+Se observa un aumento de la frecuencia cardiaca (a 135 lpm) luego de  realizar  una actividad física (ver fig 11), esto se debe a que los músculos consumen más energía y producen más productos de desecho. Para seguir produciendo más energía, los músculos necesitan oxígeno adicional bombeando desde el corazón. Para proporcionar este oxígeno extra, el corazón bombea más rápido para aumentar el flujo sanguíneo hacia los músculos.
 
-La cantidad de oxígeno necesaria y la cantidad suministrada están estrechamente controladas por el cerebro, que detecta la concentración de productos de desecho en la sangre. Cuanto más trabajan los músculos, más productos de desecho se producen y más aumenta la frecuencia cardiaca.
+La cantidad de oxígeno necesaria y la cantidad suministrada están estrechamente controladas por el cerebro, que detecta la concentración de productos de desecho en la sangre. Cuanto más trabajan los músculos, más productos de desecho se producen y más aumenta la frecuencia cardiaca. 
 
+<div align="center">
+
+![reglaECG](./Ploteos/1D_ejercicio.png) 
+Fig 10. ECG 1ra Derivada en ejercicio
 
 ## Conclusión <a name="id12"></a>
 <div align="justify">
 
-...
+
 
 </div>
 
