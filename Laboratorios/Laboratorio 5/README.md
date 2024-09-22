@@ -176,11 +176,11 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 
 ## ECG Post-ejercicio <a name="id10"></a>
 
-| **Derivada 1 Post-respiración** | 
+| **Derivada 1 Post-ejercicio** | 
 |![D1ejercicio](./Ploteos/1D_ejercicio.png)| 
-| **Derivada 2 Post-respiración** |
+| **Derivada 2 Post-ejercicio** |
 |![D2ejercicio](./Ploteos/2D_ejercicio.png)| 
-| **Derivada 3 Post-respiración** |
+| **Derivada 3 Post-ejercicio** |
 |![D3ejercicio](./Ploteos/3D_ejercicio.png)| 
 
 
