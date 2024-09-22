@@ -159,7 +159,7 @@ Se siguió el protocolo de conexión y posicionamiento de los electrodos para el
 | **Derivada 2 Respiración** |
 |![D2respiracion](./Ploteos/2D_respiracion.png)| 
 | **Derivada 3 Respiración** |
-|![D3respiracion](./Ploteos/3D_respiracion.png)| 
+|![D3respiracion](./Ploteos/3D_respiración.png)| 
 
 ## ECG Post-respiración <a name="id9"></a>
 
@@ -220,10 +220,4 @@ ESCRIBA SU DISCUSION
 
 [5] https://openaccess.uoc.edu/bitstream/10609/40186/6/jlorenzoroTFC0115memoria.pdf
 
-ESTO ES DE EMG: SI ES IMPORTATE RE REFERENCIARLO
-
-[3]I. Zunaidi, W. Zulkarnain, T. I., & A. B. Shahriman, "Pattern Behavior of Electromyography Signal During Arm Movements," TATI University College, Malaysia, 2008.\
-[5]Varela-Benítez, J.L., Rivera-Delgado, J.O., Espina-Hernández, J.H., & de la Rosa-Vázquez, J.M. "Electrodo Capacitivo de Alta Sensibilidad para la Detección de Biopotenciales Eléctricos." Revista Mexicana de Ingeniería Biomédica, vol. 36, no. 2, pp. 131-142, May 2015. DOI: 10.17488/RMIB.36.2.1​.\
-[6] Shankhwar, V., Singh, D., & Deepak, K. K. "Effect of Novel Designed Bodygear on Gastrocnemius and Soleus Muscles during Stepping in Human Body." Microgravity Science and Technology, vol. 33, pp. 29, 2021, doi: 10.1007/s12217-021-09855-y .\
-[7] Martinez-Valdes, E., Farina, D., Negro, F., & Falla, D. "Early motor unit conduction velocity changes to high-intensity interval training versus continuous training." Medicine & Science in Sports & Exercise, vol. 49, no. 6, pp. 1126-1136, 2017, doi: 10.1249/MSS.0000000000001210.
 
