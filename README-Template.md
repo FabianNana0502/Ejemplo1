@@ -1,4 +1,4 @@
-# Introducción de Señales Biomédicas - Grupo 1
+# Introducción de Señales Biomédicas - Grupo 1 Hola
 
 Este es el repositorio del proyecto del Grupo 1.
  
