@@ -62,7 +62,7 @@
 
 <div align="center">
 
-   ![Figura 2](https://www.researchgate.net/profile/Salvador-Ruiz/publication/302589558/figure/fig2/AS:363428171534338@1463659436281/Figura-3-Ritmos-electroencefalograficos.png)
+   ![Figura 2](https://www.researchgate.net/profile/Salvador-Ruiz/publication/302589558/figure/fig2/AS:363428171534338@1463659436281/Figura-3-Ritmos-electroencefalograficos_W640.jpg)
 
 Figura 2. Ritmos EEG. Fuente: ![ResearchGate](https://www.researchgate.net/publication/302589558_El_sueno_en_los_animales)
 
