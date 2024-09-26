@@ -62,9 +62,9 @@
 
 <div align="center">
 
-   ![Figura 2](https://www.researchgate.net/profile/Salvador-Ruiz/publication/302589558/figure/fig2/AS:363428171534338@1463659436281/Figura-3-Ritmos-electroencefalograficos_W640.jpg)
+   ![Figura 2](https://i2.wp.com/psicoterapeutas.eu/imagenes-psicoterapeutas-eu/Electroencefalograma.jpg?w=311&ssl=1)
 
-Figura 2. Ritmos EEG. Fuente: ![ResearchGate](https://www.researchgate.net/publication/302589558_El_sueno_en_los_animales)
+Figura 2. Ritmos EEG. Fuente: ![Psicoterapeutas.eu](https://psicoterapeutas.eu/electroencefalograma/electroencefalograma-2/)
 
 </div>
 
