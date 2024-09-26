@@ -29,6 +29,7 @@
 
    ### Conceptos Previos
 <p style="text-align: center;">
+   
    _"El cerebro es el único órgano que se intenta explicar a sí mismo"_
 
 <p style="text-align: justify;">    
@@ -51,11 +52,11 @@
 
    Para visualizar cuáles son las porciones del cerebro que se activan cuando se realiza cualquier acción se requiere un EEG. La señal presenta distintas oscilaciones con bandas de frecuencias definidas pero no uniformizadas por todos los autores [5]. Estas son:
 
-   * Gamma: 30-50 Hz
-   * Beta: 12-30 Hz 
-   * Alpha: 8-12 Hz
-   * Theta: 4-8 Hz
-   * Delta: 0.5-4 Hz
+   * Gamma: 30-50 Hz. Son las ondas más rápidas. Ocurren en ráfagas cortas. Están relacionados con el proceso de información simultánea en varias áreas del Sistema Nervioso Central. Se observan estallidos de ondas gamma cuando el cerebro se encuentra en un estado de alta resolución. 
+   * Beta: 12-30 Hz. Predominan durante el período de vigilia. La frecuencia es rápida, está presente cuando estamos atentos e implicados en la resolución de tareas o problemas diarios, también durante la toma de decisiones o cuando estamos concentrados.
+   * Alpha: 8-12 Hz. Predominan cuando el Sistema Nervioso Central está en reposo, relajado pero despierto y atento.
+   * Theta: 4-8 Hz. Predominan cuando los sentidos están procesando información interna y el individuo está desconectado del mundo exterior, absorto. Fase 3 sueño no REM
+   * Delta: 0.5-4 Hz. Fase 4 sueño REM.
 
    Algunos autores difieren en 1 o 2 Hz de las bandas de frecuencia de acuerdo a la distribución anterior. Como por ejemplo: Beta: de 13-30 Hz [6].
 
