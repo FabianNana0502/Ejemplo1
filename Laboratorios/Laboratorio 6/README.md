@@ -12,13 +12,11 @@
 3. [Materiales y equipos](#id3)
 4. [Metodologia](#id4)
 5. [Resultados](#id5)  
-   5.1 [Implementación](#id6)  
-   5.2 [ECG Estado Basal](#id7)  
-   5.3 [ECG Respiracion](#id8)  
-   5.4 [ECG Post-respiración](#id9)  
-   5.5 [ECG Post-ejercicio](#id10)
-   5.6 [Discusión](#id11)  
-   5.7 [Conclusión](#id12)
+   5.1 [EEG alumno](#id6)  
+   5.2 [EEG profesor ](#id7)  
+6 [Discucion](#id8)  
+7 [Resultado](#id9)  
+8 [Bibliografia](#id10)
 
 ## Introducción <a name="id1"></a>
    ### ¿Qué es un EEG?  
@@ -178,12 +176,16 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 
 
 ## Resultados <a name="id5"></a>
-
-
-## Implementación <a name="id6"></a>
 ***
-### Click on images to visualize the videos
+### EEG del alumno<a name="id6"></a>
 ***
+|**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos (lapsos 5 segundos)**|
+|:---------------------------:|:------------------------:|
+|||
+|**EEG alumno - 2do Estado Basal**|**EEG alumno - Ejercicios mentales (total)**|
+|||
+***
+
 |**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos (lapsos 5 segundos)**|
 |:---------------------------:|:------------------------:|
 |<img src="./Plots/EstadoBasal.jpeg" alt="1dbasal" width="500" height="400"> |<img src="./Plots/Parpadeos.jpeg" alt="1dbasal" width="500" height="400">|
@@ -191,50 +193,18 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 |<img src="./Plots/EstadoBasal2.jpeg" alt="1dbasal" width="500" height="400"> |<img src="./Plots/EjerciciosMentales.jpeg" alt="1dbasal" width="500" height="400">|
 
 
-## ECG Estado Basal <a name="id7"></a>
+### EEG del profesor<a name="id7"></a>
+***
+aqui poner la datas de alonso
+***
 
-| **Derivada 1 Estado Basal** | 
-![D1reposo](./Ploteos/1D_basal.png)
-| **Derivada 2 Estado Basal** |
-![D2reposo](./Ploteos/2D_basal.png) 
-| **Derivada 3 Estado Basal** |
-![D3reposo](./Ploteos/3D_basal.png)
-
-## ECG Respiración <a name="id8"></a>
-
-| **Derivada 1 Respiración** | 
-|![D1respiracion](./Ploteos/1D_respiracion.png)|  
-| **Derivada 2 Respiración** |
-|![D2respiracion](./Ploteos/2D_respiracion.png)| 
-| **Derivada 3 Respiración** |
-|![D3respiracion](./Ploteos/3D_respiración.png)| 
-
-## ECG Post-respiración <a name="id9"></a>
-
-| **Derivada 1 Post-respiración** | 
-|![D1post](./Ploteos/1D_post_respiracion.png)| 
-| **Derivada 2 Post-respiración** |
-|![D2post](./Ploteos/2D_post_respiracion.png)| 
-| **Derivada 3 Post-respiración** |
-|![D3post](./Ploteos/3D_post_respiracion.png)| 
-
-## ECG Post-ejercicio <a name="id10"></a>
-
-| **Derivada 1 Post-ejercicio** | 
-|![D1ejercicio](./Ploteos/1D_ejercicio.png)| 
-| **Derivada 2 Post-ejercicio** |
-|![D2ejercicio](./Ploteos/2D_ejercicio.png)| 
-| **Derivada 3 Post-ejercicio** |
-|![D3ejercicio](./Ploteos/3D_ejercicio.png)| 
+## Discusión <a name="id8"></a>
 
 
-## Discusión <a name="id11"></a>
+## Conclusión <a name="id9"></a>
 
 
-## Conclusión <a name="id12"></a>
-
-
-## Bibliografía
+## Bibliografía<a name="id10"></a>
 
 [1] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
 
