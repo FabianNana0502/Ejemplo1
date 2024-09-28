@@ -181,21 +181,31 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 ***
 |**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos (lapsos 5 segundos)**|
 |:---------------------------:|:------------------------:|
-|![video1]("https://youtu.be/GpzFBP9PeDw")|![video1]("https://youtube.com/shorts/yvh0mibmzds")|
+|![video1](http://img.youtube.com/vi/GpzFBP9PeDw/0.jpg)("https://youtu.be/GpzFBP9PeDw")|![video1](http://img.youtube.com/vi/yvh0mibmzds/0.jpg)("https://youtube.com/shorts/yvh0mibmzds")|
 |**EEG alumno - 2do Estado Basal**|**EEG alumno - Ejercicios mentales (total)**|
-|![video1]("https://youtube.com/shorts/2i9HHr30mw0")|![video1]("https://youtu.be/fh9nf8_U0Es")|
+|![video1](http://img.youtube.com/vi/2i9HHr30mw0/0.jpg)("https://youtube.com/shorts/2i9HHr30mw0")|![video1](http://img.youtube.com/vi/fh9nf8_U0Es/0.jpg)("https://youtu.be/fh9nf8_U0Es")|
 ***
 
-|**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
+|**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos (lapsos 5 segundos)**|
 |:---------------------------:|:------------------------:|
-|![video1]("https://youtu.be/DEUQdwvzWDg")|![video1]("https://youtu.be/_X7cUqVrU60")|
-|**EEG profesor - 2do Estado Basal**|**EEG profesor - Ejercicios mentales (total)**|
-|![video1]("https://youtu.be/Zm6OFPL9uPM")|![video1]("https://youtu.be/FpcMIeKeOmc")|
+|<img src="./Plots/EstadoBasal.jpeg" width="500" height="400">|<img src="./Plots/Parpadeos.jpeg" width="500" height="400"> |
+|**EEG alumno - 2do Estado Basal**|**EEG alumno - Ejercicios mentales (total)**|
+|<img src="./Plots/EstadoBasal2.jpeg" width="500" height="400">|<img src="./Plots/EjerciciosMentales.jpeg" width="500" height="400">|
 
 
 ### EEG del profesor<a name="id7"></a>
 ***
-aqui poner la datas de alonso
+|**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
+|:---------------------------:|:------------------------:|
+|![video1](http://img.youtube.com/vi/DEUQdwvzWDg/0.jpg)("https://youtu.be/DEUQdwvzWDg")|![video1](http://img.youtube.com/vi/_X7cUqVrU60/0.jpg)("https://youtu.be/_X7cUqVrU60")|
+|**EEG profesor - 2do Estado Basal**|**EEG profesor - Ejercicios mentales (total)**|
+|![video1](http://img.youtube.com/vi/Zm6OFPL9uPM/0.jpg)("https://youtu.be/Zm6OFPL9uPM")|![video1](http://img.youtube.com/vi/FpcMIeKeOmc/0.jpg)("https://youtu.be/FpcMIeKeOmc")|
+***
+
+|**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
+|:---------------------------:|:------------------------:|
+|<img src="." width="500" height="400">|<img src="." width="500" height="400">|
+|<img src="." width="500" height="400">|<img src="." width="500" height="400">|
 ***
 
 ## Discusión <a name="id8"></a>
