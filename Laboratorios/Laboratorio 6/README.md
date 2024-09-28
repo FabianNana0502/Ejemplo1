@@ -64,7 +64,7 @@
 
    ![Figura 2](https://i2.wp.com/psicoterapeutas.eu/imagenes-psicoterapeutas-eu/Electroencefalograma.jpg?w=311&ssl=1)
 
-Figura 2. Ritmos EEG. Fuente: ![Psicoterapeutas.eu](https://psicoterapeutas.eu/electroencefalograma/electroencefalograma-2/)
+Figura 2. Ritmos EEG. [7]
 
 </div>
 
@@ -112,6 +112,7 @@ Una vez realizadas las conexiones, se procedió a colocar 2 electrodos en la par
 <div align="center">
 
 ![Figura 4](./Imagenes/EEG%20placement.png)
+
 Figura 4. Colocación electrodos EEG. Fuente: BITalino Home Guide
 </div>
 
@@ -153,7 +154,7 @@ El segundo paso fue aplicar un filtro pasa banda con un rango de 0.5 a 100 Hz. E
 
 El código realiza un completo proceso de adquisición, preprocesamiento y visualización de señales electromiográficas (ECG) capturadas utilizando el sistema BITalino y OpenSignals. A continuación, se detallan los procesos de filtrado, con su respectiva justificación, que se llevaron a cabo en el código:
 
-1. **Conversión de la Señal ADC a Milivoltios (mV):**
+1. **Conversión de la Señal ADC a Milivoltios (uV):**
    
    La función `ADCtomV` se utiliza para convertir la señal digital (ADC) a analógico (voltaje en milivoltios (mV)). Dado que la señal se obtiene en formato ADC, es necesario convertirla a un formato más comprensible (milivoltios) para analizar la amplitud real de la señal ECG. Esta conversión es crucial para asegurar que los datos se interpreten correctamente y se puedan comparar con otros estudios electromiográficos.
 
@@ -257,3 +258,4 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 
 [6]https://fisiologia.facmed.unam.mx/index.php/fisiologia-de-la-actividad-electrica-del-cerebro-electroencefalografia/
 
+[7]https://psicoterapeutas.eu/electroencefalograma/electroencefalograma-2/
