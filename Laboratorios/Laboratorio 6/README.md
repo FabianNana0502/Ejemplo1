@@ -208,10 +208,70 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 |<img src="." width="500" height="400">|<img src="." width="500" height="400">|
 ***
 
+<div align="justify">
+
 ## Discusión <a name="id8"></a>
+***
+### Análisis señal en estado basal
+
+En esta gráfica, se observa una representación de la señal EEG en basal , es decir , en condición de reposo y sin movimientos oculares , la señal está ploteada en un intervalo de 0 a 15 segundos . La  señal obtenida muestra una variabilidad considerable, con picos que se extienden a lo largo de un rango de amplitudes que van desde aproximadamente -40 µV a +40 µV. 
+
+<div align="center">
+
+<img src="./Plots/Discu1.png" alt="1D Basal" width="600" height="400">
+
+Fig 6. EEG de alumno - estado basal
+
+<div align="justify">
+
+### Análisis señal durante pestañeo
+
+Se observan diferencias significativas con respecto a la señal en estado basal , en la señal se observan numerosos picos, tanto positivos como negativos, que se extienden más allá de la actividad EEG en reposo, posiblemente indicando los momentos en los que el usuario parpadeó . Estos artefactos por parpadeo son comúnmente más grandes que la actividad eléctrica cerebral típica y pueden identificarse por sus formas características de gran amplitud.
+
+<div align="center">
+
+<img src="./Plots/Discu2.png" alt="1D Basal" width="600" height="400">
+Fig 7. EEG de alumno - Parpadeos
+
+
+<div align="justify">
+
+### Análisis durante preguntas 
+
+En la primera gráfica, la señal EEG muestra variaciones de amplitud considerables, con valores que oscilan entre aproximadamente -40 y +40 µV. Estas fluctuaciones sugieren una la detección de actividad cerebral dinámica, posiblemente debido a la carga cognitiva de responder a las preguntas planteadas . 
+
+<div align="center">
+
+<img src="./Plots/Discu4.png" alt="1D Basal" width="600" height="400">
+
+Fig 8. EEG de alumno - ejercicios mentales
+
+<img src="./Plots/Discu5.png" alt="1D Basal" width="600" height="400">
+
+Fig 8. EEG de alumno - ejercicios (ventana 0-75)
+
+<div align="justify">
+
+En la segunda imagen, que muestra un intervalo más corto de 0 a 75 segundos , las variaciones de la señal son evidentes con la diferente aparición de picos positivos y negativos. Esta gráfica representa  respuestas cerebrales a momentos específicos de resolución de problemas que fueron planteados, donde la actividad mental es más intensa . Asimismo,el nivel de las preguntas fue aumentando con respecto a la dificultad.
+
+## Análisis de los resultados en OpenBCI
+Fisiológicamente , las neuronas se comunican entre sí mediante pequeños impulsos eléctricos que pueden medirse. A estas las llamamos ondas cerebrales. Estas ondas tienen diferentes tipos de frecuencias, algunas son más rápidas y otras más lentas. Si se separan mediante filtros podremos observarlos con mayor claridad.
+Un electroencefalograma (EEG) es necesario para registrar  la actividad eléctrica del cerebro a través de sensores colocados en el cuero cabelludo que nos permiten ver estos potenciales eléctricos en forma de ondas.
+
+**Ondas delta (0,5-4Hz):** Son características de cuando el individuo está dormido y predominan durante el sueño.
+
+**Ondas theta (4-8Hz):** predominan cuando los sentidos están procesando información interna y el individuo está desconectado del mundo exterior, absorto.
+
+**Ondas alfa (8-12Hz):** predominan cuando el Sistema Nervioso Central está en reposo, relajado pero despierto y atento.
+
+**Ondas beta (12-30Hz):** predominan durante el período de vigilia. La frecuencia es rápida, está presente cuando estamos atentos e implicados en la resolución de tareas o problemas diarios, también durante la toma de decisiones o cuando estamos concentrados.
+
+**Ondas gamma (30-90 Hz):** Son las ondas más rápidas. Ocurren en ráfagas cortas. Están relacionados con el proceso de información simultánea en varias áreas del Sistema Nervioso Central. Se observan estallidos de ondas gamma cuando el cerebro se encuentra en un estado de alta resolución. 
 
 
 ## Conclusión <a name="id9"></a>
+
+
 
 
 ## Bibliografía<a name="id10"></a>
