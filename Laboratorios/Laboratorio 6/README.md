@@ -184,21 +184,9 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 ***
 ### Click on images to visualize the videos
 ***
-|  **ECG ESTADO BASAL DERIVADA I**  | **AGUANTANDO RESPIRACION I DERIVADA** | **POST AGUANTANDO RESPIRACION I DERIVADA** |
-|:------------:|:---------------:|:------------:|
-|https://drive.google.com/file/d/1p2DJ1yurO03lyf1WLENLBMfI_1ryaaga/view?usp=sharing|https://drive.google.com/file/d/1XMZoKpcnTuxhg_tEjeOoiogzPngMHLph/view?usp=sharing|https://drive.google.com/file/d/1b1P5wtIn3Z_EkZo2kRRaPBTHnOEAG4kf/view?usp=sharing|
-***
-|  **ECG ESATDO BASAL DERIVADA II**  | **AGUANTANDO RESPIRACION II DERIVADA** | **POST AGUANTANDO RESPIRACION II DERIVADA** |
-|:------------:|:---------------:|:------------:|
-|https://drive.google.com/file/d/1jaC2D8yFGBopVKKNw3IYkY0D37EabJwE/view?usp=sharing|https://drive.google.com/file/d/1mqaD4aCkCTAIjIJ9RPzYXFef1Ft-FPMm/view?usp=sharing|https://drive.google.com/file/d/1r-0VkqwXQIehlsraf-jBD4w9jbQ8fBJv/view?usp=sharing|
-***
-|  **ECG ESTADO BASAL DERIVADA III**  | **AGUANTANDO RESPIRACION III DERIVADA** | **POTS AGUANTANDO RESPIRACION III DERIVADA** |
-|:------------:|:---------------:|:------------:|
-|https://drive.google.com/file/d/1yk-53DK0n22BtcBRoVvy0dsy8XzD0VUf/view?usp=sharing|https://drive.google.com/file/d/1wC7PeMzJzvqW8g1-2qVQ0sneYnBQAkmb/view?usp=sharing|https://drive.google.com/file/d/1RbyMZvDXfzYS9dE3VyYx9i_ixWKZgRk9/view?usp=sharing|
-
-|  **POST ACTIVIDAD FISICA DERIVADA I**  | **POST ACTIVIDAD FISICA DERIVADA II** | **POST ACTIVIDAD FISICA DERIVADA III** |
-|:------------:|:---------------:|:------------:|
-|https://drive.google.com/file/d/1b1P5wtIn3Z_EkZo2kRRaPBTHnOEAG4kf/view?usp=sharing|https://drive.google.com/file/d/1HbuAkgelLQ-kvIb1587E0uSX8-gCoEuw/view?usp=sharing|https://drive.google.com/file/d/1jbfdfQTVNpSUcHV2uwGyTq0MDReXjOck/view?usp=sharing|
+|**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos**|
+|:---------------------------:|:------------------------:|
+| ![image]<img src="./Plots/EstadoBasal.jpeg" alt="1dbasal" width="400" height="300"> | ![imag2]]<img src="./Plots/Parpadeos.jpeg" alt="1dbasal" width="400" height="300">|
 
 
 ## ECG Estado Basal <a name="id7"></a>
