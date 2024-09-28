@@ -184,10 +184,13 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 ***
 ### Click on images to visualize the videos
 ***
-|**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos**|
+|**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos (lapsos 5 segundos)**|
 |:---------------------------:|:------------------------:|
-| ![image]<img src="./Plots/EstadoBasal.jpeg" alt="1dbasal" width="400" height="300"> | ![imag2]]<img src="./Plots/Parpadeos.jpeg" alt="1dbasal" width="400" height="300">|
-
+|<img src="./Plots/EstadoBasal.jpeg" alt="1dbasal" width="400" height="300"> |<img src="./Plots/Parpadeos.jpeg" alt="1dbasal" width="400" height="300">|
+|:-------------------------------:|:------------------------------------------:|
+|**EEG alumno - 2do Estado Basal**|**EEG alumno - Ejercicios mentales (total)**|
+|<img src="./Plots/EstadoBasal2.jpeg" alt="1dbasal" width="400" height="300"> |<img src="./Plots/EjerciciosMentales.jpeg" alt="1dbasal" width="400" height="300">|
+|:-------------------------------:|:------------------------------------------:|
 
 ## ECG Estado Basal <a name="id7"></a>
 
