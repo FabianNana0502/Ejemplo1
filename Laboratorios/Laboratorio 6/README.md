@@ -218,7 +218,7 @@ En esta gráfica, se observa una representación de la señal EEG en basal , es 
 
 <div align="center">
 
-<img src="./Plots/Discu1.png" alt="1D Basal" width="800" height="300">
+<img src="./Plots/Discu1.png" alt="1D Basal" width="1000" height="250">
 
 Fig 6. EEG de alumno - estado basal
 
@@ -230,7 +230,7 @@ Se observan diferencias significativas con respecto a la señal en estado basal 
 
 <div align="center">
 
-<img src="./Plots/Discu2.png" alt="1D Basal" width="800" height="300">
+<img src="./Plots/Discu2.png" alt="1D Basal" width="1000" height="250">
 
 Fig 7. EEG de alumno - Parpadeos
 
@@ -242,11 +242,11 @@ En la primera gráfica, la señal EEG muestra variaciones de amplitud considerab
 
 <div align="center">
 
-<img src="./Plots/Discu4.png" alt="1D Basal" width="800" height="300">
+<img src="./Plots/Discu4.png" alt="1D Basal" width="1000" height="250">
 
 Fig 8. EEG de alumno - ejercicios mentales
 
-<img src="./Plots/Discu5.png" alt="1D Basal" width="800" height="300">
+<img src="./Plots/Discu5.png" alt="1D Basal" width="1000" height="250">
 
 Fig 9. EEG de alumno - ejercicios (ventana 0-75)
 
