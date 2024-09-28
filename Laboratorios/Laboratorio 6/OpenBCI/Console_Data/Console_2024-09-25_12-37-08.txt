@@ -1,0 +1,166 @@
+Console Log Started at Local Time: 2024-09-25_12-37-08
+Screen Resolution: 1920 X 1080
+High-DPI Screen Detected: false
+Operating System and Version: Windows 11
+JVM Version: 17.0.6
+Welcome to the Processing-based OpenBCI GUI!
+For more information, please visit: https://docs.openbci.com/Software/OpenBCISoftware/GUIDocs/
+OpenBCI_GUI::Setup: GUI v6 Sample Data exists in Documents folder.
+Settings: LogFileMaxDuration = 60 minutes
+OpenBCI_GUI::Settings: Found and loaded existing GUI-wide Settings from file.
+ControlP5 2.3.6 infos, comments, questions at https://github.com/retiutut/controlp5
+TopNav: Internet Connection Successful
+Local Version: v6.0.0-beta.1, Latest Version: v6.0.0-beta.1
+GUI is up to date!
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\neurosdk-x64.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\Unicorn.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\gForceSDKWrapper.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\gforce64.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\simpleble-c.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\MuseLib.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\BrainBitLib.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\GanglionLib.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\BrainFlowBluetooth.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\eego-SDK.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\BoardController.dll
+BrainFlow Version: 5.10.0
+OpenBCI_GUI: AuditoryFeedback: Loading Audio...
+OpenBCI_GUI: AuditoryFeedback: Done Loading Audio!
+OpenBCI_GUI::Control Panel: Playback history file not found.
+OpenBCI_GUI::Setup: Setup is complete!
+sourceList: click! 
+OpenBCI_GUI: Channel count set to 8
+ControlPanel: Found Cyton Dongle on COM port: COM4
+[DEFAULT]: SessionData: Enter your custom session name.
+
+-------------------------------------------------
+ControlPanel: Attempting to Auto-Connect to Cyton
+-------------------------------------------------
+
+ControlPanel: Found Cyton Dongle on COM port: COM4
+Success: Host and Device on Channel number: 20. Using COM port: COM4
+[DEFAULT]: Attempting to Start Session...
+initButtonPressed: Calling initSystem() after next draw()
+OpenBCI_GUI: Start session. Calling initSystem().
+
+
+=================================================
+||             INITIALIZING SYSTEM             ||
+=================================================
+
+OpenBCI_GUI: Configuring Cyton Channel Count...
+Sending config string to board: c
+OpenBCI_GUI: Daisy is physically attached, using Cyton 8 Channels instead.
+OpenBCI_GUI: Channel count set to 8
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\onnxruntime_arm.dll
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.nio.file.Files.copy(Files.java:3128)
+	at brainflow.JarHelper.unpack_from_jar(JarHelper.java:31)
+	at brainflow.MLModel.<clinit>(MLModel.java:46)
+	at OpenBCI_GUI$W_Focus.initBrainFlowMetric(OpenBCI_GUI.java:24885)
+	at OpenBCI_GUI$W_Focus.<init>(OpenBCI_GUI.java:24672)
+	at OpenBCI_GUI.setupWidgets(OpenBCI_GUI.java:31736)
+	at OpenBCI_GUI$WidgetManager.<init>(OpenBCI_GUI.java:31826)
+	at OpenBCI_GUI.initSystem(OpenBCI_GUI.java:849)
+	at OpenBCI_GUI.systemInitSession(OpenBCI_GUI.java:1117)
+	at OpenBCI_GUI.draw(OpenBCI_GUI.java:654)
+	at processing.core.PApplet.handleDraw(PApplet.java:2094)
+	at processing.opengl.PSurfaceJOGL$DrawListener.display(PSurfaceJOGL.java:840)
+	at jogamp.opengl.GLDrawableHelper.displayImpl(GLDrawableHelper.java:692)
+	at jogamp.opengl.GLDrawableHelper.display(GLDrawableHelper.java:674)
+	at jogamp.opengl.GLAutoDrawableBase$2.run(GLAutoDrawableBase.java:443)
+	at jogamp.opengl.GLDrawableHelper.invokeGLImpl(GLDrawableHelper.java:1293)
+	at jogamp.opengl.GLDrawableHelper.invokeGL(GLDrawableHelper.java:1147)
+	at com.jogamp.newt.opengl.GLWindow.display(GLWindow.java:782)
+	at com.jogamp.opengl.util.AWTAnimatorImpl.display(AWTAnimatorImpl.java:81)
+	at com.jogamp.opengl.util.AnimatorBase.display(AnimatorBase.java:453)
+	at com.jogamp.opengl.util.FPSAnimator$MainTask.run(FPSAnimator.java:178)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+file: onnxruntime_arm.dll is not found in jar file
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\onnxruntime_arm64.dll
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.nio.file.Files.copy(Files.java:3128)
+	at brainflow.JarHelper.unpack_from_jar(JarHelper.java:31)
+	at brainflow.MLModel.<clinit>(MLModel.java:47)
+	at OpenBCI_GUI$W_Focus.initBrainFlowMetric(OpenBCI_GUI.java:24885)
+	at OpenBCI_GUI$W_Focus.<init>(OpenBCI_GUI.java:24672)
+	at OpenBCI_GUI.setupWidgets(OpenBCI_GUI.java:31736)
+	at OpenBCI_GUI$WidgetManager.<init>(OpenBCI_GUI.java:31826)
+	at OpenBCI_GUI.initSystem(OpenBCI_GUI.java:849)
+	at OpenBCI_GUI.systemInitSession(OpenBCI_GUI.java:1117)
+	at OpenBCI_GUI.draw(OpenBCI_GUI.java:654)
+	at processing.core.PApplet.handleDraw(PApplet.java:2094)
+	at processing.opengl.PSurfaceJOGL$DrawListener.display(PSurfaceJOGL.java:840)
+	at jogamp.opengl.GLDrawableHelper.displayImpl(GLDrawableHelper.java:692)
+	at jogamp.opengl.GLDrawableHelper.display(GLDrawableHelper.java:674)
+	at jogamp.opengl.GLAutoDrawableBase$2.run(GLAutoDrawableBase.java:443)
+	at jogamp.opengl.GLDrawableHelper.invokeGLImpl(GLDrawableHelper.java:1293)
+	at jogamp.opengl.GLDrawableHelper.invokeGL(GLDrawableHelper.java:1147)
+	at com.jogamp.newt.opengl.GLWindow.display(GLWindow.java:782)
+	at com.jogamp.opengl.util.AWTAnimatorImpl.display(AWTAnimatorImpl.java:81)
+	at com.jogamp.opengl.util.AnimatorBase.display(AnimatorBase.java:453)
+	at com.jogamp.opengl.util.FPSAnimator$MainTask.run(FPSAnimator.java:178)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+file: onnxruntime_arm64.dll is not found in jar file
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\onnxruntime_x64.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\onnxruntime_x86.dll
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\MLModule.dll
+[SUCCESS]: Marker Widget: Listening for markers on 127.0.0.1:12350
+InitSettings: Saving Default Settings to file!
+SessionSettings: 3 active widgets saved!
+[SUCCESS]: Session started!
+Unpacking to: C:\Users\Lenovo\AppData\Local\Temp\jna--2022488749\DataHandler.dll
+[DEFAULT]: openBCI_GUI: startButton was pressed. Starting data transfer, wait a few seconds.
+OpenBCI_GUI: openNewLogFile: opened ODF output file: C:\Users\Lenovo\Documents\OpenBCI_GUI\Recordings\OpenBCISession_Preguntas2\OpenBCI-RAW-2024-09-25_12-37-38.txt
+OpenBCI_GUI: BrainFlow Streamer Location: file://C:\Users\Lenovo\Documents\OpenBCI_GUI\Recordings\OpenBCISession_Preguntas2\BrainFlow-RAW_Preguntas2_0.csv:w
+Brainflow start streaming
+[DEFAULT]: Data stream started.
+[DEFAULT]: openBCI_GUI: stopButton was pressed. Stopping data transfer, wait a few seconds.
+Brainflow stop streaming
+[DEFAULT]: Data stream stopped.
+[DEFAULT]: openBCI_GUI: startButton was pressed. Starting data transfer, wait a few seconds.
+OpenBCI_GUI: openNewLogFile: opened ODF output file: C:\Users\Lenovo\Documents\OpenBCI_GUI\Recordings\OpenBCISession_Preguntas2\OpenBCI-RAW-2024-09-25_12-37-40.txt
+OpenBCI_GUI: BrainFlow Streamer Location: file://C:\Users\Lenovo\Documents\OpenBCI_GUI\Recordings\OpenBCISession_Preguntas2\BrainFlow-RAW_Preguntas2_1.csv:w
+Brainflow start streaming
+[DEFAULT]: Data stream started.
+New widget [6] selected for container...
+Your cursor is in Accelerometer
+WARNING: Lost 1 Samples Between 47-49
+WARNING: Lost 1 Samples Between 208-210
+WARNING: Lost 1 Samples Between 182-184
+WARNING: Lost 1 Samples Between 202-204
+WARNING: Lost 1 Samples Between 233-235
+WARNING: Lost 2 Samples Between 118-121
+WARNING: Lost 1 Samples Between 193-195
+WARNING: Lost 1 Samples Between 42-44
+WARNING: Lost 1 Samples Between 44-46
+WARNING: Lost 1 Samples Between 126-128
+WARNING: Lost 2 Samples Between 27-30
+[DEFAULT]: openBCI_GUI: stopButton was pressed. Stopping data transfer, wait a few seconds.
+Brainflow stop streaming
+[DEFAULT]: Data stream stopped.
+[DEFAULT]: openBCI_GUI: startButton was pressed. Starting data transfer, wait a few seconds.
+OpenBCI_GUI: openNewLogFile: opened ODF output file: C:\Users\Lenovo\Documents\OpenBCI_GUI\Recordings\OpenBCISession_Preguntas2\OpenBCI-RAW-2024-09-25_12-39-12.txt
+OpenBCI_GUI: BrainFlow Streamer Location: file://C:\Users\Lenovo\Documents\OpenBCI_GUI\Recordings\OpenBCISession_Preguntas2\BrainFlow-RAW_Preguntas2_2.csv:w
+Brainflow start streaming
+[DEFAULT]: Data stream started.
+[DEFAULT]: openBCI_GUI: stopButton was pressed. Stopping data transfer, wait a few seconds.
+Brainflow stop streaming
+[DEFAULT]: Data stream stopped.
+OpenBCI_GUI: mousePressed: clicked in CP box
+OpenBCI_GUI: mousePressed: clicked in CP box
+openBCI_GUI: haltSystem: Halting system for reconfiguration of settings...
+[DEFAULT]: Data stream is already stopped.
+OpenBCI_GUI::Control Panel: Playback history file not found.
+sourceList: click! 
+[DEFAULT]: Select a file for playback
+DataLogging: playbackSelected: Window was closed or the user hit cancel.
+[DEFAULT]: Select a file for playback
+DataLogging: playbackSelected: Window was closed or the user hit cancel.
+[DEFAULT]: Select a file for playback
+DataLogging: playbackSelected: Window was closed or the user hit cancel.
+SHUTDOWN HOOK
