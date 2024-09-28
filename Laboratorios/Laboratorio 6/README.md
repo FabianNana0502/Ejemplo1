@@ -181,7 +181,7 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 ***
 |**EEG alumno - Estado Basal**|**EEG alumno - Parpadeos (lapsos 5 segundos)**|
 |:---------------------------:|:------------------------:|
-|||
+|<video src="https://youtu.be/GpzFBP9PeDw"></video>||
 |**EEG alumno - 2do Estado Basal**|**EEG alumno - Ejercicios mentales (total)**|
 |||
 ***
