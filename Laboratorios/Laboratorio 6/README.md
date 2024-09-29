@@ -42,7 +42,8 @@
 <div align="center">
 
    ![Figura 1](https://cdn1.imaios.com/i/images/8/2/7/2/472728-4-esl-ES/brain-illu-cerebral-lobes.jpg?q=75&w=1280&s=5d6bd697dae034d4abe61a186002bf79)
-   Figura 1. Ubicación de los lóbulos. Fuente: ![IMAIOS](https://doi.org/10.37019/e-anatomy/49401.es)
+
+   Figura 1. Ubicación de los lóbulos [8]
 
 </div>
 
@@ -204,9 +205,12 @@ El código realiza un completo proceso de adquisición, preprocesamiento y visua
 
 |**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
 |:---------------------------:|:------------------------:|
-|<img src="." width="600" height="300">|<img src="." width="600" height="300">|
-|<img src="." width="600" height="300">|<img src="." width="600" height="300">|
+|<img src="./Ploteos/BCI/Estado_basal_1.png" width="600" height="300">|<img src="./Ploteos/BCI/parpadeo.png" width="600" height="300">|
+|**EEG profesor - 2do Estado Basal**|**EEG profesor - Ejercicios mentales (total)**|
+|<img src="./Ploteos/BCI/Estado_basal_2.png" width="600" height="300">|<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_82_final_s.png" width="600" height="300">|
 ***
+
+### Aclaracion: la imagen BCI de ejercicios mentales corresponde a las preguntas dificiles
 
 <div align="justify">
 
@@ -279,3 +283,5 @@ Un electroencefalograma (EEG) es necesario para registrar  la actividad eléctri
 [6]https://fisiologia.facmed.unam.mx/index.php/fisiologia-de-la-actividad-electrica-del-cerebro-electroencefalografia/
 
 [7]https://psicoterapeutas.eu/electroencefalograma/electroencefalograma-2/
+
+[8]https://doi.org/10.37019/e-anatomy/49401.es 
