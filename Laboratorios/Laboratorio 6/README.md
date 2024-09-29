@@ -309,8 +309,14 @@ Tabla 1. Comparacion ejercicos faciles-dificiles
 
 ## Conclusión <a name="id9"></a>
 
+El estudio de la actividad eléctrica cerebral, utilizando el electroencefalograma y las técnicas subsiguientes de filtrado, ha permitido lograr una caracterización más específica de las señales obtenidas. De particular relevancia fue la implementación de los filtros pasa banda, para minimizar la potencial interferencia entre frecuencias y fuera de la gama fisiológica relevante. 
 
+En la condición basal, durante la cual el sistema nervioso central estaba en reposo y libre de artefactos de movimiento ocular, la señal de EEG demostró estabilidad, manteniendo amplitud dentro de los límites típicos para la señal de onda alfa. Este resultado es esperable, ya que la literatura científica sostiene que, durante la vigilia relajada, las ondas alfa prevalecen en todas las áreas corticales, y la ausencia de cargas de trabajo significativas está asociada con la disminución de la necesidad de procesamiento neural. 
 
+Por otro lado, durante las series parpadeantes, las amplitudes de señal notables, en particular los artefactos, se observaron regularmente. Los eventos con amplitudes superiores a ±40 fueron definidos como artefactos, apoyando la literatura científica que indica que la interferencia de movimiento supresor es generalmente de magnitud en la mayoría de las frecuencias. Se filtraron y fueron disminuidos por el proceso de filtrado; sin embargo, la completa eliminación del ruido motriz podría ser imposible sin la aplicación del Análisis de Componentes Independientes. Durante los desafíos cognitivos, la amplitud y el rango de señales EEG observadas fueron significativamente diferentes entre los sujetos.
+En el análisis cognitivo durante la resolución de preguntas, se observaron variaciones significativas en la amplitud y frecuencia de las señales EEG, lo que sugiere una mayor activación neuronal en respuesta a la carga cognitiva. Las fluctuaciones en el rango de ±40 µV, con una predominancia de las ondas beta (12-30 Hz), refuerzan la hipótesis de una mayor actividad cortical durante la toma de decisiones y el procesamiento de información, consistente con la literatura que asocia las oscilaciones beta con tareas cognitivas y de atención.
+
+El uso del sistema OpenBCI y el posterior procesamiento de los datos ha demostrado ser útil para la captura y visualización de las señales EEG. La conversión de las señales digitales ADC a unidades de voltaje (µV) fue esencial para una correcta interpretación de las amplitudes, permitiendo comparaciones fiables con estudios previos. Además, la remoción del componente DC y la aplicación de un filtro Butterworth de cuarto orden contribuyeron a la fidelidad de las señales procesadas, eliminando desplazamientos de la línea base y artefactos de baja frecuencia que podrían comprometer los resultados.
 
 ## Bibliografía<a name="id10"></a>
 
