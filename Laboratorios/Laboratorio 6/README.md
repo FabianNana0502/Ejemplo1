@@ -306,6 +306,8 @@ Al abrir y cerrar los ojos en periodos simétricos, generan un patrón de ingres
 Tabla 1. Comparacion ejercicos faciles-dificiles
 
 <div align="justify">
+   
+Al realizar las preguntas "sencillas" vemos un gran aumento de ondas beta, picos cortos y altamente repetitivos, los cuales indican el aumento de actividad cerebral debido a la exigencia requerida para resolver los acertijos planteados. Pero al pasar a la mitad de tiempo, momento en el cual se realizan las preguntas de nivel complejo, se observa la aparente presencia de ondas gamma, ya que la persona requiere un alto nivel de concentración y enfoque para poder resolver las preguntas con información compleja, activando mutiles areas del cerebro, representado con las presencia multiples y recurrentes picos en todos los canales.
 
 ## Conclusión <a name="id9"></a>
 
