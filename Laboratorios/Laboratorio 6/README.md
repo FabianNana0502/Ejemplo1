@@ -260,8 +260,23 @@ En la segunda imagen, que muestra un intervalo más corto de 0 a 75 segundos , l
 
 ## Análisis de los resultados en OpenBCI
 Fisiológicamente , las neuronas se comunican entre sí mediante pequeños impulsos eléctricos que pueden medirse. A estas las llamamos ondas cerebrales. Estas ondas tienen diferentes tipos de frecuencias, algunas son más rápidas y otras más lentas. Si se separan mediante filtros podremos observarlos con mayor claridad.
-Un electroencefalograma (EEG) es necesario para registrar  la actividad eléctrica del cerebro a través de sensores colocados en el cuero cabelludo que nos permiten ver estos potenciales eléctricos en forma de ondas.
+Hemos empleado el electroencefalograma (EEG) para registrar  la actividad eléctrica del cerebro a través de sensores colocados en el cuero cabelludo para ver estos potenciales eléctricos en forma de ondas.
 
+Las ondas obtenidas fueron:
+
+*Ondas Gamma: Resaltan en situaciones de alta actividad cognitiva, concentracion y procesado de información, se ubican de 30-100 Hz
+
+*Ondas Beta: presentes en situaciones de alerta, en un rango de 12-30 Hz.
+
+*Ondas Alfa: Durante momentos de relajación o vigilia y descnaso, a ojos cerrados, 8-12 Hz.
+
+*Ondas Theta: asociadosa a la somnolencia, la meditación durante las fases ligeras del sueño a 4-8 Hz.
+
+*Ondas Delta: Presentes en sueño profundo (no REM) a 0.5-4 Hz.
+
+*Ondas Lambda: ondas muy breves, que surgen cuando se dirige la vista hacia un nuevo estímulo visual.
+
+*Ondas K-complejas: Particulares del sueño y surgen en la segunda fase del sueño NO REM. 
 
 ## Conclusión <a name="id9"></a>
 
