@@ -54,7 +54,7 @@
    * Beta: 12-30 Hz. Predominan durante el período de vigilia. La frecuencia es rápida, está presente cuando estamos atentos e implicados en la resolución de tareas o problemas diarios, también durante la toma de decisiones o cuando estamos concentrados.
    * Alpha: 8-12 Hz. Predominan cuando el Sistema Nervioso Central está en reposo, relajado pero despierto y atento.
    * Theta: 4-8 Hz. Predominan cuando los sentidos están procesando información interna y el individuo está desconectado del mundo exterior, absorto. Fase 3 sueño no REM
-   * Delta: 0.5-4 Hz. Fase 4 sueño REM.
+   * Delta: 0.5-4 Hz. Son características de cuando el individuo está dormido y predominan durante el sueño. Fase 4 sueño REM.
 
    Algunos autores difieren en 1 o 2 Hz de las bandas de frecuencia de acuerdo a la distribución anterior. Como por ejemplo: Beta: de 13-30 Hz [6].
 
@@ -257,16 +257,6 @@ En la segunda imagen, que muestra un intervalo más corto de 0 a 75 segundos , l
 ## Análisis de los resultados en OpenBCI
 Fisiológicamente , las neuronas se comunican entre sí mediante pequeños impulsos eléctricos que pueden medirse. A estas las llamamos ondas cerebrales. Estas ondas tienen diferentes tipos de frecuencias, algunas son más rápidas y otras más lentas. Si se separan mediante filtros podremos observarlos con mayor claridad.
 Un electroencefalograma (EEG) es necesario para registrar  la actividad eléctrica del cerebro a través de sensores colocados en el cuero cabelludo que nos permiten ver estos potenciales eléctricos en forma de ondas.
-
-**Ondas delta (0,5-4Hz):** Son características de cuando el individuo está dormido y predominan durante el sueño.
-
-**Ondas theta (4-8Hz):** predominan cuando los sentidos están procesando información interna y el individuo está desconectado del mundo exterior, absorto.
-
-**Ondas alfa (8-12Hz):** predominan cuando el Sistema Nervioso Central está en reposo, relajado pero despierto y atento.
-
-**Ondas beta (12-30Hz):** predominan durante el período de vigilia. La frecuencia es rápida, está presente cuando estamos atentos e implicados en la resolución de tareas o problemas diarios, también durante la toma de decisiones o cuando estamos concentrados.
-
-**Ondas gamma (30-90 Hz):** Son las ondas más rápidas. Ocurren en ráfagas cortas. Están relacionados con el proceso de información simultánea en varias áreas del Sistema Nervioso Central. Se observan estallidos de ondas gamma cuando el cerebro se encuentra en un estado de alta resolución. 
 
 
 ## Conclusión <a name="id9"></a>
