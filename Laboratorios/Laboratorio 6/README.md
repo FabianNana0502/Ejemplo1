@@ -262,21 +262,50 @@ En la segunda imagen, que muestra un intervalo más corto de 0 a 75 segundos , l
 Fisiológicamente , las neuronas se comunican entre sí mediante pequeños impulsos eléctricos que pueden medirse. A estas las llamamos ondas cerebrales. Estas ondas tienen diferentes tipos de frecuencias, algunas son más rápidas y otras más lentas. Si se separan mediante filtros podremos observarlos con mayor claridad.
 Hemos empleado el electroencefalograma (EEG) para registrar  la actividad eléctrica del cerebro a través de sensores colocados en el cuero cabelludo para ver estos potenciales eléctricos en forma de ondas.
 
-Las ondas obtenidas fueron:
+Las ondas mas importantes en un EEG son:
 
-*Ondas Gamma: Resaltan en situaciones de alta actividad cognitiva, concentracion y procesado de información, se ubican de 30-100 Hz
+**Ondas Gamma**: Resaltan en situaciones de alta actividad cognitiva, concentracion y procesado de información, se ubican de 30-100 Hz
 
-*Ondas Beta: presentes en situaciones de alerta, en un rango de 12-30 Hz.
+**Ondas Beta**: presentes en situaciones de alerta o repentina alerta , en un rango de 12-30 Hz.
 
-*Ondas Alfa: Durante momentos de relajación o vigilia y descnaso, a ojos cerrados, 8-12 Hz.
+**Ondas Alfa**: Durante momentos de relajación o vigilia y descanso, a ojos cerrados, 8-12 Hz.
 
-*Ondas Theta: asociadosa a la somnolencia, la meditación durante las fases ligeras del sueño a 4-8 Hz.
+**Ondas Theta**: asociadosa a la somnolencia, la meditación durante las fases ligeras del sueño a 4-8 Hz.
 
-*Ondas Delta: Presentes en sueño profundo (no REM) a 0.5-4 Hz.
+**Ondas Delta**: Presentes en sueño profundo (no REM) a 0.5-4 Hz.
 
-*Ondas Lambda: ondas muy breves, que surgen cuando se dirige la vista hacia un nuevo estímulo visual.
+**Ondas Lambda**: ondas muy breves, que surgen cuando se dirige la vista hacia un nuevo estímulo visual.
 
-*Ondas K-complejas: Particulares del sueño y surgen en la segunda fase del sueño NO REM. 
+**Ondas K-complejas**: Particulares del sueño y surgen en la segunda fase del sueño NO REM. 
+
+<div align="center">
+
+<img src="./Ploteos/BCI/Estado_basal_1.png" width="600" height="300">
+
+Fig 10. OpenBCI - estado basal
+
+<div align="justify">
+
+Al obtener el EEG durante un estado de reposo, de todas las ondas, la mas predominante son las ondas Alfa, ya que si bien la persona esta muy relajada y a ojos cerrados, esta aun despierta, ademas, debido a que el ambiente donde se reaalizo la medicion contenia a un numero considerable de personas, la persona tuvo la influecnia de ruido externo, lo cual limitó la aparicion de ondas theta, las cuales podrian haber aparecido, de haber estado en un ambiente con  el minimo de ruido o interferencias ajenas.
+
+<div align="center">
+
+<img src="./Ploteos/BCI/parpadeo.png.png" width="600" height="300">
+
+Fig 11. OpenBCI - Parpadeo
+
+<div align="justify">
+
+Al abrir y cerrar los ojos en periodos simétricos, generan un patrón de ingreso de nueva informacion a traves de los ojos, lo cual se puede pareciar en la secuencia de picos en todos los canales. Estos rapidos y alternados ingresos de informacion se pueden observar con la prescenia de ondas beta en forma de picos intensos pero esporadicos justo en los instantes de apertura de los ojos, presente en la mayoria de los canales, a su vez de la aparicion de breves ondas alfa al momento de cerrar los ojos ya que por breves instantes la persona reposa los ojos y por ende su procesamiento de información.
+
+<div align="center">
+
+|**Ejercicios mentales simples**|**Ejercicios mentales dificiles**|
+|<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_12_22_s.png" width="600" height="300">|<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_82_final_s.png" width="600" height="300">|
+
+Tabla 1. Comparacion ejercicos faciles-dificiles
+
+<div align="justify">
 
 ## Conclusión <a name="id9"></a>
 
