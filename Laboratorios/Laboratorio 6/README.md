@@ -300,7 +300,7 @@ Al abrir y cerrar los ojos en periodos simétricos, generan un patrón de ingres
 
 <div align="center">
 
-|**Ejercicios mentales simples**|**Ejercicios mentales dificiles**|
+|**Ejercicios mentales simples**|**Ejercicios mentales difíciles**|
 |<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_12_22_s.png" width="600" height="300">|<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_82_final_s.png" width="600" height="300">|
 
 Tabla 1. Comparacion ejercicos faciles-dificiles
