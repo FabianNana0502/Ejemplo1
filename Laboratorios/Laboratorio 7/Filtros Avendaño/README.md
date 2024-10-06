@@ -111,7 +111,7 @@ Con el modelo eliptico se busca un cambio rapido entre la banda de paso y la ban
 
 <div align="center">  
 
-<img src="./Filtros/IIR Lowpass Eliptic/Filter 1 ecg.png" width="800" height="600">
+<img src="./Filtros/IIR Lowpass Eliptic/Filter 1 ecg.png" width="700" height="600">
 
 Fig 4. Diseño de Filtro IIR - modelo Eliptico
 
@@ -221,10 +221,10 @@ Y el analizar una señal en el dominio de la frecuencia y el plano Z de su filtr
 ## Bibliografía<a name="id8"></a>
 
 [1] Federico Miyara.(2004)Electronica III - Filtros Activos, Segunda Edicion. Universidad Nacional de Rosario
-   https://www.fceia.unr.edu.ar/enica3/filtros-t.pdf
+https://www.fceia.unr.edu.ar/enica3/filtros-t.pdf
 
 [2] Kumar, Hemant.(2015)Comparative Study of FIR Digital Filter for Noise Elimination in EMG Signal
-   https://www.researchgate.net/publication/330703731_Comparative_Study_of_FIR_Digital_Filter_for_Noise_Elimination_in_EMG_Signal
+https://www.researchgate.net/publication/330703731_Comparative_Study_of_FIR_Digital_Filter_for_Noise_Elimination_in_EMG_Signal
 
 [3] Roshni, Y. (2020, marzo 24). Difference between FIR filter and IIR filter. Circuit Globe.
-   https://circuitglobe.com/difference-between-fir-filter-and-iir-filter.html 
+https://circuitglobe.com/difference-between-fir-filter-and-iir-filter.html 
