@@ -166,12 +166,11 @@ procesar_y_graficar(archivo_coef, archivo_senal, tipo_filtro)
 # d1 ejercicio: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\4.Ejercicio\1D_ejercicio.txt
 #
 # FIRs
-# 
-# 
-# 
+# Filtro bandpass equiriple EMG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\FIR Bandpass Equiriple\FIR Bandpass equiriple EMG.txt
+# Filtro bandpass windowed EMG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\FIR Bandpass Windowed\FIR Bandpass Windowed.txt
+# Filtro bandpass MA EMG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\FIR Bandpass Moving AV\FIR Bandpass moving average.txt
 #
 # INPUTS
-#
-#
-#
-#
+# biceps reposo: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 4\Dataset\biceps1_reposo.txt
+# biceps mov: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 4\Dataset\biceps2_mov_voluntario.txt
+# biceps CF: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 4\Dataset\biceps3_mov_fuerza.txt
