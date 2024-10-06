@@ -53,6 +53,8 @@ Estos filtros se pueden clasificar, de acuerdo a la aproximación matemática em
 
 Fig 1. Representación gráfica segun la Aproximacion Matematica [1]
 
+<div align="justify">
+
 ## Objetivos <a name="id2"></a>
 * Analizar y seleccionar los filtros segun la señal a procesar.
 * Diseñar un total de 6 filtros y aplicarlos a las señales EMG y EKG mediante pyFDA.
@@ -76,9 +78,32 @@ Fig 3. Software pyFDA
 
 ## Metodología <a name="id4"></a>
 
+### Adquiscion de Señales
 
+Las señales seleccionadas para su procesamiento son la 1ra derivada del ECG (en estado basal, aguante de respiracion, 2do etado basal y ejercicio) y EMG de los biceps (reposo, en movimiento y en contra fuerza) las cuales fueron adquiridas en los laboratrios previos mediante el Kit BITalino.
 
-### Proceso de Filtrado
+### Descarga de pyDFA
+
+El procedimiento para la obtencion del software es relativente sencillo y consta de 2 pasos:
+
+   1. Ingresar en interprete de comandos de la laptop (cmd) "pip install pyfda"
+   2. Tras terminada la descarga, para ejecutar el programa ingresar "pyfdax"
+   3. Reingresar el comando cada vez que se quiera brir el programa y ya dentro
+      se puede iniciar el diseño del filtro
+
+<div align="center">
+
+|**Paso 1**|**Paso 2**|**Paso 3**|
+|:---------------------------:|:------------------------:|:------------------------:|
+|<img src="./Infografia/download1.png" width="600" height="300">|<img src="./Infografia/download2.png" width="600" height="300">|<img src="./Infografia/download3.png" width="600" height="300">|
+
+Tabla 1. Proceso de descargar de pyFDA
+
+<div align="justify">     
+
+### Filtros para ECG
+
+El 
 
 
 ## Resultados <a name="id5"></a>
@@ -99,7 +124,6 @@ Fig 3. Software pyFDA
 |<img src="./Ploteos/BCI/Estado_basal_2.png" width="600" height="300">|<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_82_final_s.png" width="600" height="300">|
 ***
 
-### Aclaracion: la imagen BCI de ejercicios mentales corresponde a las preguntas dificiles
 
 <div align="justify">
 
