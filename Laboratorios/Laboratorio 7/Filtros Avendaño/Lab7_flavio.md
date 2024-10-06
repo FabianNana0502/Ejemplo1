@@ -40,6 +40,19 @@ Fig 1. Representación gráfica de los tipos de filtros [1]
 
 <div align="justify">
 
+Estos filtros se pueden clasificar, de acuerdo a la aproximación matemática empleada, en:
+
+   * Butterworth: tiene objetivo una respuesta de ganancia plana en la banda de paso. Esto se consigue mediante una región de transición de caída lenta y una respuesta de fase no lineal alrededor de la frecuencia de corte
+   * Chebyshev: tiene como objetivo maximizar la pendiente de la característica de ganancia en la región de transición. Presenta un cierto rizado en la banda de paso, que se incrementa al aumentar el orden de filtro.
+   * Bessel: tiene como objetivo lograr una respuesta de fase lineal en un margen de frecuencias amplio en torno a la frecuencia de corte. La ganancia en la banda de paso no es tan plana como en un filtro Butterworth ni la pendiente en la banda de transición tan acentuada como en un filtro Chebyshev
+   * Elíptica: se caracteriza por tener ondulaciones constantes tanto en la banda de paso como en la banda de corte.
+
+<div align="center">
+
+<img src="./Infografia/Aproximaciones.png" width="600" height="300">
+
+Fig 1. Representación gráfica segun la Aproximacion Matematica [1]
+
 ## Objetivos <a name="id2"></a>
 * Analizar y seleccionar los filtros segun la señal a procesar.
 * Diseñar un total de 6 filtros y aplicarlos a las señales EMG y EKG mediante pyFDA.
@@ -59,8 +72,10 @@ Fig 1. Representación gráfica de los tipos de filtros [1]
 
 Fig 3. Software pyFDA
 
-## Metodología <a name="id4"></a>
 <div align="justify">
+
+## Metodología <a name="id4"></a>
+
 
 
 ### Proceso de Filtrado
