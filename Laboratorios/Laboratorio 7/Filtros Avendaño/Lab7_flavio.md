@@ -51,7 +51,7 @@ Estos filtros se pueden clasificar, de acuerdo a la aproximación matemática em
 
 <img src="./Infografia/Aproximaciones.png" width="600" height="300">
 
-Fig 1. Representación gráfica segun la Aproximacion Matematica [1]
+Fig 2. Representación gráfica segun la Aproximacion Matematica [1]
 
 <div align="justify">
 
@@ -103,8 +103,31 @@ Tabla 1. Proceso de descargar de pyFDA
 
 ### Filtros para ECG
 
-El 
+El primer criterio para el diseño de los filtros son las frecuencias de corte, las cuales en el caso de los ECG, son característicamente 0.5 y 100 Hz. Tambien es importante considerar, al decidir entre un filtro FIR o IIR, el filtro IIR (Infinite Impulse Response) es la mejor eleccion, debido a su eficiencia computacional ya que requiere pocos coeficientes, mientras que un filtro FIR puede resultar menos estable ya que requiere un altísimo numero de coeficientes además en los procesamientos de ECG no es necesario mantener una fase lineal, la cual es una característica principal del filtro FIR
 
+En conclusion, para los ECG se aplicara 3 filtros IIR pasa baja de 0.5 a 100 Hz, cuya diferencia principal sera el modelo matematico a emplear: eliptico, buttersworth y chebyshev.
+
+<div align="justify"> 
+
+Con el modelo eliptico se busca un cambio rapido entre la banda de paso y la banda de rechazo para evitar filtraciones de frecuencias mayores no deseadas con amyor presición, pero con leves ondulaciones ne la banda de paso
+
+<div align="center">  
+
+<img src="./Filtros/IIR Lowpass Eliptic/Filter 1 ecg.png" width="800" height="600">
+
+Fig 4. Diseño de Filtro IIR - modelo Eliptico
+
+<div align="justify"> 
+
+
+
+<img src="./Infografia/download1.png" width="700" height="500">
+
+Fig 5. Diseño de Filtro IIR - modelo Buttersworth
+
+<img src="./Infografia/download1.png" width="700" height="500">
+
+Fig 6. Diseño de Filtro IIR - modelo Chebyshev Tipo 1
 
 ## Resultados <a name="id5"></a>
 ***
