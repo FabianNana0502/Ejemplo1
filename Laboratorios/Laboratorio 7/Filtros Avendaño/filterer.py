@@ -84,7 +84,6 @@ def actualizar_graficas(val, ax1, ax3, tiempo, signalmV, senal_filtrada, fs, ven
     ax1.clear()
     ax1.plot(tiempo[(tiempo >= t_min) & (tiempo <= t_max)], signalmV[(tiempo >= t_min) & (tiempo <= t_max)], label='Señal original', linewidth=0.8)
     ax1.set_title('Original Signal')
-    ax1.set_xlabel('Time (s)')
     ax1.set_ylabel('Amplitude (mV)')
     ax1.grid(True)
     
@@ -127,10 +126,9 @@ def procesar_y_graficar(archivo_coef, archivo_senal, tipo_filtro):
     ax4.grid(True)
 
     # Graficar señales (controladas por el slider)
-    ventana_tiempo = 2.5 # menor ventana posible
+    ventana_tiempo = 3 # menor ventana posible
     ax1.plot(tiempo[:int(ventana_tiempo * fs)], signalmV[:int(ventana_tiempo * fs)], label='Señal original', linewidth=0.8)
     ax1.set_title('Original Signal')
-    ax1.set_xlabel('Time (s)')
     ax1.set_ylabel('Amplitude (mV)')
     ax1.grid(True)
 
@@ -156,9 +154,10 @@ archivo_senal = input("Ingrese la dirección del archivo de la señal: ")
 procesar_y_graficar(archivo_coef, archivo_senal, tipo_filtro)
 
 # Registro:
+#  IIRs
 # Filtro lowpass eliptic ECG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\IIR Lowpass Eliptic\IIR lowpass eliptic ECG.txt
-# Filtro lowpass chebyshev ECG: 
-# Filtro lowpass buttersworth ECG: 
+# Filtro lowpass buttersworth ECG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\IIR Lowpas Buttersworth\IIR lowpass buttersworth.txt
+# Filtro lowpass chebyshev ECG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\IIR Lowpass Chebyshev\IIR lowpass chebyshev ecg.txt
 # 
 # INPUTS:
 # d1 basal: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\1.Estado Basal\1D_basal.txt
@@ -166,4 +165,13 @@ procesar_y_graficar(archivo_coef, archivo_senal, tipo_filtro)
 # d1 2do basal: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\3.Post_Respiración\1D_post_respiracion.txt
 # d1 ejercicio: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\4.Ejercicio\1D_ejercicio.txt
 #
+# FIRs
 # 
+# 
+# 
+#
+# INPUTS
+#
+#
+#
+#

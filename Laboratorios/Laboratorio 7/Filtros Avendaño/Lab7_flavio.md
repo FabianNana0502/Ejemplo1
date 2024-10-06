@@ -119,15 +119,27 @@ Fig 4. Diseño de Filtro IIR - modelo Eliptico
 
 <div align="justify"> 
 
+En el caso del filtro buttersworth hay riesgos de que se filtren algunas frecuencias no deseadas debido a las curvas suaves pero a cambio se converva al maximo la forma de la onda ECG.
 
+<div align="center">  
 
-<img src="./Infografia/download1.png" width="700" height="500">
+<img src="./Filtros/IIR Lowpas Buttersworth/filter 2 ecg.png" width="700" height="500">
 
 Fig 5. Diseño de Filtro IIR - modelo Buttersworth
 
-<img src="./Infografia/download1.png" width="700" height="500">
+<div align="justify"> 
+
+Para el caso del modelo Chebyshev es muy probable que cierta regiones de la señal se distorsionen un poco pero eso se intercambia poruna eliminacion mas eficiente de ruido fuera de la banda de paso.
+
+<div align="center"> 
+
+<img src="./Filtros/IIR Lowpass Chebyshev/filter 3 ecg.png" width="700" height="500">
 
 Fig 6. Diseño de Filtro IIR - modelo Chebyshev Tipo 1
+
+<div align="justify"> 
+
+### Filtros para ECG
 
 ## Resultados <a name="id5"></a>
 ***
