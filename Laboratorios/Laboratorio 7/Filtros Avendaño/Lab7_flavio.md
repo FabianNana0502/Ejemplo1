@@ -178,24 +178,24 @@ Fig 9. Diseño de Filtro FIR - modelo Moving Average
 
 |**IIR Lowpass Eliptico**|**IIR Lowpass Buttersworth**|**IIR Lowpass Chebyshev**|
 |:----------------------:|:--------------------------:|:-----------------------:|
-|:---------------------------------EstadoBasal---------------------------------:|
+||EstadoBasal||
 |<img src="./Results/ECG/Estado Basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Cheby.png" width="600" height="300">|
-|:--------------------------Respiracion 10 segundos----------------------------:|
+||Respiracion 10 segundos||
 |<img src="./Results/ECG/Respiracion/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Butter.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Cheby.png" width="600" height="300">|
-|:-----------------------------2do estado basal--------------------------------:|
+||2do estado basal||
 |<img src="./Results/ECG/2do basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Cheby.png" width="600" height="300">|
-|:------------------------------Post Ejercicio---------------------------------:|
+||Post Ejercicio||
 |<img src="./Results/ECG/Post ejercicio/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Butter.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Cheby.png" width="600" height="300">|
 
 ### EMG
 
 |**FIR Bandpass Equiriple**|**FIR Bandpass Windowed**|**FIR Bandpass Moving AV**|
 |:------------------------:|:-----------------------:|:------------------------:|
-|:------------------------------Bicep en reposo--------------------------------:|
+||Bicep en reposo||
 |<img src="./Results/EMG/biceps reposo/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps reposo/Window.png" width="600" height="300">|<img src="./Results/EMG/biceps reposo/Moving.png" width="600" height="300">|
-|:----------------------------Biceps en movimiento-----------------------------:|
+||Biceps en movimiento||
 |<img src="./Results/EMG/biceps mov/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps mov/Windowed.png" width="600" height="300">|<img src="./Results/EMG/biceps mov/Moving.png" width="600" height="300">|
-|:---------------------------Bicep con contrafuerza----------------------------:|
+||Bicep con contrafuerza||
 |<img src="./Results/EMG/biceps CF/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps CF/Window.png" width="600" height="300">|<img src="./Results/EMG/biceps CF/Moving.png" width="600" height="300">|
 
 
