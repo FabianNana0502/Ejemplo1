@@ -178,33 +178,38 @@ Fig 9. Diseño de Filtro FIR - modelo Moving Average
 
 |**IIR Lowpass Eliptico**|**IIR Lowpass Buttersworth**|**IIR Lowpass Chebyshev**|
 |:----------------------:|:--------------------------:|:-----------------------:|
-|EstadoBasal|
+|                               EstadoBasal                                     |
 |<img src="./Results/ECG/Estado Basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Cheby.png" width="600" height="300">|
-|Respiracion 10 segundos|
+|                           Respiracion 10 segundos                             |
 |<img src="./Results/ECG/Respiracion/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Butter.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Cheby.png" width="600" height="300">|
-|2do estado basal|
+|                             2do estado basal                                  |
 |<img src="./Results/ECG/2do basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Cheby.png" width="600" height="300">|
-|Post Ejercicio|
+|                              Post Ejercicio                                   |
 |<img src="./Results/ECG/Post ejercicio/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Butter.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Cheby.png" width="600" height="300">|
 
-### EEG del profesor<a name="id7"></a>
-***
+### EMG
 
-|**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
-|:---------------------------:|:------------------------:|
-|<img src="./Ploteos/BCI/Estado_basal_1.png" width="600" height="300">|<img src="./Ploteos/BCI/parpadeo.png" width="600" height="300">|
-|**EEG profesor - 2do Estado Basal**|**EEG profesor - Ejercicios mentales (total)**|
-|<img src="./Ploteos/BCI/Estado_basal_2.png" width="600" height="300">|<img src="./Ploteos/BCI/Preguntas_ploteos/Preguntas_82_final_s.png" width="600" height="300">|
-***
+|**FIR Bandpass Equiriple**|**FIR Bandpass Windowed**|**FIR Bandpass Moving AV**|
+|:------------------------:|:-----------------------:|:------------------------:|
+|                               Bicep en reposo                                 |
+|<img src="./Results/EMG/biceps reposo/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps reposo/Window.png" width="600" height="300">|<img src="./Results/EMG/biceps reposo/Moving.png" width="600" height="300">|
+|                             Biceps en movimiento                              |
+|<img src="./Results/EMG/biceps mov/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps mov/Windowed.png" width="600" height="300">|<img src="./Results/EMG/biceps mov/Moving.png" width="600" height="300">|
+|                            Bicep con contrafuerza                             |
+|<img src="./Results/EMG/biceps CF/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps CF/Window.png" width="600" height="300">|<img src="./Results/EMG/biceps CF/Moving.png" width="600" height="300">|
 
 
 <div align="justify">
 
 ## Discusión <a name="id8"></a>
 ***
-### Análisis señal en estado basal
 
-   
+### Filtros ECG   
+
+
+
+### Filtros EM
+
 
 
 ## Conclusión <a name="id9"></a>
