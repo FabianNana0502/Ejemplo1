@@ -6,6 +6,28 @@ from scipy.signal import filtfilt, freqz
 from scipy.fft import fft, fftfreq
 from matplotlib.widgets import Slider
 
+# Registro:
+#  IIRs
+# Filtro lowpass eliptic ECG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\IIR Lowpass Eliptic\IIR lowpass eliptic ECG.txt
+# Filtro lowpass buttersworth ECG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\IIR Lowpas Buttersworth\IIR lowpass buttersworth.txt
+# Filtro lowpass chebyshev ECG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\IIR Lowpass Chebyshev\IIR lowpass chebyshev ecg.txt
+# 
+# INPUTS:
+# d1 basal: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\1.Estado Basal\1D_basal.txt
+# d1 respiracion: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\2.Respiración\1D_respiracion.txt
+# d1 2do basal: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\3.Post_Respiración\1D_post_respiracion.txt
+# d1 ejercicio: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 5\Señales_ECG\Data\4.Ejercicio\1D_ejercicio.txt
+#
+# FIRs
+# Filtro bandpass equiriple EMG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\FIR Bandpass Equiriple\FIR Bandpass equiriple EMG.txt
+# Filtro bandpass windowed EMG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\FIR Bandpass Windowed\FIR Bandpass Windowed.txt
+# Filtro bandpass MA EMG: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 7\Filtros Avendaño\Filtros\FIR Bandpass Moving AV\FIR Bandpass moving average.txt
+#
+# INPUTS
+# biceps reposo: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 4\Dataset\biceps1_reposo.txt
+# biceps mov: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 4\Dataset\biceps2_mov_voluntario.txt
+# biceps CF: C:\Users\jakec\Desktop\ISB\Laboratorios\Laboratorio 4\Dataset\biceps3_mov_fuerza.txt
+
 # Función para leer los coeficientes del filtro desde un archivo
 def leer_coeficientes_filtro(archivo_coef, tipo_filtro):
     if tipo_filtro.lower() == 'fir':
@@ -95,7 +117,7 @@ def actualizar_graficas(val, ax1, ax3, tiempo, signalmV, senal_filtrada, fs, ven
     ax3.set_ylabel('Amplitud (mV)')
     ax3.grid(True)
     
-    # Redibujar
+    # actualizacion general
     plt.draw()
 
 # Función principal para leer los archivos, aplicar el filtro y graficar

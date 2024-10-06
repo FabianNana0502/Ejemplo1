@@ -10,11 +10,9 @@
 3. [Materiales y equipos](#id3)
 4. [Metodologia](#id4)
 5. [Resultados](#id5)  
-   5.1 [EEG alumno](#id6)  
-   5.2 [EEG profesor ](#id7)  
-6 [Discucion](#id8)  
-7 [Resultado](#id9)  
-8 [Bibliografia](#id10)
+6. [Discución](#id6)  
+7. [Conclusion](#id7)  
+8. [Bibliografia](#id8)
 
 ## Introducción <a name="id1"></a>
 <div align="justify">
@@ -139,17 +137,57 @@ Fig 6. Diseño de Filtro IIR - modelo Chebyshev Tipo 1
 
 <div align="justify"> 
 
-### Filtros para ECG
+### Filtros para EMG
 
+Para el diseño de los filtros de EMG se debe considerar el rango de frecuencia de estos, el cual es 100-300 Hz. Ahora si bien apra estos casos aun es optimo emplear IIR, se usara filtros FIR de clase **Pasa Banda** para evaluar su desempeño practico, a pesar de requerir un alto coste computacional, variando entre los modelos Equiriple, Windowed FIR y Moving Average.
+
+Al emplear el modelo Equiriple se gana control sobre la respuesta en frecuencia y nos permitira definir con presicion los elementos dentro de la banda de paso aunque requiera un alto numero de coeficientes.
+
+<div align="center"> 
+
+<img src="./Filtros/FIR Bandpass Equiriple/filter 4 emg.png" width="700" height="500">
+
+Fig 7. Diseño de Filtro FIR - modelo Equiriple
+
+<div align="justify"> 
+
+Al multiplicar una respuesta ideal en frecuencia con una ventana se reduce el ruido no deseado en la señal EMG, aunque a costa de una transición menos nítida entre la banda de paso y la de atenuación.
+
+<div align="center"> 
+
+<img src="./Filtros/FIR Bandpass Windowed/filter 5 EMG.png" width="700" height="500">
+
+Fig 8. Diseño de Filtro FIR - modelo Windowed 
+
+<div align="justify"> 
+
+De los 3 modelos es el que requiere menos coeficientes y reduce el ruido de alta frecuencia, suavizando bastante la señal, pero con una capacidad de filtrado limitado debido a su reducido control por promedios consecutivos
+
+<div align="center"> 
+
+<img src="./Filtros/FIR Bandpass Moving AV/filter 6 emg.png" width="700" height="500">
+
+Fig 9. Diseño de Filtro FIR - modelo Moving Average 
+
+<div align="justify"> 
+
+***
 ## Resultados <a name="id5"></a>
-***
+
+### ECG
+
+|**IIR Lowpass Eliptico**|**IIR Lowpass Buttersworth**|**IIR Lowpass Chebyshev**|
+|:----------------------:|:--------------------------:|:-----------------------:|
+|EstadoBasal|
+|<img src="./Results/ECG/Estado Basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Cheby.png" width="600" height="300">|
+|Respiracion 10 segundos|
+|<img src="./Results/ECG/Respiracion/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Butter.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Cheby.png" width="600" height="300">|
+|2do estado basal|
+|<img src="./Results/ECG/2do basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Cheby.png" width="600" height="300">|
+|Post Ejercicio|
+|<img src="./Results/ECG/Post ejercicio/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Butter.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Cheby.png" width="600" height="300">|
+
 ### EEG del profesor<a name="id7"></a>
-***
-|**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
-|:---------------------------:|:------------------------:|
-|![video1](http://img.youtube.com/vi/DEUQdwvzWDg/0.jpg)("https://youtu.be/DEUQdwvzWDg")|![video1](http://img.youtube.com/vi/_X7cUqVrU60/0.jpg)("https://youtu.be/_X7cUqVrU60")|
-|**EEG profesor - 2do Estado Basal**|**EEG profesor - Ejercicios mentales (total)**|
-|![video1](http://img.youtube.com/vi/Zm6OFPL9uPM/0.jpg)("https://youtu.be/Zm6OFPL9uPM")|![video1](http://img.youtube.com/vi/FpcMIeKeOmc/0.jpg)("https://youtu.be/FpcMIeKeOmc")|
 ***
 
 |**EEG profesor - Estado Basal**|**EEG profesor - Parpadeos (lapsos 5 segundos)**|
