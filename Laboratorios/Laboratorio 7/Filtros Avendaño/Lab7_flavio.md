@@ -178,47 +178,53 @@ Fig 9. Diseño de Filtro FIR - modelo Moving Average
 
 |**IIR Lowpass Eliptico**|**IIR Lowpass Buttersworth**|**IIR Lowpass Chebyshev**|
 |:----------------------:|:--------------------------:|:-----------------------:|
-|                               EstadoBasal                                     |
+|:---------------------------------EstadoBasal---------------------------------:|
 |<img src="./Results/ECG/Estado Basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/Estado Basal/Cheby.png" width="600" height="300">|
-|                           Respiracion 10 segundos                             |
+|:--------------------------Respiracion 10 segundos----------------------------:|
 |<img src="./Results/ECG/Respiracion/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Butter.png" width="600" height="300">|<img src="./Results/ECG/Respiracion/Cheby.png" width="600" height="300">|
-|                             2do estado basal                                  |
+|:-----------------------------2do estado basal--------------------------------:|
 |<img src="./Results/ECG/2do basal/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Butter.png" width="600" height="300">|<img src="./Results/ECG/2do basal/Cheby.png" width="600" height="300">|
-|                              Post Ejercicio                                   |
+|:------------------------------Post Ejercicio---------------------------------:|
 |<img src="./Results/ECG/Post ejercicio/Eliptic.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Butter.png" width="600" height="300">|<img src="./Results/ECG/Post ejercicio/Cheby.png" width="600" height="300">|
 
 ### EMG
 
 |**FIR Bandpass Equiriple**|**FIR Bandpass Windowed**|**FIR Bandpass Moving AV**|
 |:------------------------:|:-----------------------:|:------------------------:|
-|                               Bicep en reposo                                 |
+|:------------------------------Bicep en reposo--------------------------------:|
 |<img src="./Results/EMG/biceps reposo/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps reposo/Window.png" width="600" height="300">|<img src="./Results/EMG/biceps reposo/Moving.png" width="600" height="300">|
-|                             Biceps en movimiento                              |
+|:----------------------------Biceps en movimiento-----------------------------:|
 |<img src="./Results/EMG/biceps mov/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps mov/Windowed.png" width="600" height="300">|<img src="./Results/EMG/biceps mov/Moving.png" width="600" height="300">|
-|                            Bicep con contrafuerza                             |
+|:---------------------------Bicep con contrafuerza----------------------------:|
 |<img src="./Results/EMG/biceps CF/Equiriple.png" width="600" height="300">|<img src="./Results/EMG/biceps CF/Window.png" width="600" height="300">|<img src="./Results/EMG/biceps CF/Moving.png" width="600" height="300">|
 
 
 <div align="justify">
 
-## Discusión <a name="id8"></a>
+## Discusión <a name="id6"></a>
 ***
 
 ### Filtros ECG   
 
+Con el uso de los 3 filtros hubo una leve mejoria en la resolucion de la señal por igual, y correccion del espectro a su rango de frecuencias respectivo, ya que al ser todos del tipo IIR optimizan calculos y costes computacionales en comparacion de los FIR, ademas que segun los graficos de plano z, todos los filtros de este tipo son sistemas del tipo estable ya que todos sus polos se encuentran dentro del circulo unitario y BIBO estables, considerar que la señal de entrada de por si ya poseia una considerable resolucion de ECG. Para poder visualizar a detalle todos los resultados (Espectros en frecuencia, diagramas de polos y zeros, fases,etc.) [Información ECG Buttersworth](./Filtros/IIR%20Lowpas%20Buttersworth) [Información ECG Eliptic](./Filtros/IIR%20Lowpass%20Eliptic) [Información ECG Chebyshev](./Filtros/IIR%20Lowpass%20Chebyshev)
 
+### Filtros EMG
 
-### Filtros EM
+Los filtros FIR presntaron complicaciones durante su diseño, principalmente porque requerian un altisimo numero de coeficientes (minimo 700) dificultando el computo para la obtencion del filtro, ademas de que los polos y zeros del modelo FIR windowed indican alta inestabilidad, y el modelo Moving Average un baja aunque presente inestabilidad, mientras que el modelo Equiriple cumplia con la BIBO estabilidad, todo esto apreciable en los ploetos tras los filtrados en los de mayor a menor eficiencia estan: Equiriple, Moving Average y FIR windowed, indicando una relacion proporcional entre coste computacional, numero de coeficientes e inestabilidad del filtro.Para poder visualizar a detalle todos los resultados (Espectros en frecuencia, diagramas de polos y zeros, fases,etc.) [Información EMG Equiriple](./Filtros/FIR%20Bandpass%20Equiriple/) [Información EMG Windowed](./Filtros/FIR%20Bandpass%20Windowed) [Información EMG Moving Av](./Filtros/FIR%20Bandpass%20Moving%20AV)
 
+## Conclusión <a name="id7"></a>
 
+El uso de filtros nos permite mejorar la resolucion de las bioseñales con la finalidad de poder realizar mejores analisis y diagnosticos, ya sea por IAs o profesionales de la salud, esta mejora de calidad permite obtener datos con amyor presicion que puede significar la diferencia entre poder detectar una patologia o no.
 
-## Conclusión <a name="id9"></a>
+Y el analizar una señal en el dominio de la frecuencia y el plano Z de su filtro nos permite reconocer interferencias para poder ser eliminados por filtro de tipo FIR o IIR segun su estabilidad, que segun los filtrados realizados y costes de computo, se concluye que el filtro IIR es más eficiente para poder eliminar interferencias en una señal ECG por su practicidad y reducido coste de diseño.
 
+## Bibliografía<a name="id8"></a>
 
-
-## Bibliografía<a name="id10"></a>
-
-[1] Federico Miyara.(2004) Electronica III - Filtros Activos, Segunda Edicion. Universidad Nacional de Rosario
+[1] Federico Miyara.(2004)Electronica III - Filtros Activos, Segunda Edicion. Universidad Nacional de Rosario
    https://www.fceia.unr.edu.ar/enica3/filtros-t.pdf
 
-[2] 
+[2] Kumar, Hemant.(2015)Comparative Study of FIR Digital Filter for Noise Elimination in EMG Signal
+   https://www.researchgate.net/publication/330703731_Comparative_Study_of_FIR_Digital_Filter_for_Noise_Elimination_in_EMG_Signal
+
+[3] Roshni, Y. (2020, marzo 24). Difference between FIR filter and IIR filter. Circuit Globe.
+   https://circuitglobe.com/difference-between-fir-filter-and-iir-filter.html 
