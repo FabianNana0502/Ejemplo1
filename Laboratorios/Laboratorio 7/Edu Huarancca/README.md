@@ -16,8 +16,8 @@ de señales ECG y EMG para  mejorar el análisis de cada señal .
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
 3. [Marco Teorico](#id3)
-    3.1 [Filtro FIR](#id4)
-    3.2 [Filtro IIR](#id5)
+3.1 [Filtro FIR](#id4)
+3.2 [Filtro IIR](#id5)
 4. [Materiales](#id6)
 4. [Metodologia](#id7)
 5. [Resultados](#id8)  
@@ -142,7 +142,7 @@ Fig 4. Filtro pasa bajas Butterworth
 
 Fig 5. Filtro pasabajas Chebyshev 1
 
-<img src="./Filters/EMG/FIR hamming.png width="600" height="300">
+<img src="./Filters/EMG/FIR hamming.png" width="600" height="300">
 
 Fig 6. Filtro pasabajas con ventana de Hamming
 
@@ -160,7 +160,7 @@ Fig 7. Filtro pasa bajas Butterworth
 
 Fig 8. Filtro pasabajas Chebyshev 1
 
-<img src="./Filters/ECG/FIR windowed ecg.png width="600" height="300">
+<img src="./Filters/ECG/FIR windowed ecg.png" width="600" height="300">
 
 Fig 9. Filtro pasabajas con ventana de Hamming
 
