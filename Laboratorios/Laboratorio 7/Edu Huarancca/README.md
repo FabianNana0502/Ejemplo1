@@ -168,8 +168,45 @@ Fig 9. Filtro pasabajas con ventana de Hamming
 
 ## Resultados <a name="id8"></a>
 
+Ver resultados en [Resultados](./Resultados)
+
 ## Discución <a name="id9"></a>
+
+### Discusión de señales EMG
+
+El primer filtro Butterworth se caracteriza por  introducir mínimas distorsiones en cuanto a la ganancia. La transición entre 
+la banda de paso y la banda de atenuación es más suave en comparación con otros filtros. Por otro lado ,como se observa en la 
+gráfica ,  el filtro Chebyshev I introduce rizado en la banda de paso, lo que significa que hay pequeñas fluctuaciones en la 
+ganancia dentro de las frecuencias de 100 a 400 Hz. Sin embargo, este filtro tiene una transición más rápida a la banda de 
+atenuación, lo que implica una mejor selectividad para las frecuencias fuera de esa banda.
+El alto orden mayor en el diseño del filtro asegura una atenuación significativa de las frecuencias no deseadas, pero esto 
+también implica una mayor complejidad computacional y un posible desfase en la señal. El filtro Chebyshev I , de menor o
+rden , permite una transición más rápida de la banda de paso a la de atenuación. El filtro Butterworth  al no tener 
+rizado en la banda de paso, preserva la forma de las señales EMG dentro de la banda deseada .Por otro lado, para el 
+filtro Butterworth, la transición es más lenta entre la banda de paso y la de atenuación. Esto significa que si existe  
+ruido o señales interferentes cercanas a los bordes de la banda de paso (100 Hz y 450 Hz), un filtro Chebyshev I sería 
+una mejor opción
+
+### Discusión de señales ECG
+
+Los tres filtros para señales ECG presentan características distintas que afectan la señal de diversas maneras. El filtro 
+Butterworth se destaca por su respuesta que minimiza la distorsión de ganancia dentro del rango, pero introduce un desfase 
+significativo, especialmente al ser de orden alto en comparación a los otros 2 filtros diseñados . Este desfase puede 
+afectar la alineación temporal de la señal ECG, algo crítico en la medición de intervalos como el RR, aunque es eficiente 
+eliminando componentes fuera de la banda. Por otro lado, el filtro Bessel (orden menor de 15) se caracteriza por una 
+respuesta de fase lineal, preservando mejor la temporalidad de la señal, lo que lo hace ideal para el análisis de los 
+tiempos relativos entre los picos de la señal ECG . Sin embargo, su transición más suave lo hace menos eficaz en la 
+atenuación fuera de la banda de paso en comparación con el Butterworth. Finalmente, el filtro basado en una ventana de 
+Hanning (orden más alto de 50) tiene una transición relativamente suave, lo que reduce el rizado tanto en la banda de 
+paso como en la banda de detención. Aunque su respuesta en frecuencia es menos selectiva y su eficiencia de atenuación es 
+inferior a la de los otros filtros, introduce menos desfase que el Butterworth y es más simple computacionalmente, siendo 
+adecuado para aplicaciones menos críticas en ECG.
+
 
 ## Conclusión <a name="id10"></a>
 
+
+
 ## Bibliografía <a name="id10"></a>
+
+--------------------------------------
