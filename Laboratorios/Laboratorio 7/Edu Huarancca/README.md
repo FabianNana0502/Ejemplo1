@@ -207,7 +207,7 @@ adecuado para aplicaciones menos críticas en ECG.
 
 * Los filtros digitales, como FIR e IIR, son esenciales en el procesamiento de señales biomédicas, permitiendo la eliminación de ruido y la mejora de las frecuencias relevantes en señales como ECG y EMG.
 
-* En el procesamiento de señales de electromiografía (EMG), los filtros adaptativos, como los basados en algoritmos de cancelación de interferencias, son fundamentales para eliminar el ruido causado por la actividad muscular cercana, permitiendo una evaluación precisa de la actividad eléctrica de los músculos específicos.
+* En el procesamiento de señales de electromiografía (EMG) , es necesario un filtrado para eliminar el ruido causado por la actividad muscular cercana, permitiendo una evaluación precisa de la actividad eléctrica de los músculos específicos,en esta sesión se usaron filtros pasa bajas con frecuencias entre 100 - 400 Hz.
 
 * Para la detección de eventos en señales biomédicas, como picos de actividad cardíaca en electrocardiografía (ECG), se utilizan filtros de derivación específicos, como el filtro de derivada de primera o segunda orden, que resaltan cambios rápidos en la señal, facilitando la identificación de eventos cardíacos relevantes 
 
