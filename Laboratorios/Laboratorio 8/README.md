@@ -7,14 +7,14 @@
 - Joao Marco Torres Rivera
 
 ## Contenido de la sesión
+
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
 3. [Materiales y equipos](#id3)
 4. [Metodologia](#id4)
 5. [Resultados](#id5)  
    5.1 [EEG alumno](#id6)  
-   5.2 [EEG profesor ](#id7)  
-
+   5.2 [EEG profesor](#id7)
 6 [Discucion](#id8)  
 7 [Resultado](#id9)  
 8 [Bibliografia](#id10)
