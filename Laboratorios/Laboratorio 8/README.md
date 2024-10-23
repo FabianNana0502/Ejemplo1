@@ -15,6 +15,7 @@
 5. [Resultados](#id5)  
    5.1 [EEG alumno](#id6)  
    5.2 [EEG profesor](#id7)
+   
 6 [Discucion](#id8)  
 7 [Resultado](#id9)  
 8 [Bibliografia](#id10)
