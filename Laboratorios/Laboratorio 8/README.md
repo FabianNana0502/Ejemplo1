@@ -34,7 +34,7 @@ y su efectividad en la mejora de la calidad de las señales biomédicas.
 
 ## Introducción <a name="id1"></a>
 <p style="text-align: justify;"> 
-   Fue el físico francés Joseph Fourier que se atribuye al algoritmo más importante del último siglo: La transformada de Fourier. Que surgió de la idea de visualizar cualquier señal en el dominio de la frecuencia y no del tiempo. Los dispositivos actuales funcionan usando la Transformada de Fourier en filtros aplicados para eliminación de ruido y para mejroar la señal de salida. Sin embargo en la medicina surge una cuestión importante. La transformada de fouriere tiene sus limitaciones y la prinicipal es que no detecta los cambios bruscos (alta frecuencia en la señal) debido al ventaneo inadecuado en el tiempo y/o en la frecuencia. Es por ello que se utiliza el concepto de la transformada de Wavelet como una solución a nuestro problema[1,2]
+   Fue el físico francés Joseph Fourier que se atribuye al algoritmo más importante del último siglo: La transformada de Fourier. Que surgió de la idea de visualizar cualquier señal en el dominio de la frecuencia y no del tiempo. Los dispositivos actuales funcionan usando la Transformada de Fourier en filtros aplicados para eliminación de ruido y para mejroar la señal de salida. Sin embargo en la medicina surge una cuestión importante. La transformada de fouriere tiene sus limitaciones y la prinicipal es que no detecta los cambios bruscos (alta frecuencia en la señal) debido al ventaneo inadecuado en el tiempo y/o en la frecuencia. Es por ello que se utiliza el concepto de la transformada de Wavelet como una solución a nuestro problema.s [1,2]
 
    ### ¿Qué es la transformada de Wavelet?   
    <p style="text-align: justify;"> 
@@ -74,5 +74,6 @@ y su efectividad en la mejora de la calidad de las señales biomédicas.
 ## Bibliografía<a name="id10"></a>
 
 [1] B. Osgood, “Fourier Transform”, en The Fourier Transform and its Applications. Standford Univ., pp. 65–94.
+
 [2]G. González, “Series de Fourier, Transformadas de Fourier y Aplicaciones”, en Fourier series, Fourier Transforms and Applications, vol. 5, Divulgaciones Matemáticas. Maracaibo, Venezuela: Univ. Del Zulia, 1997, pp. 43–60.
 
