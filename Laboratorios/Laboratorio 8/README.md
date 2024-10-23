@@ -16,10 +16,9 @@
 6. [Resultados](#id6)  
    6.1 [EMG](#id7)  
    6.2 [EEG ](#id8)
-   
-7. [Discucion](#id8)  
-8. [Resultado](#id9)  
-9. [Bibliografia](#id10)
+7. [Discusión](#id9)  
+8. [Conclusiones](#id10)  
+9. [Bibliografia](#id11)
 ***
 
 <p style="text-align: justify;">  
@@ -94,7 +93,7 @@ En su investigación, Olarte evaluó diversas técnicas de denoising utilizando 
 
 <div align="center">
 
-### EMG: 
+### EMG: <a name="id7"></a> 
 
 #### Bicep en contra reposo:
 
@@ -115,7 +114,7 @@ Figura 5.
 Figura 6. 
 
 
-### EEG:
+### EEG: <a name="id8"></a>
 #### BASAL:
 
 ![Figura 7](./Imagenes/Basal_eeg.png)
@@ -133,10 +132,10 @@ Figura 8.
 ![Figura 9](./Imagenes/preguntas_eeg.png)
 
 Figura 9.
-
-## Discusión <a name="id8"></a>
-
 <div align="justify">
+
+## Discusión <a name="id9"></a>
+
 
 Se observan las señales EEG originales y filtradas usando la transformada wavelet Daubechies. La filtración wavelet ha permitido una notable distinción de las características de la señal, eliminando gran parte del ruido de alta frecuencia sin afectar las principales componentes de la señal. Esto se refleja especialmente en los canales donde se percibía mayor ruido o variaciones no deseadas.
 
@@ -146,11 +145,11 @@ Se observan las señales EEG originales y filtradas usando la transformada wavel
 
 El uso de la wavelet Daubechies es altamente recomendable para el procesamiento de señales como el EEG, donde es crucial identificar patrones a lo largo del tiempo con alta precisión, manteniendo la información relevante en frecuencias bajas. Esto permite identificar eventos específicos de manera más confiable, contribuyendo al análisis neurofisiológico.
 
-## Conclusión <a name="id9"></a>
+## Conclusión <a name="id10"></a>
 <div align="justify">
 La aplicación de la transformada wavelet, particularmente utilizando la wavelet Daubechies, en el análisis de señales biomédicas como EMG, ECG y EEG ha demostrado ser una técnica poderosa y eficaz para mejorar la calidad de la señal al reducir significativamente el ruido y conservar las características esenciales. Este enfoque ha permitido una visualización más clara y una interpretación más precisa de las señales, facilitando diagnósticos más exactos y avances en la investigación médica. En el caso de las señales EMG y ECG, la transformada wavelet ha proporcionado una herramienta robusta para el filtrado de ruido, preservando detalles importantes que son cruciales para la evaluación de la función muscular y cardíaca. Para las señales EEG, la eliminación efectiva de artefactos y la mejora en la visualización de las ondas cerebrales han permitido una mejor comprensión de los procesos neurológicos, lo que es fundamental para estudios relacionados con trastornos neurológicos y para el monitoreo de la actividad cerebral en entornos clínicos. La transformada wavelet se destaca como una técnica esencial en la ingeniería biomédica, ofreciendo soluciones avanzadas para el procesamiento de señales complejas y variadas en el tiempo.
 
-## Bibliografía<a name="id10"></a>
+## Bibliografía<a name="id11"></a>
 
 [1] B. Osgood, “Fourier Transform”, en The Fourier Transform and its Applications. Standford Univ., pp. 65–94.
 
