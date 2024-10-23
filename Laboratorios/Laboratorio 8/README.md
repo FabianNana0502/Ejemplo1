@@ -10,8 +10,8 @@
 
 1. [Introducción](#id1)
 2. [Objetivos](#id2)
-3. [Materiales y equipos](#id3)
-4. [Metodologia](#id4)
+3. [¿Qué es la transformada de Wavelet?](#id3)
+4. [Filtrado señal ECG con transformada Wavelet ](#id4)
 5. [Resultados](#id5)  
    5.1 [EEG alumno](#id6)  
    5.2 [EEG profesor](#id7)
@@ -34,7 +34,7 @@ y su efectividad en la mejora de la calidad de las señales biomédicas.
 
 ## Introducción <a name="id1"></a>
 <p style="text-align: justify;"> 
-   Fue el físico francés Joseph Fourier que se atribuye al algoritmo más importante del último siglo: La transformada de Fourier. Que surgió de la idea de visualizar cualquier señal en el dominio de la frecuencia y no del tiempo. Los dispositivos actuales funcionan usando la Transformada de Fourier en filtros aplicados para eliminación de ruido y para mejroar la señal de salida. Sin embargo en la medicina surge una cuestión importante. La transformada de fouriere tiene sus limitaciones y la prinicipal es que no detecta los cambios bruscos (alta frecuencia en la señal) debido al ventaneo inadecuado en el tiempo y/o en la frecuencia. Es por ello que se utiliza el concepto de la transformada de Wavelet como una solución a nuestro problema.s [1,2]
+   Fue el físico francés Joseph Fourier que se atribuye al algoritmo más importante del último siglo: La transformada de Fourier. Que surgió de la idea de visualizar cualquier señal en el dominio de la frecuencia y no del tiempo. Los dispositivos actuales funcionan usando la Transformada de Fourier en filtros aplicados para eliminación de ruido y para mejorar la señal de salida. Sin embargo, en la medicina surge una cuestión importante. La transformada de fourier tiene sus limitaciones y la principal es que no detecta los cambios bruscos (alta frecuencia en la señal) debido al ventaneo inadecuado en el tiempo y/o en la frecuencia. Es por ello que se utiliza el concepto de la transformada de Wavelet como una solución a nuestro problema. [1,2]
 
    ### ¿Qué es la transformada de Wavelet?   
    <p style="text-align: justify;"> 
@@ -51,10 +51,15 @@ y su efectividad en la mejora de la calidad de las señales biomédicas.
 * Analizar y evaluar las señales biomédicas tras aplicar los filtros wavelet.
 * Analizar y evaluar las señales tras aplicar los filtros wavelet.
 
-## Materiales y equipos <a name="id3"></a>
+## ¿Qué es la transformada de Wavelet? <a name="id3"></a>
+<p style="text-align: justify;"> 
+La transformada Wavelet es una técnica de análisis de señales que proyecta una señal en un conjunto de funciones base que ofrecen localización en el dominio de la frecuencia. A diferencia de la transformada de Fourier, que proporciona una localización tiempo-frecuencia constante, la transformada Wavelet ofrece una alta resolución frecuencial en bajas frecuencias y una alta resolución temporal en altas frecuencias. Esto se logra mediante el uso de una serie de bases ortogonales con diferentes resoluciones para representar o aproximar una señal a través de la expansión y traslación de la función base de la wavelet.
 
 
-## Metodología <a name="id4"></a>
+## Filtrado señal ECG con transformada Wavelet <a name="id4"></a>
+<p style="text-align: justify;"> 
+Se realizó el procesamiento de las señales obtenidas en laboratorios previos usando el Kit-Bitalino, para el caso de la señal ECG se tomaron en cuenta las señales en estado basal , durante la respiración , periodo post respiración y periodo después del ejercicio .
+Es uno de los métodos más eficientes para eliminar ruidos en el ECG. Existen muchos tipos de wavelets como Daubechies, Haar, Symlet y BiorSplines[E] . La transformada wavelet es una técnica matemática utilizada en procesamiento de señales para analizar señales que varían en el tiempo o contienen detalles a diferentes escalas. A diferencia de la transformada de Fourier, que representa una señal en el dominio de la frecuencia globalmente, la transformada wavelet proporciona una representación local tanto en el dominio del tiempo como en el de la frecuencia .La metodología de la transformada Wavelet se basa en descomponer la señal, cálculo de coeficientes de diferentes longitudes por cada nivel de descomposición ,estos coeficientes contienen la información esencial de la señal a diferentes escalas de resolución temporal y frecuencia ; finalmente,  un proceso de recomposición de la señal .  
 
 
 ## Resultados <a name="id5"></a>
