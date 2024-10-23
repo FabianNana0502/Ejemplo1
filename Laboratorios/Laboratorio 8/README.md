@@ -79,6 +79,6 @@ y su efectividad en la mejora de la calidad de las señales biomédicas.
 
 ## Bibliografía<a name="id10"></a>
 
-[1] https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
-
+[1] B. Osgood, “Fourier Transform”, en The Fourier Transform and its Applications. Standford Univ., pp. 65–94.
+[2]G. González, “Series de Fourier, Transformadas de Fourier y Aplicaciones”, en Fourier series, Fourier Transforms and Applications, vol. 5, Divulgaciones Matemáticas. Maracaibo, Venezuela: Univ. Del Zulia, 1997, pp. 43–60.
 
