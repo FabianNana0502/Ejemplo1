@@ -12,9 +12,10 @@
 2. [Objetivos](#id2)
 3. [¿Qué es la transformada de Wavelet?](#id3)
 4. [Filtrado señal ECG con transformada Wavelet ](#id4)
-5. [Resultados](#id5)  
-   5.1 [EEG alumno](#id6)  
-   5.2 [EEG profesor](#id7)
+5. [ Filtrado señal EEG con transformada Wavelet](#id5)
+6. [Resultados](#id6)  
+   6.1 [EMG](#id7)  
+   6.2 [EEG ](#id8)
    
 6 [Discucion](#id8)  
 7 [Resultado](#id9)  
@@ -61,10 +62,56 @@ La transformada Wavelet es una técnica de análisis de señales que proyecta un
 Se realizó el procesamiento de las señales obtenidas en laboratorios previos usando el Kit-Bitalino, para el caso de la señal ECG se tomaron en cuenta las señales en estado basal , durante la respiración , periodo post respiración y periodo después del ejercicio .
 Es uno de los métodos más eficientes para eliminar ruidos en el ECG. Existen muchos tipos de wavelets como Daubechies, Haar, Symlet y BiorSplines[E] . La transformada wavelet es una técnica matemática utilizada en procesamiento de señales para analizar señales que varían en el tiempo o contienen detalles a diferentes escalas. A diferencia de la transformada de Fourier, que representa una señal en el dominio de la frecuencia globalmente, la transformada wavelet proporciona una representación local tanto en el dominio del tiempo como en el de la frecuencia .La metodología de la transformada Wavelet se basa en descomponer la señal, cálculo de coeficientes de diferentes longitudes por cada nivel de descomposición ,estos coeficientes contienen la información esencial de la señal a diferentes escalas de resolución temporal y frecuencia ; finalmente,  un proceso de recomposición de la señal .  
 
+[Figura 1](./Imagenes/Denoising%20techniques.png)
 
-## Resultados <a name="id5"></a>
+Figura 1. Técnica de eliminación de ruido [3]
+
+La transformada wavelet consta de 3 pasos principales:
+Descomponer la señal eligiendo wavelet ‘sym8’ y nivel ‘7’. Esto da como resultado muchos coeficientes de varias longitudes.
+Convertir los coeficientes más altos con longitud mínima en ceros, es decir, convertir CA7 y CD7 en ceros. Aplicar umbralización suave al resto de los coeficientes [15] (CD6, CD5, CD4, CD3, CD2 y CD1).
+Reconstruir el wavelet utilizando coeficientes modificados y el mismo wavelet ‘sym8’ y nivel ‘7’.
+
+[Figura 2](./Imagenes/signal.png)
+
+Figura 2. Cálculo de umbral suave [3]
+
+[Figura 3](./Imagenes/decomposition.png)
+
+Figura 3. Eliminación de ruido de la señal de ECG mediante la transformada wavelet. [3]
+
+## Filtrado señal EEG con transformada Wavelet <a name="id5"></a>
+<div align="justify">
+Para el análisis de señales EEG, usaremos el Morlet Wavelet debido a su capacidad de brindar una buena resolución tanto en tiempo como en frecuencia, lo que es crucial en la interpretación de señales no estacionarias como las EEG.  
+
+El Morlet Wavelet es una función que combina una onda sinusoidal modulada por una envolvente gaussiana. Este tipo de wavelet se utiliza comúnmente en el análisis de señales EEG porque ofrece un equilibrio adecuado entre la resolución en el dominio del tiempo y la frecuencia, algo fundamental para estudiar eventos cerebrales que ocurren de forma localizada en el tiempo, como las oscilaciones rítmicas del cerebro. 
+
+(t)=-1/4ei0te-t2/2
+0  Es la frecuencia central de la onda sinusoidal.
+t es el tiempo.
+ei0t Es la onda sinusoidal.
+e-t2/2 Es la envolvente gaussiana que modula la sinusoidal.
+El Morlet Wavelet permite analizar cómo cambian las frecuencias en la señal EEG a lo largo del tiempo. Utilizando la Transformada Wavelet Continua (CWT), se convoluciona la señal EEG con versiones escaladas y desplazadas del Morlet Wavelet, lo que genera una representación tiempo-frecuencia de la señal conocida como scalogram. Esto permite observar las dinámicas cerebrales, tales como las transiciones entre distintos estados cerebrales, con alta precisión temporal. 
+
+En su investigación, Olarte evaluó diversas técnicas de denoising utilizando la Transformada Wavelet Discreta y determinó que la wavelet Daubechies de orden 4 ('db4') era la más efectiva para la corrección de ruido en las señales. Este enfoque se aplicó a una descomposición en 4 niveles, lo que permitió una captura adecuada de las características relevantes de la señal.Además, Olarte encontró que la implementación de un umbral suave (soft thresholding) proporcionaba una reducción efectiva del ruido, manteniendo al mismo tiempo la integridad de la información en la señal. Estos resultados resaltan la importancia de elegir adecuadamente los parámetros de la wavelet para optimizar el procesamiento de señales. [4]
+
+
+## Resultados <a name="id6"></a>
 ***
+### EMG: 
+Bicep en contra reposo:
 
+Bicep en movimiento:
+
+Bicep en contra fuerza:
+
+
+
+### EEG:
+BASAL:
+
+PARPADEO:
+
+PREGUNTAS:
 
 <div align="justify">
 
