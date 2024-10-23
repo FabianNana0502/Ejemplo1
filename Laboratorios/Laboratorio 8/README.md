@@ -73,7 +73,7 @@ Es uno de los métodos más eficientes para eliminar ruidos en el ECG. Existen m
 
 
 ## Conclusión <a name="id9"></a>
-
+El estudio del procesamiento de señales EEG utilizando la transformada wavelet, específicamente con la wavelet Daubechies, ha demostrado ser muy eficaz en la reducción de ruido y en la preservación de características esenciales de la señal. La capacidad de esta técnica para eliminar el ruido sin perder detalles cruciales permite una interpretación más clara y precisa de la actividad cerebral, esencial tanto para diagnósticos clínicos como para investigaciones neurofisiológicas. La claridad mejorada en las señales facilita un análisis detallado y una visualización efectiva de las dinámicas cerebrales, contribuyendo significativamente al entendimiento de trastornos neurológicos y al desarrollo de intervenciones basadas en evidencia. La recomendación del uso de wavelets Daubechies para el análisis EEG resalta su equilibrio óptimo entre resolución temporal y frecuencial, haciendo de esta técnica una elección ideal para el análisis fiable y detallado de eventos neurológicos complejos. En conjunto, la aplicación de la transformada wavelet en señales EEG representa un avance notable en el campo biomédico, proporcionando herramientas robustas para mejorar el diagnóstico y la investigación en neurociencia.
 
 
 ## Bibliografía<a name="id10"></a>
