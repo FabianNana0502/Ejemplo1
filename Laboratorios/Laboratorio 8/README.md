@@ -25,6 +25,7 @@
 
 ## Resumen 
 
+<p style="text-align: justify;"> 
 Este informe aborda el estudio y la implementación del filtro wavelet en el procesamiento de señales biomédicas, 
 enfocándose específicamente en señales de EMG (electromiografía), ECG (electrocardiografía) y EEG 
 (electroencefalografía). Se examinan los principios fundamentales de los filtros wavelet, su aplicación práctica 
@@ -32,18 +33,11 @@ y se analizan los resultados obtenidos. Además, se destaca la comparación entr
 y su efectividad en la mejora de la calidad de las señales biomédicas.
 
 ## Introducción <a name="id1"></a>
-
-   El análisis preciso de señales fisiológicas es fundamental en la ingeniería biomédica para el diagnóstico y 
-   monitoreo de diversas afecciones médicas. Las señales biomédicas como EMG, ECG y EEG son esenciales para }
-   obtener información sobre la actividad muscular, cardíaca y cerebral, respectivamente. Sin embargo, estas 
-   señales a menudo están contaminadas por ruido y artefactos, lo que dificulta su interpretación. Los filtros 
-   wavelet han emergido como una herramienta eficaz para el procesamiento y análisis de estas señales, permitiendo 
-   una mejor eliminación del ruido y una identificación más precisa de características relevantes. Este informe 
-   explora los fundamentos de los filtros wavelet, su aplicación en señales biomédicas y la evaluación de los 
-   resultados obtenidos, proporcionando una base sólida para su uso en aplicaciones clínicas y de investigación.
+<p style="text-align: justify;"> 
+   Fue el físico francés Joseph Fourier que se atribuye al algoritmo más importante del último siglo: La transformada de Fourier. Que surgió de la idea de visualizar cualquier señal en el dominio de la frecuencia y no del tiempo. Los dispositivos actuales funcionan usando la Transformada de Fourier en filtros aplicados para eliminación de ruido y para mejroar la señal de salida. Sin embargo en la medicina surge una cuestión importante. La transformada de fouriere tiene sus limitaciones y la prinicipal es que no detecta los cambios bruscos (alta frecuencia en la señal) debido al ventaneo inadecuado en el tiempo y/o en la frecuencia. Es por ello que se utiliza el concepto de la transformada de Wavelet como una solución a nuestro problema[1,2]
 
    ### ¿Qué es la transformada de Wavelet?   
-   
+   <p style="text-align: justify;"> 
    La transformada Wavelet es una técnica de análisis de señales que proyecta una señal en un conjunto de funciones 
    base que ofrecen localización en el dominio de la frecuencia. A diferencia de la transformada de Fourier, que 
    proporciona una localización tiempo-frecuencia constante, la transformada Wavelet ofrece una alta resolución 
