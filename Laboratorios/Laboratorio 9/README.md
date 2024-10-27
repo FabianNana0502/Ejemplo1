@@ -207,9 +207,9 @@ En contrafuerza:
 ![Figura 12](./Imagenes/gastro3_mov_fuerza.png) 
 Figura 12.
 
-## Discusión <a name="id6"></a>
 <div align="justify">
 
+## Discusión <a name="id6"></a>
 ### Grupo Reposo:
 
 * RMS y MAV: Los valores de RMS y MAV son relativamente bajos:
