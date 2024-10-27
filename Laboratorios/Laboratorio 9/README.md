@@ -65,13 +65,13 @@ Estas características, al ser integradas en algoritmos de control, permiten que
 #### A. Valor medio absoluto (MAV):
 Valor medio absoluto. Estima el valor medio absoluto Xi , sobre cada segmento i de N muestras de la señal, mediante la expresión:
 
-![Figura 1](/Imagenes/MAV.png)  
+![Figura 1](./Imagenes/MAV.png)  
 
 #### B. Valor medio absoluto de pendientes (MAVS):
 
 Este es simplemente la diferencia entre sumas de segmentos adyacentes[6], i e i +1, definido por:
 
-![Figura 2](/Imagenes/MAVS.png)  
+![Figura 2](./Imagenes/MAVS.png)  
 
 #### C. Cruces por cero (ZC):  
 
@@ -85,7 +85,7 @@ Provee otra forma de medir el contenido de frecuencia en la señal mediante el c
 
 Provee información de la complejidad  de la forma de onda en cada segmento, está dada por la siguiente expresión: 
 
-![Figura 3](/Imagenes/WL.png)
+![Figura 3](./Imagenes/WL.png)
 
 #### F. Cambios de signo de pendiente (CSP) : 
 
@@ -124,13 +124,13 @@ Se encarga de contar el número de veces que la señal cruza un valor de umbral 
 | NF (sin unidades) |  962.0    |    1088.0      | 1746.0000
 
 En reposo:
-![Figura 4](/Imagenes/biceps1_reposo.png)
+![Figura 4](./Imagenes/biceps1_reposo.png)
 
 En movimiento:
-![Figura 5](/Imagenes/biceps2_mov_voluntario.png) 
+![Figura 5](./Imagenes/biceps2_mov_voluntario.png) 
 
 En contrafuerza:
-![Figura 6](/Imagenes/biceps3_mov_fuerza.png) 
+![Figura 6](./Imagenes/biceps3_mov_fuerza.png) 
 
 #### Tríceps:
 
@@ -149,13 +149,13 @@ En contrafuerza:
 | NF (sin unidades) |  736.0        |   1287.0      |  892.0
 
 En reposo:
-![Figura 7](/Imagenes/triceps1_reposo.png)
+![Figura 7](./Imagenes/triceps1_reposo.png)
 
 En movimiento:
-![Figura 8](/Imagenes/triceps2_mov_voluntario.png) 
+![Figura 8](./Imagenes/triceps2_mov_voluntario.png) 
 
 En contrafuerza:
-![Figura 9](/Imagenes/triceps3_mov_fuerza.png) 
+![Figura 9](./Imagenes/triceps3_mov_fuerza.png) 
 
 #### Gastrocnemio:
 
@@ -174,13 +174,13 @@ En contrafuerza:
 | NF (sin unidades) |  793.0        |   1640.0     |  3627.0
 
 En reposo:
-![Figura 10](/Imagenes/gastro1_reposo.png)
+![Figura 10](./Imagenes/gastro1_reposo.png)
 
 En movimiento:
-![Figura 11](/Imagenes/gastro2_mov_voluntario.png) 
+![Figura 11](./Imagenes/gastro2_mov_voluntario.png) 
 
 En contrafuerza:
-![Figura 12](/Imagenes/gastro3_mov_fuerza.png) 
+![Figura 12](./Imagenes/gastro3_mov_fuerza.png) 
 
 ## Discusión <a name="id6"></a>
 <div align="justify">
