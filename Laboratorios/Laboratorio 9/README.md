@@ -64,14 +64,20 @@ Estas características, al ser integradas en algoritmos de control, permiten que
 
 #### A. Valor medio absoluto (MAV):
 Valor medio absoluto. Estima el valor medio absoluto Xi , sobre cada segmento i de N muestras de la señal, mediante la expresión:
+<p style="text-align: center;"> 
 
-![Figura 1](./Imagenes/MAV.png)  
+![Figura 1](./Imagenes/MAV.png) 
+
+Figura 1. Fórmula del MAV
 
 #### B. Valor medio absoluto de pendientes (MAVS):
 
 Este es simplemente la diferencia entre sumas de segmentos adyacentes[6], i e i +1, definido por:
+<p style="text-align: center;"> 
 
 ![Figura 2](./Imagenes/MAVS.png)  
+
+Figura 2. Fórmula del MAVS
 
 #### C. Cruces por cero (ZC):  
 
@@ -86,6 +92,9 @@ Provee otra forma de medir el contenido de frecuencia en la señal mediante el c
 Provee información de la complejidad  de la forma de onda en cada segmento, está dada por la siguiente expresión: 
 
 ![Figura 3](./Imagenes/WL.png)
+
+Figura 3. Fórmula del WL.
+
 
 #### F. Cambios de signo de pendiente (CSP) : 
 
@@ -106,6 +115,7 @@ Se encarga de contar el número de veces que la señal cruza un valor de umbral 
 ## Resultados <a name="id4"></a>
 
 ### Extracción de características <a name="id5"></a>
+<div align="center">
 
 #### Bíceps:
 
@@ -123,14 +133,19 @@ Se encarga de contar el número de veces que la señal cruza un valor de umbral 
 | Threshold (mV)    |  0.7723       |    0.3618          | 0.5125
 | NF (sin unidades) |  962.0    |    1088.0      | 1746.0000
 
+Tabla 1.
+
 En reposo:
 ![Figura 4](./Imagenes/biceps1_reposo.png)
+Figura 4.
 
 En movimiento:
 ![Figura 5](./Imagenes/biceps2_mov_voluntario.png) 
+Figura 5.
 
 En contrafuerza:
 ![Figura 6](./Imagenes/biceps3_mov_fuerza.png) 
+Figura 6.
 
 #### Tríceps:
 
@@ -148,14 +163,19 @@ En contrafuerza:
 | Threshold (mV)    |  0.4934       |   0.5402          | 0.5098
 | NF (sin unidades) |  736.0        |   1287.0      |  892.0
 
+Tabla 2.
+
 En reposo:
 ![Figura 7](./Imagenes/triceps1_reposo.png)
+Figura 7
 
 En movimiento:
 ![Figura 8](./Imagenes/triceps2_mov_voluntario.png) 
+Figura 8
 
 En contrafuerza:
 ![Figura 9](./Imagenes/triceps3_mov_fuerza.png) 
+Figura 9.
 
 #### Gastrocnemio:
 
@@ -173,14 +193,19 @@ En contrafuerza:
 | Threshold (mV)    |  0.4064       |   0.4300     | 0.4660
 | NF (sin unidades) |  793.0        |   1640.0     |  3627.0
 
+Tabla 3.
+
 En reposo:
 ![Figura 10](./Imagenes/gastro1_reposo.png)
+Figura 10.
 
 En movimiento:
 ![Figura 11](./Imagenes/gastro2_mov_voluntario.png) 
+Figura 11.
 
 En contrafuerza:
 ![Figura 12](./Imagenes/gastro3_mov_fuerza.png) 
+Figura 12.
 
 ## Discusión <a name="id6"></a>
 <div align="justify">
