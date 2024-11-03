@@ -196,7 +196,9 @@ Behavior Research Methods, 53(4), 1689–1696.
 https://doi.org/10.3758/s13428-020-01516-y
 
 [6] N. V. Thakor y Y.-S. Zhu, "Applications of adaptive filtering to ECG analysis: noise cancellation and arrhythmia detection," IEEE Transactions on Biomedical Engineering, vol. 38, no. 8, pp. 785–794, agosto 1991, doi: 10.1109/10.83591.
+
 [7] L. Sörnmo y P. Laguna, Bioelectrical Signal Processing in Cardiac and Neurological Applications. Academic Press, 2005.
+
 [8] T. Arce y J. Villacastín, “Qué es una arritmia y como funciona un marcapasos”, 2009.
 https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap45.pdf
 
