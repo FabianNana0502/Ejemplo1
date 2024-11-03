@@ -155,30 +155,45 @@ quality = nk.ecg_quality(ecg_cleaned, sampling_rate=1000)
 
 ## Discusión <a name="id5"></a>
 
+### Variacion media del BPM segun derivada
 
+<div align="center">
+|Estado|1ra Derivada|2da Derivada|3ra Derivada|
+|:----:|:----------:|:----------:|:----------:|
+|Reposo|103|98|95|
+|Respiracion|89|91|94|
+|Post-Respiracion|93|92|92|
+|Ejercicio|171|101|136|
 
-## Conclusión <a name="id6"></a>
 <div align="justify">
 
-
-
-### Hallazgos de Interés:
+## Conclusión <a name="id6"></a>
 
 
 
 ## Bibliografía<a name="id7"></a>
  
-[1] https://ieeexplore.ieee.org/document/4122029
+[1] J. Pan y W. J. Tompkins, “A Real-Time QRS Detection Algorithm”, IEEE Trans. Biomed. Eng., vol. BME-32, núm. 3, pp. 230–236, 1985. 
+https://ieeexplore.ieee.org/document/4122029
 
-[2] https://riuma.uma.es/xmlui/bitstream/handle/10630/20493/Amrani%20El%20Yaakoubi%20Nissrin%20Memoria.pdf?sequence=1 
+[2] N. A. El Yaakoubi, "Procesamiento del complejo QRS característico del electrocardiograma (ECG)", Tutor: F. J. Mata Contreras, Escuela Técnica Superior de Ingeniería Informática, Universidad de Málaga, Departamento de Ingeniería de Comunicaciones, Málaga, España, Junio, 2020. 
+https://riuma.uma.es/xmlui/bitstream/handle/10630/20493/Amrani%20El%20Yaakoubi%20Nissrin%20Memoria.pdf?sequence=1 
 
-[3] https://ieeexplore.ieee.org/abstract/document/362922
+[3] C. Li, C. Zheng, y C. Tai, “Detection of ECG characteristic points using wavelet transforms”, IEEE Trans. Biomed. Eng., vol. 42, núm. 1, pp. 21–28, 1995.
+https://ieeexplore.ieee.org/abstract/document/362922
  
-[4] https://www.sciencedirect.com/science/article/abs/pii/S0263224109002139
+[4] S. Pal y M. Mitra, “Detection of ECG characteristic points using Multiresolution Wavelet Analysis based Selective Coefficient Method”, Measurement (Lond.), vol. 43, núm. 2, pp. 255–261, 2010.
+https://www.sciencedirect.com/science/article/abs/pii/S0263224109002139
 
 [5] Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H.,
 Schölzel, C., & Chen, S. A. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing.
-Behavior Research Methods, 53(4), 1689–1696. https://doi.org/10.3758/s13428-020-01516-y
+Behavior Research Methods, 53(4), 1689–1696. 
+https://doi.org/10.3758/s13428-020-01516-y
+
+[6] T. Arce y J. Villacastín, “Qué es una arritmia y como funciona un marcapasos”, 2009.
+https://www.fbbva.es/microsites/salud_cardio/mult/fbbva_libroCorazon_cap45.pdf
+
+[7] 
 
 
 
