@@ -157,7 +157,6 @@ quality = nk.ecg_quality(ecg_cleaned, sampling_rate=1000)
 
 ### Variacion media del BPM segun derivada
 
-<div align="center">
 | Estado | 1ra Derivada | 2da Derivada | 3ra Derivada |
 |:------:|:------------:|:------------:|:------------:|
 | Reposo |      103     |      98      |      95      |
@@ -165,7 +164,13 @@ quality = nk.ecg_quality(ecg_cleaned, sampling_rate=1000)
 |Post-Respiracion| 93   |      92      |      92      |
 |Ejercicio|     171     |      101     |      136     |
 
-<div align="justify">
+Al analizar los datos obtenidos sobre los bpm en cada estancia, se presentan frecuencias cardíacas elevadas en estado de reposo. Un reposo cercano a 100 bpm puede indicar taquicardia sinusal, especialmente si es recurrente, lo que podría estar asociado a estrés o incluso hipertensión como posibles productos del estres estudiantil, para el caso del sujeto analizado. 
+
+Durante el ejercicio, el incremento a 171 bpm es elevado; aunque por debajo del rango normal (220 - edad) recomendado, teniendo en cuenta los valores atipicos del estado reposo, de haber experimentado alguna dificultad para recuperarse a niveles normales post-ejercicio, sería recomendable realizar un electrocardiograma especializado para descartar arritmias u otras afecciones a modo de recomendacion.
+
+### Variacion del tamaño de intervalo R-R
+
+
 
 ## Conclusión <a name="id6"></a>
 
