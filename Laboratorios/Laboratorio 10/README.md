@@ -157,6 +157,8 @@ quality = nk.ecg_quality(ecg_cleaned, sampling_rate=1000)
 
 ### Variacion media del BPM segun derivada
 
+<div align="center">
+
 | Estado | 1ra Derivada | 2da Derivada | 3ra Derivada |
 |:------:|:------------:|:------------:|:------------:|
 | Reposo |      103     |      98      |      95      |
@@ -164,9 +166,39 @@ quality = nk.ecg_quality(ecg_cleaned, sampling_rate=1000)
 |Post-Respiracion| 93   |      92      |      92      |
 |Ejercicio|     171     |      101     |      136     |
 
+<div align="justify">
+
 Al analizar los datos obtenidos sobre los bpm en cada estancia, se presentan frecuencias cardíacas elevadas en estado de reposo. Un reposo cercano a 100 bpm puede indicar taquicardia sinusal, especialmente si es recurrente, lo que podría estar asociado a estrés o incluso hipertensión como posibles productos del estres estudiantil, para el caso del sujeto analizado. 
 
 Durante el ejercicio, el incremento a 171 bpm es elevado; aunque por debajo del rango normal (220 - edad) recomendado, teniendo en cuenta los valores atipicos del estado reposo, de haber experimentado alguna dificultad para recuperarse a niveles normales post-ejercicio, sería recomendable realizar un electrocardiograma especializado para descartar arritmias u otras afecciones a modo de recomendacion.
+
+### Variacion del tamaño de intervalo R-R (ms)
+
+<div align="center">
+
+| Estado | 1ra Derivada | 2da Derivada | 3ra Derivada |
+|:------:|:------------:|:------------:|:------------:|
+| Reposo |      600     |      620      |     610     |
+|Respiracion|    810    |      820      |     805     |
+|Post-Respiracion| 520  |      490      |     500     |
+|Ejercicio|     280     |      310      |     310     |
+
+<div align="justify">
+
+Para una correcta interpretacion debemos revisar los rangos de valores establecidos: en estado de reposo el intervalo R-R puede ser 700-850 ms, correspondiente a una frecuencia cardíaca de alrededor de 60-75 bpm. Al mantener la respiración, el intervalo crece a 800-1000 ms debido al aumento de la actividad vagal. En la fase de post-respiración, el intervalo vuelve poco a poco a los valores previos de reposo (600-750 ms). Tras el ejercicio, el intervalo R-R disminuye significativamente, pudiendo llegar a 400-550 ms (120-200 bpm) para satisfacer la demanda de oxígeno tras la actividad física. Si el intervalo tarda en regresar a más de 700 ms (frecuencia inferior a 85 bpm) en reposo tras el ejercicio, podría indicar una recuperación cardíaca lenta.
+
+Segun los datos del sujeto analizado, y empleando los valores comparados con los rangos referenciales:
+
+* Reposo: El intervalo R-R en la tabla muestra 600-620 ms, que es un poco bajo en comparación con el rango referencial de 700-850 ms. Esto indica una frecuencia cardíaca ligeramente más alta de lo esperado en reposo.
+* En Respiración: Los valores están dentro del rango esperado de 800-1000 ms, lo cual es adecuado, reflejando una respuesta normal del sistema nervioso.
+
+* Post-Respiración: El intervalo R-R se mantiene alrededor de 490-520 ms, un poco por debajo del rango referencial de recuperación , lo que podría sugerir una recuperación algo rápida o una ligera adaptación ineficiente.
+
+* Ejercicio: El intervalo R-R entre 280-310 ms es menor que el rango referencial de 400-550 ms, lo que refleja una respuesta elevada al ejercicio, aunque todavía puede ser normal en actividades de alta intensidad.
+
+Si bien los valores están cerca de los rangos normales, hay dificultades para recuperarse dde la actividad fisica, por lo cual se recomienda mayor actividad , ya que la rutina (baja) de actividad fisica podria ser la causa subyacente
+
+Todas estas caracterisitcas del ECG nos facilitan un analisis y prevencion de cardiopatias
 
 ### Variacion del tamaño de intervalo R-R
 
