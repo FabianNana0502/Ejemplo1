@@ -158,12 +158,12 @@ quality = nk.ecg_quality(ecg_cleaned, sampling_rate=1000)
 ### Variacion media del BPM segun derivada
 
 <div align="center">
-|Estado|1ra Derivada|2da Derivada|3ra Derivada|
-|:----:|:----------:|:----------:|:----------:|
-|Reposo|103|98|95|
-|Respiracion|89|91|94|
-|Post-Respiracion|93|92|92|
-|Ejercicio|171|101|136|
+| Estado | 1ra Derivada | 2da Derivada | 3ra Derivada |
+|:------:|:------------:|:------------:|:------------:|
+| Reposo |      103     |      98      |      95      |
+|Respiracion|    89     |      91      |      94      |
+|Post-Respiracion| 93   |      92      |      92      |
+|Ejercicio|     171     |      101     |      136     |
 
 <div align="justify">
 
