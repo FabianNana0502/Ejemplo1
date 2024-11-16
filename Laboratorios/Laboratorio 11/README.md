@@ -1,4 +1,4 @@
-# LABORATORIO 10: – Procesamiento de señales ECG
+# LABORATORIO 11: – Edge Impulse
 ## Integrantes
 - Fabian Alcides Ñaña Alfaro
 - Christian Huarancca Quispe
@@ -22,11 +22,11 @@
 
 ESCRIBAN
    
-    1.2. Christian Huarancca Quispe
+    1.2. Christian Huarancca Quispe <a name="id3"></a>
 
 ESCRIBAN
    
-    1.3. Ryoshin Cavero Mosquera
+    1.3. Ryoshin Cavero Mosquera <a name="id4"></a>
    
 Puede encontrar el enlace al edge impulse [aquí](https://studio.edgeimpulse.com/studio/552481/acquisition/training?page=1)
 
@@ -54,10 +54,10 @@ A continuación muestro la tabla de los archivos utilizados para cada clase de E
 <p style="text-align: justify;"> 
 He colocado las señales extraídas del ProSim a 60bpm-90bpm en la clase de basal debido a que estos valores de latidos por minuto comprenden a los latidos de una persona adulta normal (Rango normal: 660-100 bpm), mientras que las señales de 120 bpm y 150 bpm, no las he agrupado por no cumplir las condiciones previas.
    
-    1.4. Flavio Andreas Avendaño Cáceres
+    1.4. Flavio Andreas Avendaño Cáceres <a name="id5"></a>
 
 ESCRIBAN
 
-    1.5. Joao Marco Torres Rivera
+    1.5. Joao Marco Torres Rivera <a name="id6"></a>
 
 ESCRIBAN
