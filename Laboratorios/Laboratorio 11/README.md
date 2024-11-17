@@ -22,6 +22,7 @@
 ## 1. Entregable por miembro del grupo <a name="id1"></a>
 
 ### 1.1 Fabian Alcides Ñaña Alfaro <a name="id2"></a>
+https://studio.edgeimpulse.com/studio/560365/acquisition/training?page=1 
 
 Para realizar la clasificación de señales de ECG en **Edge Impulse**, se utilizaron archivos CSV preprocesados. A continuación, se detallan los pasos seguidos para configurar los datos.
 
