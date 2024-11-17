@@ -1,71 +1,77 @@
 import os
-import numpy as np
 import csv
+import json
 
-def leer_archivo_hea(archivo_hea):
-    """Leer el archivo .hea y extraer metadatos (frecuencia de muestreo, número de canales)"""
-    with open(archivo_hea, 'r') as f:
+# Lista de archivos que quieres convertir
+archivos_a_convertir = [
+    "1D_basal", "1D_ejercicio", "1D_post_respiracion", "1D_respiracion",
+    "2D_basal", "2D_ejercicio", "2D_post_respiracion", "2D_respiracion",
+    "3D_basal", "3D_ejercicio", "3D_post_respiracion", "3D_respiracion",
+    "60", "90", "120", "150"
+]
+
+# Encabezado que se usará para todos los archivos CSV
+encabezado = ["nSeq", "I1", "I2", "O1", "O2", "A2"]
+
+def convertir_txt_a_csv(archivo_txt, archivo_csv):
+    """Convierte un archivo .txt a un archivo .csv con encabezado y datos separados por punto y coma"""
+    
+    with open(archivo_txt, 'r') as f:
         lines = f.readlines()
-        sampling_rate = int(lines[0].split(' ')[2])  # Frecuencia de muestreo (ej: 100 Hz)
-        num_channels = int(lines[0].split(' ')[1])  # Número de canales (ej: 12)
-        #num_muestras=int(lines[0].split('')[3])     
-        return sampling_rate, num_channels
-
-def convertir_dat_a_csv(archivo_dat, archivo_hea, directorio_salida):
-    """Convertir un archivo .dat a un archivo .csv usando los metadatos del archivo .hea"""
-    sampling_rate, num_channels = leer_archivo_hea(archivo_hea)
     
-    # Leer el archivo .dat como binario de 16 bits (tipo de dato int16)
-    data = np.fromfile(archivo_dat, dtype=np.int16)
+    # Buscar el índice donde termina el encabezado
+    end_of_header_index = None
+    for i, line in enumerate(lines):
+        if line.strip() == '# EndOfHeader':
+            end_of_header_index = i + 1
+            break
+
+    # Si no se encuentra '# EndOfHeader', asumir que no hay encabezado y usar todas las líneas
+    if end_of_header_index is None:
+        end_of_header_index = 0
     
-    # Reformatear los datos en una matriz (filas x columnas) basada en el número de canales
-    # Cada fila es una muestra, cada columna es un canal
-    data = data.reshape(-1, num_channels)
+    # Leer los datos después del encabezado
+    data_lines = lines[end_of_header_index:]
     
-    # Crear el nombre del archivo CSV de salida con la misma estructura de directorio
-    output_file = archivo_dat.replace('.dat', '.csv').replace(directorio_base, directorio_salida)
-
-    # Crear los directorios necesarios para el archivo CSV si no existen
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-
-    # Escribir los datos en el archivo CSV
-    with open(output_file, 'w', newline='') as csvfile:
-        csv_writer = csv.writer(csvfile)
-
-        # Escribir los metadatos en el CSV
-        csv_writer.writerow(['Frecuencia de muestreo', sampling_rate])
-        csv_writer.writerow(['Número de canales', num_channels])
-
-        # Escribir los datos de la señal
-        for row in data:
-            csv_writer.writerow(row)  # Cada fila en el .dat corresponde a una señal
-
-    print(f"Archivo convertido exitosamente a CSV: {output_file}")
-
-def procesar_archivos_en_directorio(directorio_base, directorio_salida):
-    """Procesar todos los archivos .dat y .hea en un directorio base y guardarlos en directorio_salida"""
-    # Recorrer todos los directorios y archivos dentro de records100/
-    for root, dirs, files in os.walk(directorio_base):
-        # Filtrar los archivos .dat
-        archivos_dat = [f for f in files if f.endswith('.dat')]
-        for archivo_dat in archivos_dat:
-            archivo_hea = archivo_dat.replace('.dat', '.hea')
-            archivo_dat_path = os.path.join(root, archivo_dat)
-            archivo_hea_path = os.path.join(root, archivo_hea)
-
-            # Comprobar si ambos archivos .dat y .hea existen
-            if os.path.exists(archivo_hea_path):
-                convertir_dat_a_csv(archivo_dat_path, archivo_hea_path, directorio_salida)
+    # Convertir los datos en filas separadas por espacios
+    rows = [line.strip().split() for line in data_lines if line.strip()]
+    
+    # Verificar si hay datos antes de crear el archivo CSV
+    if not rows:
+        print(f"No se encontraron datos en {archivo_txt}")
+        return
+    
+    # Guardar los datos en un archivo CSV utilizando punto y coma como delimitador
+    with open(archivo_csv, 'w', newline='') as csvfile:
+        csv_writer = csv.writer(csvfile, delimiter=';')
+        
+        # Escribir el encabezado
+        csv_writer.writerow(encabezado)
+        
+        # Escribir las filas de datos en columnas separadas
+        for row in rows:
+            if len(row) == len(encabezado):
+                csv_writer.writerow(row)
             else:
-                print(f"Archivo .hea no encontrado para {archivo_dat_path}")
+                print(f"Advertencia: La fila tiene un número incorrecto de columnas en {archivo_txt}")
+    
+    print(f"Archivo convertido exitosamente: {archivo_csv}")
 
-# Directorio base donde se encuentran los archivos .dat y .hea
-directorio_base = 'C:/Users/Lenovo/OneDrive/Escritorio/CURSOS/INSTRU/PTB_DATASET/records100/'
+def procesar_archivos():
+    """Procesa todos los archivos especificados en la lista"""
+    directorio_base = r"C:\Users\LENOVO\Desktop\ISB_lab_11\Laboratorios\Laboratorio 11\Data"
+    directorio_salida = r"C:\Users\LENOVO\Desktop\ISB_lab_11\Laboratorios\Laboratorio 11\Data_csv"
+    
+    os.makedirs(directorio_salida, exist_ok=True)
+    
+    for nombre_archivo in archivos_a_convertir:
+        archivo_txt = os.path.join(directorio_base, nombre_archivo + '.txt')
+        archivo_csv = os.path.join(directorio_salida, nombre_archivo + '.csv')
+        
+        if os.path.exists(archivo_txt):
+            convertir_txt_a_csv(archivo_txt, archivo_csv)
+        else:
+            print(f"Archivo no encontrado: {archivo_txt}")
 
-# Directorio donde se guardarán los archivos CSV (con la misma estructura, pero sin los .dat ni .hea)
-directorio_salida = 'C:/Users/Lenovo/OneDrive/Escritorio/CURSOS/INSTRU/PTB_DATASET/records100_csv/'
-
-# Procesar todos los archivos en el directorio y guardar los CSV en la nueva ruta
-procesar_archivos_en_directorio(directorio_base, directorio_salida)
-
-
+# Ejecutar el procesamiento
+procesar_archivos()
