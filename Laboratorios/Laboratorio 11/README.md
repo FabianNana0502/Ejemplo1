@@ -362,7 +362,88 @@ A continuación, se muestra la tabla de los archivos utilizados para cada clase 
 ---
 
 ### 1.4. Flavio Andreas Avendaño Cáceres <a name="id5"></a>
-**Descripción pendiente por completar**
+
+link de database: https://studio.edgeimpulse.com/studio/558200/acquisition/training?page=2
+
+### Configuración del CSV Wizz para subida de datos
+
+#### Step 1: Inicializacion de nueva configuracion CSV Wizz
+
+Para facilitar la subida de datos, se empleara CSV Wizzard ya que todos los datos a subir, son adquiridos, preprocesados (a mV y en ms. ) y tranformados a formato csv. para evitar errores de subida de datos, se inicializa la configuracion usando cualquier archivo de nuestra carpeta, para propositos de previsualizacion.
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/1.png)
+
+<div align="justify">
+
+#### Step 2: Seleccion de delimitadores
+
+Para el caso especifico de nuestra carpeta de datos, los archivos csv tienen en una celda sus datos separados por comas, por lo cual en la opcion Delimiter se elige la opcionn ",".
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/2.png)
+
+<div align="justify">
+
+#### Step 3: Configuracion temporal
+
+CSV Wizzard posee la capacidad de analizar el archivo y junto a la informacion adicional que le brindamos acerca del archivo, en lo q respecta a unidades, procede a seccionar el archivo y graficarlo en "y" y "x" con las unidades correctas
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/3.png)
+
+<div align="justify">
+
+Adicionalmentes, obtiene automaticamente infomacion vital como lo es el Frequency Sampling, pilar en el contexto de adquisicion y traduccion de señales, como los es la señal que analizara posteriormente el modelo, el EKG.
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/hz.png)
+
+<div align="justify">
+
+#### Step 4: Ajuste de valores
+
+Como medida adicional, Wizzard solicita aclarar cual columna contiene los valores del ecg, tras indicarla, proyecta una grafica de señal, en una ventana de aprox 200 ms.
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/4.png)
+
+<div align="justify">
+
+#### Step 5: Seleccion de ventana
+
+Como ultimo paso, se debe reducir el tamaño de los archivos, ya que en nuestro caso duracion aprox 15 segundos, a una ventana de solo 2000 ms para no sobrecargar la base de datos con la cual se hara el entrenamiento y testeo.
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/5.png)
+
+<div align="justify">
+
+Tras terminar la configuracion, se auto guarda y se puede emplear como metodo adicional, al subir toda la carpeta de archivos
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/upload.png)
+
+<div align="justify">
+
+Para la subida de datos, se seleccionó las opciones de auto reparticion entre TRAIN y TEST, y subida de una sola carpeta con todos los csv. para agilizar el proceso
+
+#### Step 6: Visualizacion
+
+Finalmente se puede visualizar el % entre data de entrenamiento y de testeo, a su vez seleccionar cualquier archivo para observar sus graficas y corroborar las medidas y escalas. La data se encuentra lista para empezar con el desarrollo del modelo
+
+<div align="center">
+
+![STEP1](./Imagenes/Flavs/ready.png)
+
+<div align="justify">
 
 ---
 

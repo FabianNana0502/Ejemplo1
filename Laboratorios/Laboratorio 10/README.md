@@ -200,13 +200,6 @@ Si bien los valores están cerca de los rangos normales, hay dificultades para r
 
 Todas estas caracterisitcas del ECG nos facilitan un analisis y prevencion de cardiopatias
 
-### Variacion del tamaño de intervalo R-R
-
-
-
-## Conclusión <a name="id6"></a>
-
-
 
 ## Bibliografía<a name="id7"></a>
  
