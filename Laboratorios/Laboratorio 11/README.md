@@ -448,4 +448,11 @@ Finalmente se puede visualizar el % entre data de entrenamiento y de testeo, a s
 ---
 
 ### 1.5. Joao Marco Torres Rivera <a name="id6"></a>
-**Descripción pendiente por completar**
+# Tutorial: Subiendo Datos a Edge Impulse para Crear Modelos de Machine Learning
+
+En este laboratorio se aprendió cómo subir datos a Edge Impulse, una plataforma especializada en el desarrollo de modelos de Machine Learning para dispositivos embebidos. 
+
+## ¿Qué es Edge Impulse?
+
+Edge Impulse es una plataforma que permite a los desarrolladores crear modelos de Machine Learning que se ejecutan en dispositivos embebidos. Con herramientas fáciles de usar, se puede cargar datos de sensores, entrenar modelos de clasificación o detección, y luego desplegarlos en hardware como microcontroladores, Raspberry Pi, o incluso smartphones.
+
