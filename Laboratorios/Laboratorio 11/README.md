@@ -456,4 +456,10 @@ En este laboratorio se aprendió cómo subir datos a Edge Impulse, una plataform
 
 Edge Impulse es una plataforma que permite a los desarrolladores crear modelos de Machine Learning que se ejecutan en dispositivos embebidos. Con herramientas fáciles de usar, se puede cargar datos de sensores, entrenar modelos de clasificación o detección, y luego desplegarlos en hardware como microcontroladores, Raspberry Pi, o incluso smartphones.
 
+## Paso 1: Selección del Archivo CSV
+
+En esta fase, se elige el archivo CSV que será procesado a través del **CSV Wizard**. Este paso es fundamental porque permite cargar los datos estructurados de forma adecuada, asegurando que puedan ser interpretados correctamente por la plataforma. Es crucial para garantizar que la información se organice y se analice correctamente, facilitando las siguientes etapas del preprocesamiento y el entrenamiento del modelo.
+
 ![Captura del tutorial](https://github.com/FabianNana0502/ISB-Grupo-1/blob/main/Laboratorios/Laboratorio%2011/Imagenes/Joao/WIZARD.png)
+
+
