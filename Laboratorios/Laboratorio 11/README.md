@@ -456,3 +456,4 @@ En este laboratorio se aprendió cómo subir datos a Edge Impulse, una plataform
 
 Edge Impulse es una plataforma que permite a los desarrolladores crear modelos de Machine Learning que se ejecutan en dispositivos embebidos. Con herramientas fáciles de usar, se puede cargar datos de sensores, entrenar modelos de clasificación o detección, y luego desplegarlos en hardware como microcontroladores, Raspberry Pi, o incluso smartphones.
 
+![Captura del tutorial](https://github.com/FabianNana0502/ISB-Grupo-1/blob/main/Laboratorios/Laboratorio%2011/Imagenes/Joao/WIZARD.png)
