@@ -462,4 +462,8 @@ En esta fase, se elige el archivo CSV que será procesado a través del **CSV Wi
 
 ![Captura del tutorial](https://github.com/FabianNana0502/ISB-Grupo-1/blob/main/Laboratorios/Laboratorio%2011/Imagenes/Joao/WIZARD.png)
 
+## Paso 2: Procesamiento del Archivo de Datos del Gastrocnemio en Reposo
+
+En esta etapa, se procesa el archivo de datos correspondiente al gastrocnemio en reposo, el cual fue previamente cargado en formato **TXT**. Este paso es esencial para convertir la información en un formato que pueda ser utilizado por la plataforma. Durante este proceso, se realiza la interpretación y transformación de los datos crudos en parámetros relevantes, garantizando su correcta alineación con los requerimientos del modelo. Esto asegura que los datos estén listos para ser analizados y utilizados en las etapas de modelado y entrenamiento.
+
 
