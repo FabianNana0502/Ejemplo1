@@ -1,4 +1,4 @@
-# LABORATORIO 12: Generacion Impulso Edge Impulse
+# LABORATORIO 13: Generacion Impulso Edge Impulse
 ## Alumno
 - Fabian Alcides Ñaña Alfaro
 
