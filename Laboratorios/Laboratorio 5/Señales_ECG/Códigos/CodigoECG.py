@@ -112,17 +112,7 @@ def graficar_senal(tiempo, senal, fs, titulo):
     plt.tight_layout()  # Ajustar el espacio entre subplots
     plt.show()
 # Leer y graficar la señal
-while True:
-    archivo = input("Ingrese la dirección del archivo (Presione 1 para salir): ")
 
-    if archivo == "1":
-        break
-    
-    # Asegurarse de que las barras invertidas en la ruta no causen problemas
-    archivo = archivo.replace("\\", "/")
-    
-    try:
-        tiempo, senal, fs, titulo = leer_senal_opensignals(archivo)
-        graficar_senal(tiempo, senal, fs, titulo)
-    except OSError as e:
-        print(f"Error al abrir el archivo: {e}. Por favor, revise la ruta e intente nuevamente.")
+archivo = r"C:\Users\Lenovo\OneDrive\Escritorio\Repositorio ISB\Github\Laboratorios\Laboratorio 5\Señales_ECG\Data\1.Estado Basal\2D_basal.txt"
+tiempo, senal, fs, titulo = leer_senal_opensignals(archivo)
+graficar_senal(tiempo, senal, fs, titulo)
