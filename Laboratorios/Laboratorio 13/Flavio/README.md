@@ -18,7 +18,7 @@
 
 https://studio.edgeimpulse.com/studio/558200/impulse/1/create-impulse
 
-### Creacion de impulso <a name="id3"></a>
+### Creacion de impulso <a name="id2"></a>
 
 En base a la configuracion previa que se hizo al subir los datos al Edge Impulse, se configuró en consecuencia el impulso, en modo "Time Series Data", a 1000Hz, tal y como se subir los datos, agregando un analysis espectral por recomendacion del programa y un clasificador segun las caracteristicas espectral que se obtengan.
 
@@ -30,7 +30,8 @@ Fig. 1 Configuracion inicial del impulso
 
 <div align="justify">
 
-### Caracteristicas espectrales
+### Caracteristicas espectrales <a name="id3"></a>
+
 Para un optimo resultado, se emplea un FFT length de 256 y activando el overlap y log del espectro a obtener
 
 <div align="center">
@@ -39,7 +40,7 @@ Para un optimo resultado, se emplea un FFT length de 256 y activando el overlap 
 
 Fig. 2 Configuracion de estractor de caracteristicas
 
-![res1](./Images/feat.png
+![res1](./Images/feat.png)
 
 Fig. 3 Resultado de extraccion de caracteristicas y su peso respectivo
 
