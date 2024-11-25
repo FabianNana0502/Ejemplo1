@@ -113,6 +113,7 @@ procesar_archivos()
 ```
 
 <p style="text-align:justify">
+    
 Una vez finalizado la conversión del tipo de datos, procedemos a cargarlo a la página del Edge Impulse con distintos tipos de data, una carpeta de data Downsampleada y Upsampleada junto con una separación entre 2 segundos para cada archivo para aumento de cantidad de datos y otro tipo de dato el cual se usó el archivo en su totalidad. 
 Data sin modificar: 2D_basal
 Data modificada: 2D_basal_dS0.7 
@@ -126,6 +127,7 @@ En este caso usaremos los siguientes bloques mostrados en la Figura 2.
 <div align="center">
 
 ![Figura 2](./Imagenes/impulse_alex.png)
+
 Figura 2. Edge Impulse
 </div>
 
@@ -135,13 +137,16 @@ En este caso usaremos los siguientes bloques mostrados en la Figura 3.
 <div align="center">
 
 ![Figura 3](./Imagenes/impulse_edge.png)
+
 Figura 3. Edge Impulse
 </div>
 
 ## 1.3. Spectral features <a name="id4"></a>
 
 ### USANDO ALEX-NET:
+
 <p style="text-align:justify">
+    
 En este caso usaremos la extracción de la Frecuencia Cardiaca (HR) debido a que usamos el ProSim el cual varía la señal de acuerdo a la frencuencia cardiaca que se requiere para calibrar. Aprovechando esa data junto con el uso indispensable de las características en frecuencia usando FFT (debido a eventos repetitivos) se procede a modificar las características de los bloques para un mejor accuracy
 </p>
 
@@ -175,6 +180,7 @@ Hemos usado la siguiente composición siguiendo con la estructura de Alex-Net el
 <div align="center">
 
 ![Figura 7](./Imagenes/classifier_alex.png)
+
 Figura 7. Edge Impulse
 </div>
 
@@ -184,15 +190,17 @@ Hemos usado la siguiente composición de Dense Layer junto con una capa llamada 
 <div align="center">
 
 ![Figura 8](./Imagenes/classifier_edge.png)
+
 Figura 8. Edge Impulse
 </div>
 
-## 1.4. Retrain <a name="id6"></a>
+## 1.5. Retrain <a name="id6"></a>
 
 ### USANDO ALEX-NET:
 <div align="center">
 
 ![Figura 9](./Imagenes/retrain_alex.png)
+
 Figura 9. Edge Impulse
 </div>
 
@@ -200,15 +208,17 @@ Figura 9. Edge Impulse
 <div align="center">
 
 ![Figura 10](./Imagenes/retrain_edge.png)
+
 Figura 10. Edge Impulse
 </div>
 
-## 1.5. Accuracy <a name="id7"></a>
+## 1.6. Accuracy <a name="id7"></a>
 
 ### USANDO ALEX-NET:
 <div align="center">
 
 ![Figura 11](./Imagenes/accuracy_alex.png)
+
 Figura 11. Edge Impulse
 </div>
 
@@ -217,12 +227,14 @@ Figura 11. Edge Impulse
 <div align="center">
 
 ![Figura 12](./Imagenes/accuracy_edge.png)
+
 Figura 12. Edge Impulse
 </div>
 
-## 1.6. Discusión <a name="id8"></a>
+## 1.7. Discusión <a name="id8"></a>
 
 <p style="text-align:justify">
+    
 A partir del accuracy y el "lost" observados al probar el modelo con la data de testeo el algoritmo implementado por mi persona presenta un mejor desempeño en cuanto a la data recolectada que el algoritmo Alex-Net. Aunque las respuestas sean concluyentes hay que diferenciar la calidad y cantidad de los datos recopilados, puesto que si bien se puede desempeñar bien para cantidades pequeñas, el Alogritmo Alex-Net tiene un mejor desempeño comprobado para grande cantidad de datos superando los 10000 elementos. Si bien al lector le puede parecer fascinante la creación de un nuevo algoritmo para clasficación de señales ECG, debe tener sus precauciones puesto que no se ha probado ante otra base de datos.
 </p>
 
