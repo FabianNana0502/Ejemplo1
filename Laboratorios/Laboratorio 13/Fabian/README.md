@@ -97,16 +97,22 @@ Parámetros
 #### Imagen 4: Parametros
 ![Parametros](./Imagenes/Parametros.jpeg)
 
+#### Imagen 5: Parametros Resultados 
+![Parametros](./Imagenes/Parametros_2.jpg)
+
 ### 1.3 Classifier <a name="id5"></a>
-#### Imagen 5: Classifier
+#### Imagen 6: Classifier
 ![Classifier](./Imagenes/features.jpeg)
 
 
-#### Imagen 5: Training output
-![Training Output](./Imagenes/Accuracy.jpeg)
+#### Imagen 7: Training output
+![Training Output](./Imagenes/Accuracy_1.jpeg)
+#### Imagen 8: Data Explorer
+![Training Output](./Imagenes/Accuracy_2.jpeg)
+
 
 ### 1.4 Retrain <a name="id6"></a>
-#### Imagen 6: Retraining output
+#### Imagen 9: Retraining output
 ![Retrain](./Imagenes/Retrain.jpeg)
 
 ### 1.4 Model Testing <a name="id7"></a>
@@ -115,5 +121,5 @@ Parámetros
 
 ![Training Output](./Imagenes/Matriz_confusion.jpeg)
 
-Vemos que el Accuracy es de 47.09% lo cual es muy bajo aún, esto se debe a la poca cantidad de data obtenida en el laboratorio, por lo que lo más óptimo sería realizar mayor cantidad de mediciones y en diferentes opciones, no solo 4, como se ha tenido hasta ahora, esto ha generado que haya pocas variaciones y el modelo de aprendizaje sea deficiente.
+Vemos que el Accuracy es de 93.02% lo cual es un poco bajo aún, debido a que debería ser mayor a 95%, esto se debe a la poca cantidad de data obtenida en el laboratorio, por lo que lo más óptimo sería realizar mayor cantidad de mediciones y en diferentes opciones, no solo 4, como se ha tenido hasta ahora, esto ha generado que haya pocas variaciones y el modelo de aprendizaje sea deficiente.
 El proceso de upsampling y downsampling, ha sido contrabeneficioso, aunque necesario, debido a que no se ha contado con la data suficiente.
